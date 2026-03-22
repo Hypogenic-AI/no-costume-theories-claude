@@ -1,0 +1,75 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Interpreting the Results}
+\label{sec:interpretation}
+
+\para{IIT as a costume theory.}
+Our three experiments converge on a clear finding: \IIT is overwhelmingly a costume theory by every metric we tested.
+Its predictions are almost entirely about internal causal structure---integrated information ($\Phi$), cause-effect repertoires, maximum irreducibility---properties that, by construction, cannot be inferred from behavior alone~\citep{tononi2016iit}.
+This is not a novel philosophical observation; the unfolding argument~\citep{doerig2019unfolding} demonstrated a single formal counterexample.
+What we contribute is \emph{quantification}: not just that \IIT fails the costume test, but that it fails by a factor of roughly $4\times$ (costume ratio of 0.92 vs.\ 0.20--0.30) and with effect sizes exceeding $d = 5$.
+
+\para{The non-IIT cluster.}
+The four other theories---\GNW, \HOT, \RPT, and \AST---share a common functional orientation: they define consciousness in terms of what a system \emph{does} (broadcasts information, forms higher-order representations, engages recurrent processing, models its own attention) rather than what it \emph{is made of}.
+This functional orientation yields 65--87\% agreement across diverse scenarios and costume ratios between 0.20 and 0.30.
+The remaining 20--30\% representational content in these theories may represent genuine theoretical innovation (predicting different kinds of processing) or residual costume-ness---a question we return to below.
+
+\para{All theories show some costume sensitivity.}
+A surprising finding is that even ostensibly functionalist theories (\GNW, \HOT) show 45--52 point drops when the entity is described as a robot rather than a human.
+We believe this reflects a reasonable inference rather than genuine substrate dependence: knowing that an entity is a current-generation robot provides evidence that it likely lacks the \emph{processing} (global workspace broadcasting, higher-order representations) that these theories require, even if its external behavior appears sophisticated.
+This is a distinction between ``does not have the right processing'' (a behavioral/functional judgment) and ``has the wrong kind of stuff'' (a substrate judgment).
+The former is consistent with the no costume theories rule; the latter is not.
+
+\subsection{The Perfect Simulation as Diagnostic}
+\label{sec:simulation}
+
+The ``perfect simulation'' scenario---a feedforward lookup-table implementation producing behavior identical to a biological brain---serves as the purest costume test in our battery.
+\IIT says NO (zero $\Phi$); all other theories say YES (behavioral equivalence implies functional equivalence).
+This scenario isolates exactly the kind of distinction the no costume theories rule targets: a difference in theoretical verdict driven entirely by internal architecture, with no possible behavioral signature.
+
+Importantly, all four non-\IIT theories recognize that the simulation's feedforward architecture differs from biological brains, but they do not treat this as consciousness-relevant because the behavioral profile is identical.
+\IIT, by contrast, treats causal architecture as \emph{constitutive} of consciousness, which means behavioral equivalence is insufficient.
+This is the core philosophical commitment that makes \IIT a costume theory.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+\para{Proxy reasoner validity.}
+Our most significant limitation is the use of \gptmodel as a proxy for human expert reasoning.
+The model may have absorbed mainstream critiques of \IIT from its training data, leading to inflated costume ratio classifications.
+However, three observations mitigate this concern: (1)~the classifications are consistent across 5 independent runs ($\sigma = 0.10$ for \IIT); (2)~the model provides detailed, theory-specific reasoning for each classification; and (3)~the non-\IIT theories receive non-zero costume ratios (0.20--0.30), suggesting the model is not simply applying a blanket ``\IIT is bad'' heuristic.
+Nevertheless, validation with human expert panels remains an important next step.
+
+\para{Substrate--processing confound.}
+Describing an entity as ``a robot'' may cause the model to infer less sophisticated processing, not just a different substrate.
+This conflates substrate dependence with processing inference and may inflate costume sensitivity for all theories.
+The ``neutral'' condition partially controls for this (scores are intermediate), but a stronger design would explicitly stipulate behavioral and processing equivalence across conditions.
+
+\para{Theory simplification.}
+Each theory was described in five sentences, necessarily simplifying rich theoretical frameworks.
+Proponents of \IIT might argue that our description omits subtleties---for example, recent work on ``unfolding'' \IIT to make it more functionally grounded.
+However, the core commitment of \IIT (consciousness $=$ integrated information in causal structure) is what drives its high costume ratio, and this commitment is faithfully represented in our descriptions.
+
+\para{Scope.}
+Twenty scenarios and 10 vignettes cannot cover every edge case in consciousness science.
+Our selection spans the major categories (neurological, altered states, non-human, AI, philosophical) but may miss scenarios where non-\IIT theories also diverge sharply.
+Similarly, using a single language model means our results could be model-specific; replication with other frontier models is warranted.
+
+\subsection{Broader Implications}
+\label{sec:implications}
+
+\para{For consciousness science.}
+Our results suggest that much of the inter-theory disagreement in consciousness science is driven by a single outlier theory (\IIT) whose distinctions are primarily aesthetic.
+The four non-\IIT theories, while disagreeing on mechanisms, converge on behavioral predictions 65--87\% of the time.
+This convergence is encouraging: it suggests that the field's apparent fragmentation may be less severe than it appears once costume theories are identified and set aside.
+
+\para{For AI consciousness.}
+As AI systems become more behaviorally sophisticated, the question of machine consciousness grows more urgent~\citep{butlin2023consciousness}.
+Our findings argue for evaluating AI consciousness using theories that make behavioral predictions (\GNW, \HOT, \RPT, \AST) rather than theories that require knowledge of internal architecture (\IIT).
+An \IIT-based evaluation could deny consciousness to a behaviorally rich system solely because it runs on the ``wrong'' substrate---precisely the costume scenario.
+
+\para{Beyond consciousness.}
+The \costumeratio and \costumesens metrics are not specific to consciousness science.
+Any scientific domain where competing theories make partially overlapping predictions could benefit from a systematic analysis of how much theoretical content is empirically testable.
+The general principle---that theoretical distinctions without observable consequences are aesthetic---applies wherever theories proliferate faster than data can distinguish them.

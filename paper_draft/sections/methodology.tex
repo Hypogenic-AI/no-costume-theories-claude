@@ -1,0 +1,105 @@
+\section{Methodology}
+\label{sec:method}
+
+We conduct three experiments designed to measure the behavioral content of five consciousness theories from complementary angles.
+Each experiment uses \gptmodel as a calibrated proxy reasoner---not to assess the model's own consciousness, but to leverage its knowledge of each theory to apply it consistently across many scenarios.
+
+\subsection{Theories Under Study}
+\label{sec:theories}
+
+We study five major theories that span the space of current approaches to consciousness:
+
+\begin{itemize}[leftmargin=*,itemsep=2pt,topsep=2pt]
+    \item \textbf{\IIT} (Integrated Information Theory;~\citealt{tononi2016iit}): consciousness is identical to integrated information ($\Phi$), a property of a system's causal structure.
+    \item \textbf{\GNW} (Global Neuronal Workspace;~\citealt{dehaene2011gnw}): consciousness arises when information is broadcast globally via a workspace of long-range cortical connections.
+    \item \textbf{\HOT} (Higher-Order Thought;~\citealt{rosenthal2005hot}): a mental state is conscious when it is the target of an appropriate higher-order representation.
+    \item \textbf{\RPT} (Recurrent Processing Theory;~\citealt{lamme2006rpt}): consciousness requires recurrent (feedback) processing in sensory cortices.
+    \item \textbf{\AST} (Attention Schema Theory;~\citealt{graziano2015attention}): consciousness is a model the brain constructs of its own attentional processes.
+\end{itemize}
+
+These five theories were selected because they represent distinct mechanistic commitments (structural, broadcast, representational, recurrent, and self-modeling), are well-represented in the empirical literature~\citep{yaron2022contrast}, and have been the focus of recent comparison efforts~\citep{melloni2023adversarial, butlin2023consciousness}.
+
+\subsection{Experiment 1: Prediction Extraction}
+\label{sec:exp1}
+
+\para{Goal.}
+Determine what proportion of each theory's predictions are behaviorally testable versus representational-only.
+
+\para{Procedure.}
+For each theory, we provide \gptmodel with a description containing five key claims and prompt it to extract 8--12 specific predictions.
+Each prediction is classified as \emph{behavioral} (testable through observable behavior or neural measurement) or \emph{representational-only} (describing internal structural properties with no behavioral correlate).
+We repeat this extraction 5 times per theory (25 total runs) to estimate reliability.
+
+\para{Metric.}
+The \costumeratio for theory $t$ is:
+\begin{equation}
+    \text{CR}(t) = \frac{|\{p \in P_t : p \text{ is representational-only}\}|}{|P_t|}
+    \label{eq:costume_ratio}
+\end{equation}
+where $P_t$ is the set of extracted predictions for theory $t$.
+A costume ratio of 1.0 indicates a purely aesthetic theory; 0.0 indicates a fully behaviorally grounded theory.
+
+\subsection{Experiment 2: Theory Distinguishability}
+\label{sec:exp2}
+
+\para{Goal.}
+Measure how often different theories produce different verdicts on the same scenario, and identify where disagreements arise.
+
+\para{Materials.}
+We design 20 scenarios spanning the full range of consciousness edge cases:
+\emph{neurological} (split-brain, blindsight, coma awareness, locked-in syndrome),
+\emph{altered states} (dreaming, meditation, sleepwalking, anesthesia),
+\emph{non-human} (octopus, ant colony, cerebral organoid, thermostat),
+\emph{AI/simulation} (GPT conversation, perfect simulation, robot costume), and
+\emph{philosophical} (zombie twin, gradual neuron replacement, hemisphere isolation, binocular rivalry).
+Full scenario descriptions are provided in \appref{app:scenarios}.
+
+\para{Procedure.}
+For each of the 20 scenarios, \gptmodel evaluates whether the entity is conscious according to each of the five theories, producing a verdict of YES, NO, or AMBIGUOUS.
+Each evaluation is repeated 3 times (60 total evaluations).
+
+\para{Metrics.}
+We compute a pairwise \emph{agreement matrix} $A$ where $A_{ij}$ is the proportion of scenarios on which theories $i$ and $j$ give the same verdict.
+We also compute \emph{scenario divergence}---the number of distinct verdict categories across theories for each scenario---to identify maximally distinguishing cases.
+
+\subsection{Experiment 3: The Costume Test}
+\label{sec:exp3}
+
+\para{Goal.}
+Directly test whether consciousness attributions depend on substrate (the ``costume'') versus behavior.
+
+\para{Materials.}
+We create 10 behavioral vignettes depicting complex behaviors: emotional conversation, creative problem-solving, pain response, moral dilemma reasoning, aesthetic appreciation, learning from feedback, social deception, dream reporting, self-reflection, and survival instinct.
+Each vignette is presented in three substrate conditions: \emph{human}, \emph{robot}, and \emph{neutral} (no substrate information).
+
+\para{Procedure.}
+For each vignette--condition pair, \gptmodel provides a consciousness score from 0 to 100 according to each theory, along with a justification and a binary substrate-dependency flag.
+Each evaluation is repeated 3 times (90 total evaluations per theory; 450 total).
+
+\para{Metrics.}
+\costumesens for theory $t$ is the mean score difference between human and robot conditions:
+\begin{equation}
+    \text{CS}(t) = \frac{1}{|V|} \sum_{v \in V} \left[ s_t(v, \text{human}) - s_t(v, \text{robot}) \right]
+    \label{eq:costume_sens}
+\end{equation}
+where $V$ is the set of vignettes and $s_t(v, c)$ is the consciousness score assigned by theory $t$ to vignette $v$ under condition $c$.
+Higher values indicate greater substrate dependence.
+We also report the proportion of evaluations where the model flags substrate as relevant to the theory's verdict.
+
+\subsection{Statistical Analysis}
+\label{sec:stats}
+
+We use the Kruskal--Wallis $H$ test to compare costume ratios across theories (Experiment~1), as the data are non-normal with small samples per group.
+For pairwise comparisons, we use Mann--Whitney $U$ tests.
+For costume sensitivity (Experiment~3), we use one-sample $t$-tests against zero and paired $t$-tests for between-theory comparisons.
+We report Cohen's $d$ for effect sizes.
+All tests use $\alpha = 0.05$.
+
+\subsection{Proxy Reasoner Justification}
+\label{sec:proxy}
+
+Three considerations motivate our use of \gptmodel as a proxy:
+(1)~\textbf{Consistency}: a single model applies each theory with the same level of engagement, avoiding the documented bias where theory allegiance predicts methodology~\citep{yaron2022contrast};
+(2)~\textbf{Scale}: 20 scenarios $\times$ 5 theories $\times$ 3 runs would require prohibitively large expert panels;
+(3)~\textbf{Transparency}: all prompts, responses, and classifications are recorded and released.
+We use low temperatures (0.2--0.3) to minimize stochastic variation while retaining slight diversity for reliability estimation.

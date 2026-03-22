@@ -1,0 +1,281 @@
+{
+  "agreement_matrix": {
+    "theories": [
+      "IIT",
+      "GNW",
+      "HOT",
+      "RPT",
+      "AST"
+    ],
+    "values": [
+      [
+        1.0,
+        0.35,
+        0.45,
+        0.45,
+        0.4
+      ],
+      [
+        0.35,
+        1.0,
+        0.6666666666666666,
+        0.7,
+        0.65
+      ],
+      [
+        0.45,
+        0.6666666666666666,
+        1.0,
+        0.8666666666666667,
+        0.7666666666666667
+      ],
+      [
+        0.45,
+        0.7,
+        0.8666666666666667,
+        1.0,
+        0.75
+      ],
+      [
+        0.4,
+        0.65,
+        0.7666666666666667,
+        0.75,
+        1.0
+      ]
+    ]
+  },
+  "distinguishing_rates": {
+    "IIT": 0.4,
+    "GNW": 0.15,
+    "HOT": 0.35,
+    "RPT": 0.23333333333333334,
+    "AST": 0.36666666666666664
+  },
+  "scenario_divergence": {
+    "split_brain": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "blindsight": {
+      "unique_verdicts": 1,
+      "modal_verdicts": {
+        "IIT": "NO",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "anesthesia_connected": {
+      "unique_verdicts": 3,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "YES",
+        "HOT": "AMBIGUOUS",
+        "RPT": "AMBIGUOUS",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "locked_in": {
+      "unique_verdicts": 1,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "YES",
+        "HOT": "YES",
+        "RPT": "YES",
+        "AST": "YES"
+      },
+      "max_possible": 5
+    },
+    "dreaming": {
+      "unique_verdicts": 3,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "NO",
+        "HOT": "AMBIGUOUS",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "infant_3month": {
+      "unique_verdicts": 3,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "AMBIGUOUS",
+        "HOT": "NO",
+        "RPT": "AMBIGUOUS",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "octopus": {
+      "unique_verdicts": 3,
+      "modal_verdicts": {
+        "IIT": "AMBIGUOUS",
+        "GNW": "YES",
+        "HOT": "AMBIGUOUS",
+        "RPT": "AMBIGUOUS",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "gpt_conversation": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "NO",
+        "GNW": "AMBIGUOUS",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "cerebral_organoid": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "AMBIGUOUS",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "perfect_simulation": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "NO",
+        "GNW": "YES",
+        "HOT": "YES",
+        "RPT": "YES",
+        "AST": "YES"
+      },
+      "max_possible": 5
+    },
+    "zombie_twin": {
+      "unique_verdicts": 1,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "YES",
+        "HOT": "YES",
+        "RPT": "YES",
+        "AST": "YES"
+      },
+      "max_possible": 5
+    },
+    "gradual_replacement": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "AMBIGUOUS",
+        "GNW": "YES",
+        "HOT": "YES",
+        "RPT": "YES",
+        "AST": "YES"
+      },
+      "max_possible": 5
+    },
+    "coma_awareness": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "AMBIGUOUS",
+        "GNW": "YES",
+        "HOT": "AMBIGUOUS",
+        "RPT": "AMBIGUOUS",
+        "AST": "AMBIGUOUS"
+      },
+      "max_possible": 5
+    },
+    "meditation_expert": {
+      "unique_verdicts": 3,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "AMBIGUOUS",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "thermostat": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "sleepwalker": {
+      "unique_verdicts": 1,
+      "modal_verdicts": {
+        "IIT": "NO",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "binocular_rivalry": {
+      "unique_verdicts": 1,
+      "modal_verdicts": {
+        "IIT": "NO",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "ant_colony": {
+      "unique_verdicts": 2,
+      "modal_verdicts": {
+        "IIT": "AMBIGUOUS",
+        "GNW": "NO",
+        "HOT": "NO",
+        "RPT": "NO",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    },
+    "robot_costume": {
+      "unique_verdicts": 1,
+      "modal_verdicts": {
+        "IIT": "AMBIGUOUS",
+        "GNW": "AMBIGUOUS",
+        "HOT": "AMBIGUOUS",
+        "RPT": "AMBIGUOUS",
+        "AST": "AMBIGUOUS"
+      },
+      "max_possible": 5
+    },
+    "hemisphere_isolation": {
+      "unique_verdicts": 3,
+      "modal_verdicts": {
+        "IIT": "YES",
+        "GNW": "AMBIGUOUS",
+        "HOT": "AMBIGUOUS",
+        "RPT": "AMBIGUOUS",
+        "AST": "NO"
+      },
+      "max_possible": 5
+    }
+  },
+  "mean_agreement": 0.605,
+  "n_scenarios": 20,
+  "n_runs": 3,
+  "model": "gpt-4.1"
+}

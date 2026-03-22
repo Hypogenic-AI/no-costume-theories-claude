@@ -1,0 +1,23 @@
+PDF: papers/butlin_2023_consciousness_in_ai.pdf
+Total pages: 88
+Pages per chunk: 5
+
+Chunks:
+  butlin_2023_consciousness_in_ai_chunk_001.pdf: pages 1-5
+  butlin_2023_consciousness_in_ai_chunk_002.pdf: pages 6-10
+  butlin_2023_consciousness_in_ai_chunk_003.pdf: pages 11-15
+  butlin_2023_consciousness_in_ai_chunk_004.pdf: pages 16-20
+  butlin_2023_consciousness_in_ai_chunk_005.pdf: pages 21-25
+  butlin_2023_consciousness_in_ai_chunk_006.pdf: pages 26-30
+  butlin_2023_consciousness_in_ai_chunk_007.pdf: pages 31-35
+  butlin_2023_consciousness_in_ai_chunk_008.pdf: pages 36-40
+  butlin_2023_consciousness_in_ai_chunk_009.pdf: pages 41-45
+  butlin_2023_consciousness_in_ai_chunk_010.pdf: pages 46-50
+  butlin_2023_consciousness_in_ai_chunk_011.pdf: pages 51-55
+  butlin_2023_consciousness_in_ai_chunk_012.pdf: pages 56-60
+  butlin_2023_consciousness_in_ai_chunk_013.pdf: pages 61-65
+  butlin_2023_consciousness_in_ai_chunk_014.pdf: pages 66-70
+  butlin_2023_consciousness_in_ai_chunk_015.pdf: pages 71-75
+  butlin_2023_consciousness_in_ai_chunk_016.pdf: pages 76-80
+  butlin_2023_consciousness_in_ai_chunk_017.pdf: pages 81-85
+  butlin_2023_consciousness_in_ai_chunk_018.pdf: pages 86-88

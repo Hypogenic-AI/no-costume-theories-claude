@@ -1,0 +1,2113 @@
+[
+  {
+    "predictions": [
+      {
+        "prediction": "Only systems with non-zero integrated information (phi > 0) are conscious.",
+        "classification": "representational_only",
+        "reasoning": "IIT explicitly claims that consciousness is identical to phi, but phi is a property of the system's internal causal structure, not its behavior. Two systems could have identical behavior but different phi.",
+        "potential_test": "No behavioral test can distinguish between a system with phi > 0 and one with phi = 0 if their input-output behavior is identical."
+      },
+      {
+        "prediction": "Feedforward networks (with no recurrent connections) have zero phi and are not conscious, regardless of their behavior.",
+        "classification": "representational_only",
+        "reasoning": "Feedforward and recurrent networks can be constructed to have identical input-output behavior, but IIT says only the recurrent one is conscious.",
+        "potential_test": "No behavioral test can distinguish a conscious recurrent network from a functionally equivalent feedforward network."
+      },
+      {
+        "prediction": "The specific quality of a conscious experience (its 'what it is like') is determined by the geometry of the system's cause-effect structure (the 'qualia space').",
+        "classification": "representational_only",
+        "reasoning": "The geometry of the cause-effect structure is not accessible to behavioral tests; two systems could behave identically but have different internal geometries.",
+        "potential_test": "No behavioral or report-based test can access or distinguish the geometry of qualia space as defined by IIT."
+      },
+      {
+        "prediction": "A system's consciousness is determined solely by its intrinsic causal powers, not by its input-output behavior or external observation.",
+        "classification": "representational_only",
+        "reasoning": "IIT is explicitly anti-functionalist; it denies that behavior or function is sufficient for consciousness.",
+        "potential_test": "No behavioral or report-based test can access intrinsic causal powers as IIT defines them."
+      },
+      {
+        "prediction": "If a system is decomposed into parts such that its phi drops to zero, it ceases to be conscious, even if its behavior is unchanged.",
+        "classification": "representational_only",
+        "reasoning": "IIT allows for 'functional zombies': systems that behave identically but lack consciousness due to lower phi.",
+        "potential_test": "No behavioral test can distinguish between the original and decomposed system if their behavior is the same."
+      },
+      {
+        "prediction": "Simulations of conscious systems (e.g., brain emulations on a digital computer) are not conscious if the physical substrate does not instantiate the required intrinsic causal structure (phi).",
+        "classification": "representational_only",
+        "reasoning": "IIT claims that only the physical instantiation of the right causal structure matters, not the simulation or functional equivalence.",
+        "potential_test": "No behavioral or report-based test can distinguish a conscious biological brain from a functionally equivalent digital simulation."
+      },
+      {
+        "prediction": "Systems with higher phi are more conscious (have a greater degree of consciousness) than those with lower phi.",
+        "classification": "representational_only",
+        "reasoning": "Degree of consciousness is not reflected in behavior according to IIT; two systems could behave identically but have different phi.",
+        "potential_test": "No behavioral test can measure or compare degrees of consciousness as defined by phi."
+      },
+      {
+        "prediction": "If a brain region is lesioned or disconnected in a way that reduces phi, the subject's consciousness will be diminished or lost, even if some behaviors are preserved.",
+        "classification": "behavioral",
+        "reasoning": "In some cases, IIT predicts that loss of integration (e.g., via corpus callosotomy or anesthesia) will correlate with loss or alteration of consciousness, which can be behaviorally or reportably tested.",
+        "potential_test": "Test consciousness (e.g., via subjective report, responsiveness, or neural correlates) before and after interventions that reduce integration (e.g., anesthesia, split-brain surgery)."
+      },
+      {
+        "prediction": "During dreamless sleep or under general anesthesia, phi in the brain is low, corresponding to loss of consciousness.",
+        "classification": "behavioral",
+        "reasoning": "IIT predicts a correlation between low phi and lack of conscious experience, which can be tested by measuring neural integration and subjective reports.",
+        "potential_test": "Measure neural integration (e.g., PCI, perturbational complexity index) and correlate with reports of consciousness during sleep, anesthesia, or vegetative states."
+      },
+      {
+        "prediction": "Consciousness can be present in non-biological systems (e.g., neuromorphic hardware) if they instantiate high phi, regardless of their substrate.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims substrate-independence in principle, but only if the physical system has the right causal structure. This is not testable by behavior alone.",
+        "potential_test": "No behavioral test can distinguish a conscious neuromorphic system from a non-conscious one if their behavior is the same."
+      },
+      {
+        "prediction": "If two conscious systems are connected to form a larger integrated system with higher phi, the original individual consciousnesses are lost and replaced by a single, unified consciousness.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the identity and boundaries of consciousness based on phi, not on behavior.",
+        "potential_test": "No behavioral test can distinguish whether the unified or individual consciousnesses exist, as subjective unity is not directly observable."
+      },
+      {
+        "prediction": "If a system is duplicated (e.g., split into two identical copies), each copy has its own consciousness, but the original consciousness does not 'split' or 'continue' in both.",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical claim about the identity of consciousness based on phi, not on behavior.",
+        "potential_test": "No behavioral test can distinguish the metaphysical identity of consciousness in the original and copies."
+      }
+    ],
+    "theory": "IIT",
+    "run_id": 0,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 392,
+      "completion_tokens": 1285
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Only systems with non-zero integrated information (phi > 0) are conscious.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims consciousness is identical to phi, but phi is an internal property not necessarily reflected in behavior.",
+        "potential_test": "No behavioral test can distinguish a system with phi > 0 from one with phi = 0 if their behavior is otherwise identical."
+      },
+      {
+        "prediction": "Feedforward networks (with no recurrent connections) have zero phi and are not conscious, regardless of their input-output behavior.",
+        "classification": "representational_only",
+        "reasoning": "Feedforward and recurrent networks can be constructed to have identical behavior, but only the recurrent one has non-zero phi according to IIT.",
+        "potential_test": "No behavioral test can distinguish a feedforward system from a recurrent one if their input-output functions are the same."
+      },
+      {
+        "prediction": "The specific quality (what-it-is-like) of a conscious experience is determined by the geometry of the system's cause-effect structure (the 'qualia space').",
+        "classification": "representational_only",
+        "reasoning": "The geometry of cause-effect structure is not accessible via behavior; two systems could behave identically but have different internal structures.",
+        "potential_test": "No behavioral test can access or distinguish the internal geometry of qualia space."
+      },
+      {
+        "prediction": "A system\u2019s consciousness is determined solely by its intrinsic causal powers, not by its functional or behavioral capacities.",
+        "classification": "representational_only",
+        "reasoning": "IIT explicitly denies that input-output behavior is sufficient for consciousness.",
+        "potential_test": "No behavioral test can distinguish between systems with different intrinsic causal structures if their behavior is identical."
+      },
+      {
+        "prediction": "A perfect behavioral simulation of a conscious system (a 'zombie') could have zero consciousness if its internal causal structure is not integrated.",
+        "classification": "representational_only",
+        "reasoning": "This is a direct implication of IIT\u2019s anti-functionalist stance.",
+        "potential_test": "No behavioral test can distinguish a 'zombie' from a conscious system if their behavior is identical."
+      },
+      {
+        "prediction": "If a system\u2019s physical architecture is altered to increase phi, its level of consciousness increases (even if behavior is unchanged).",
+        "classification": "representational_only",
+        "reasoning": "IIT claims phi is the only determinant of consciousness, regardless of behavioral change.",
+        "potential_test": "No behavioral test can distinguish between systems with different phi if their behavior is the same."
+      },
+      {
+        "prediction": "If a system is split into two non-interacting subsystems (reducing phi), consciousness disappears or is reduced, even if overall behavior is preserved.",
+        "classification": "representational_only",
+        "reasoning": "Splitting may not affect input-output behavior but does affect phi.",
+        "potential_test": "No behavioral test can detect the change in consciousness if behavior is unchanged."
+      },
+      {
+        "prediction": "If two systems are functionally identical but differ in their causal structure (one is integrated, one is not), only the integrated one is conscious.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims consciousness is not a function of behavior but of causal structure.",
+        "potential_test": "No behavioral test can distinguish between the two."
+      },
+      {
+        "prediction": "Systems with higher phi should have richer or more intense conscious experiences than systems with lower phi.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal degree of integration, not behavior.",
+        "potential_test": "No behavioral test can measure the richness or intensity of experience if behavior is held constant."
+      },
+      {
+        "prediction": "Consciousness can, in principle, be instantiated in non-biological substrates (e.g., silicon) if the system has high phi.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims substrate-independence, but only if the causal structure is right; behavior alone is not sufficient.",
+        "potential_test": "No behavioral test can confirm or disconfirm consciousness in a non-biological system if its behavior is identical to a biological one."
+      },
+      {
+        "prediction": "Systems with the same phi value but different physical substrates will have the same level of consciousness (though possibly different qualities).",
+        "classification": "representational_only",
+        "reasoning": "This is about internal structure, not behavior.",
+        "potential_test": "No behavioral test can distinguish the level of consciousness if behavior is identical."
+      },
+      {
+        "prediction": "If a system is gradually replaced part by part with functionally identical but causally disconnected components (e.g., feedforward), consciousness will gradually fade (the 'fading qualia' scenario).",
+        "classification": "representational_only",
+        "reasoning": "IIT predicts fading consciousness without behavioral change.",
+        "potential_test": "No behavioral test can detect fading qualia if function is preserved."
+      },
+      {
+        "prediction": "If a system\u2019s phi suddenly drops to zero (e.g., by cutting all recurrent connections), consciousness instantly disappears, even if behavior is preserved.",
+        "classification": "representational_only",
+        "reasoning": "IIT predicts loss of consciousness based on internal structure, not behavior.",
+        "potential_test": "No behavioral test can detect this if behavior is unchanged."
+      }
+    ],
+    "theory": "IIT",
+    "run_id": 1,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 392,
+      "completion_tokens": 1173
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "A system with high integrated information (high phi) is conscious, while a system with low or zero phi is not conscious.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims consciousness is identical to phi, but phi is a property of internal causal structure, not behavior. Two systems could behave identically but differ in phi.",
+        "potential_test": "No behavioral test can distinguish between a high-phi and low-phi system if their input-output behavior is identical."
+      },
+      {
+        "prediction": "Feedforward networks (with no recurrent connections) have zero phi and are not conscious, regardless of their complexity or behavior.",
+        "classification": "representational_only",
+        "reasoning": "Feedforward and recurrent networks can be constructed to produce identical outputs for all possible inputs, yet IIT claims only the recurrent one is conscious.",
+        "potential_test": "No behavioral test can distinguish a conscious recurrent network from a functionally equivalent feedforward network."
+      },
+      {
+        "prediction": "The specific quality (qualia) of conscious experience is determined by the geometry of the system's cause-effect structure (the 'qualia space').",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal structure mapping to subjective experience, not to any observable behavior.",
+        "potential_test": "No behavioral test can access or distinguish the geometry of qualia space if behavior is held constant."
+      },
+      {
+        "prediction": "A system\u2019s consciousness is determined solely by its intrinsic causal powers, not by its input-output behavior or functional capabilities.",
+        "classification": "representational_only",
+        "reasoning": "IIT explicitly rejects functionalism; two systems could be functionally identical but differ in consciousness if their causal structures differ.",
+        "potential_test": "No behavioral test can distinguish between such systems."
+      },
+      {
+        "prediction": "If a biological brain is replaced neuron by neuron with functionally equivalent digital components (a gradual upload), consciousness will disappear if the new system has lower phi, even if behavior is unchanged.",
+        "classification": "representational_only",
+        "reasoning": "The prediction is about the presence or absence of consciousness under functional equivalence; behavior remains unchanged.",
+        "potential_test": "No behavioral test can detect the loss of consciousness if input-output remains identical."
+      },
+      {
+        "prediction": "A large group of people communicating (e.g., the 'China brain') will not be conscious as a whole, because the integrated information (phi) of the group is low.",
+        "classification": "representational_only",
+        "reasoning": "Even if the group can collectively perform complex tasks, IIT claims it is not conscious due to low phi.",
+        "potential_test": "No behavioral test can distinguish the presence or absence of group consciousness."
+      },
+      {
+        "prediction": "A simple system (e.g., a photodiode) has a tiny but nonzero amount of consciousness, proportional to its phi.",
+        "classification": "representational_only",
+        "reasoning": "This is about the intrinsic causal structure of the photodiode, not its behavior, which is trivial.",
+        "potential_test": "No behavioral test can distinguish between a conscious and non-conscious photodiode."
+      },
+      {
+        "prediction": "Consciousness can exist in non-biological substrates (e.g., certain computers or artificial systems) if, and only if, they have high phi.",
+        "classification": "representational_only",
+        "reasoning": "This is about internal causal structure, not behavior; a non-biological system could behave like a human but only be conscious if its phi is high.",
+        "potential_test": "No behavioral test can distinguish a conscious from a non-conscious substrate if behavior is identical."
+      },
+      {
+        "prediction": "If a system is split into two disconnected parts, its overall phi will decrease, and its consciousness will fragment or diminish.",
+        "classification": "representational_only",
+        "reasoning": "Splitting may not affect behavior if the parts coordinate via external means, but IIT predicts a change in consciousness.",
+        "potential_test": "No behavioral test can distinguish this if behavior is preserved."
+      },
+      {
+        "prediction": "A system with high phi will have a single, unified conscious experience, not multiple independent experiences.",
+        "classification": "representational_only",
+        "reasoning": "Unity of consciousness is determined by the integrated structure, not by behavior.",
+        "potential_test": "No behavioral test can distinguish between a single unified experience and multiple experiences if behavior is unchanged."
+      },
+      {
+        "prediction": "If a system\u2019s physical architecture is altered so as to increase its phi (e.g., by adding recurrent connections), its consciousness will increase, even if behavior is unchanged.",
+        "classification": "representational_only",
+        "reasoning": "Behavior can be held constant while phi changes; IIT claims consciousness tracks phi, not behavior.",
+        "potential_test": "No behavioral test can distinguish between the two systems."
+      },
+      {
+        "prediction": "There is a 'maximal' complex in any system: only the subset with the highest phi is conscious, and overlapping or nested complexes are not separately conscious.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal causal structure and the exclusion principle; behavior does not reveal which subset is conscious.",
+        "potential_test": "No behavioral test can distinguish which subset is conscious if behavior is unchanged."
+      }
+    ],
+    "theory": "IIT",
+    "run_id": 2,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 392,
+      "completion_tokens": 1161
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Any system with high integrated information (high phi) is conscious, regardless of its behavior.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims consciousness is determined by internal causal structure, not observable behavior.",
+        "potential_test": "No behavioral test can distinguish between systems with high or low phi if their behavior is identical."
+      },
+      {
+        "prediction": "Feedforward networks (even complex ones) have zero phi and are not conscious.",
+        "classification": "representational_only",
+        "reasoning": "Feedforward and recurrent networks can be functionally equivalent in input-output behavior, but only recurrent ones have nonzero phi according to IIT.",
+        "potential_test": "No behavioral test can distinguish a feedforward from a recurrent system if their behavior is matched."
+      },
+      {
+        "prediction": "A system with the same input-output behavior as a conscious system but with different internal causal structure (e.g., a 'zombie' system) is not conscious if its phi is low or zero.",
+        "classification": "representational_only",
+        "reasoning": "IIT explicitly allows for 'behavioral zombies'\u2014systems with identical behavior but different consciousness due to internal structure.",
+        "potential_test": "No behavioral test can distinguish them; only internal causal analysis could."
+      },
+      {
+        "prediction": "If a system's phi is suddenly reduced (e.g., by disconnecting recurrent connections), its consciousness vanishes or is greatly diminished, even if behavior is unchanged.",
+        "classification": "representational_only",
+        "reasoning": "Behavior could be preserved with compensatory mechanisms, but IIT says consciousness depends on phi.",
+        "potential_test": "No behavioral test could confirm this if behavior is unchanged."
+      },
+      {
+        "prediction": "The specific qualitative character ('what it is like') of experience is determined by the geometry of the system's cause-effect structure (the 'qualia space').",
+        "classification": "representational_only",
+        "reasoning": "IIT claims the quality of experience is determined by internal causal structure, not by observable behavior or report.",
+        "potential_test": "No behavioral test can access the geometry of qualia space; only internal analysis could."
+      },
+      {
+        "prediction": "Systems with identical phi values but different physical substrates (e.g., biological vs. silicon) will have identical consciousness if their cause-effect structures are isomorphic.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims substrate-independence for isomorphic causal structures, but this cannot be behaviorally distinguished if input-output is matched.",
+        "potential_test": "No behavioral test can distinguish between isomorphic systems with different substrates."
+      },
+      {
+        "prediction": "If a human brain is replaced neuron by neuron with functionally equivalent but differently organized (e.g., feedforward) components, consciousness will fade or vanish even if behavior is preserved.",
+        "classification": "representational_only",
+        "reasoning": "IIT predicts 'fading qualia' in this scenario, but behavior could remain unchanged.",
+        "potential_test": "No behavioral test could detect the change if behavior is preserved."
+      },
+      {
+        "prediction": "A simple digital computer running a simulation of a brain is not conscious if its physical substrate has low phi, regardless of the simulation's complexity or behavioral sophistication.",
+        "classification": "representational_only",
+        "reasoning": "IIT denies consciousness to digital simulations with low phi, even if they perfectly simulate behavior.",
+        "potential_test": "No behavioral test can distinguish a simulation with low phi from a conscious system if behavior is identical."
+      },
+      {
+        "prediction": "If a system is split into two disconnected parts, each with lower phi than the original, the original consciousness disappears and is replaced by two lesser consciousnesses (if any).",
+        "classification": "representational_only",
+        "reasoning": "IIT's exclusion principle says the maximal phi structure is the conscious entity; splitting changes this, but behavior could be preserved.",
+        "potential_test": "No behavioral test could detect the change if both parts together reproduce the original behavior."
+      },
+      {
+        "prediction": "A system with high phi but no capacity for report, communication, or complex behavior (e.g., a silent but integrated network) is still conscious according to IIT.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims consciousness is independent of report or behavior.",
+        "potential_test": "No behavioral test can confirm or disconfirm consciousness in a system that cannot report or act."
+      },
+      {
+        "prediction": "If a system's phi increases (e.g., by adding recurrent connections), its consciousness increases, even if behavior does not change.",
+        "classification": "representational_only",
+        "reasoning": "IIT ties consciousness to phi, not to behavior.",
+        "potential_test": "No behavioral test can confirm increased consciousness if behavior is unchanged."
+      },
+      {
+        "prediction": "If a system is functionally equivalent to a conscious system but implemented as a distributed, non-integrated network (low phi), it is not conscious.",
+        "classification": "representational_only",
+        "reasoning": "IIT denies consciousness to functionally equivalent but non-integrated systems.",
+        "potential_test": "No behavioral test can distinguish them if behavior is matched."
+      }
+    ],
+    "theory": "IIT",
+    "run_id": 3,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 392,
+      "completion_tokens": 1136
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Any system with zero integrated information (phi=0) is not conscious, regardless of its behavior.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims that consciousness depends on intrinsic causal structure, not on observable behavior. Two systems could behave identically, but only the one with nonzero phi is conscious.",
+        "potential_test": "No behavioral test can distinguish a phi=0 system from a system with phi>0 if their input-output behavior is identical."
+      },
+      {
+        "prediction": "Feedforward neural networks, no matter how complex or behaviorally capable, are not conscious because they have phi=0.",
+        "classification": "representational_only",
+        "reasoning": "Feedforward and recurrent networks can be constructed to have identical input-output behavior, but only the recurrent network has nonzero phi according to IIT.",
+        "potential_test": "No behavioral test can distinguish a conscious recurrent network from a functionally equivalent feedforward network."
+      },
+      {
+        "prediction": "The specific qualitative character (qualia) of an experience is determined by the geometry of the system's cause-effect structure (the 'qualia space').",
+        "classification": "representational_only",
+        "reasoning": "The geometry of cause-effect structure is not accessible via behavior; two systems could behave identically but have different qualia according to IIT.",
+        "potential_test": "No behavioral test can access or distinguish the internal geometry of qualia space."
+      },
+      {
+        "prediction": "Consciousness is substrate-independent: any physical system with the same high-phi cause-effect structure will have the same conscious experience, regardless of what it is made of.",
+        "classification": "representational_only",
+        "reasoning": "Behavioral equivalence can be achieved by different substrates; IIT claims consciousness depends only on the causal structure, not the substrate.",
+        "potential_test": "No behavioral test can distinguish between different substrates with identical causal structures."
+      },
+      {
+        "prediction": "A system's consciousness is determined solely by its intrinsic causal powers, not by its input-output behavior or functional role.",
+        "classification": "representational_only",
+        "reasoning": "IIT explicitly rejects functionalism; two systems with identical behavior could differ in consciousness if their intrinsic causal structures differ.",
+        "potential_test": "No behavioral test can distinguish between systems with identical input-output behavior but different intrinsic causal structures."
+      },
+      {
+        "prediction": "If a part of a conscious system is replaced with a functionally equivalent but feedforward (phi=0) component, consciousness will decrease or vanish, even if behavior remains unchanged.",
+        "classification": "representational_only",
+        "reasoning": "Behavior is preserved, but IIT predicts a change in consciousness due to loss of integration.",
+        "potential_test": "No behavioral test can detect the loss of consciousness if input-output behavior is preserved."
+      },
+      {
+        "prediction": "Systems with higher phi are more conscious (have a greater degree of consciousness) than systems with lower phi, all else being equal.",
+        "classification": "representational_only",
+        "reasoning": "Degree of consciousness (phi) is not directly accessible from behavior; two systems could behave identically but have different phi.",
+        "potential_test": "No behavioral test can measure or compare degrees of consciousness if behavior is matched."
+      },
+      {
+        "prediction": "If a system's phi is reduced (e.g., by severing connections), its consciousness will decrease, even if its behavior is unchanged.",
+        "classification": "representational_only",
+        "reasoning": "IIT predicts changes in consciousness based on internal causal structure, not behavior.",
+        "potential_test": "No behavioral test can detect this change if behavior is preserved."
+      },
+      {
+        "prediction": "A perfect simulation of a conscious system, implemented on a conventional digital computer with a feedforward architecture, would not be conscious, even if it behaves identically to the original.",
+        "classification": "representational_only",
+        "reasoning": "IIT claims that only systems with intrinsic, irreducible causal power (high phi) are conscious; a simulation lacks this, regardless of behavior.",
+        "potential_test": "No behavioral test can distinguish between the original and the simulation if their behavior is identical."
+      },
+      {
+        "prediction": "A system composed of two independent subsystems (with no causal interaction) will have two separate consciousnesses, not a unified one, even if their joint behavior is coordinated.",
+        "classification": "representational_only",
+        "reasoning": "IIT's exclusion principle says only maximally irreducible structures are conscious; joint behavior does not imply joint consciousness.",
+        "potential_test": "No behavioral test can distinguish between a unified consciousness and two separate consciousnesses if behavior is coordinated."
+      },
+      {
+        "prediction": "If a system is split into two disconnected parts (e.g., corpus callosotomy in humans), IIT predicts the emergence of two separate conscious entities.",
+        "classification": "behavioral",
+        "reasoning": "In split-brain patients, some behavioral evidence (e.g., independent responses to stimuli in each hemisphere) can be observed, which may correspond to IIT's prediction.",
+        "potential_test": "Test for independent behavioral responses or reports from each hemisphere in split-brain patients."
+      },
+      {
+        "prediction": "Systems with high phi should be more resistant to loss of consciousness under anesthesia than systems with low phi.",
+        "classification": "behavioral",
+        "reasoning": "IIT predicts a correlation between phi and level of consciousness; changes in phi (e.g., under anesthesia) should track behavioral markers of consciousness.",
+        "potential_test": "Measure phi (using perturbational complexity index or similar) and correlate with behavioral responsiveness under anesthesia."
+      },
+      {
+        "prediction": "Brain regions with higher phi contribute more to consciousness than regions with lower phi.",
+        "classification": "behavioral",
+        "reasoning": "Lesions or inactivation of high-phi regions should have a greater impact on consciousness than low-phi regions, which can be tested behaviorally.",
+        "potential_test": "Lesion or inactivate different brain regions and observe changes in consciousness (e.g., via behavioral responsiveness or subjective reports)."
+      }
+    ],
+    "theory": "IIT",
+    "run_id": 4,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 392,
+      "completion_tokens": 1320
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Conscious perception of a stimulus is accompanied by sudden, widespread (ignition-like) activation across fronto-parietal and associative cortices.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a neural signature (ignition) that correlates with conscious report and can be measured with neuroimaging or electrophysiology.",
+        "potential_test": "Present stimuli at perceptual threshold and compare neural activity for reported (conscious) vs. unreported (unconscious) trials using EEG/MEG/fMRI to detect ignition."
+      },
+      {
+        "prediction": "Information that is globally broadcast is available for multiple cognitive processes (e.g., report, memory, reasoning, planning).",
+        "classification": "behavioral",
+        "reasoning": "This predicts that consciously perceived information can be flexibly used for diverse tasks, while unconscious information cannot.",
+        "potential_test": "Test whether a subject can use a stimulus for multiple tasks (e.g., report, manipulate in working memory, use in reasoning) only when it is consciously perceived."
+      },
+      {
+        "prediction": "Unconscious processing remains local and modular, without widespread activation or cross-modular integration.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that unconscious stimuli can influence behavior only in limited, module-specific ways.",
+        "potential_test": "Use subliminal priming to show that unconscious stimuli affect only specific, automatic responses, not flexible, cross-domain tasks."
+      },
+      {
+        "prediction": "Subjective report of conscious experience is tightly linked to global workspace activation; if a subject reports being aware, ignition should be present.",
+        "classification": "behavioral",
+        "reasoning": "This links subjective report (behavior) with a measurable neural signature.",
+        "potential_test": "Correlate subjective reports of awareness with neural ignition across trials."
+      },
+      {
+        "prediction": "Masking or attentional manipulations that prevent global broadcasting will prevent conscious access, even if early sensory processing occurs.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that blocking global workspace entry blocks conscious perception, even if local processing is intact.",
+        "potential_test": "Use backward masking or attentional blink paradigms; show that masked stimuli elicit early sensory responses but no ignition or conscious report."
+      },
+      {
+        "prediction": "Conscious access is all-or-none: there is a discrete transition (not gradual) between unconscious and conscious processing, reflected in both report and neural activity.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a sharp threshold for both subjective report and neural ignition.",
+        "potential_test": "Present stimuli at varying intensities and measure whether both report and ignition show a step-like, rather than gradual, transition."
+      },
+      {
+        "prediction": "Damage to long-range connectivity (e.g., fronto-parietal lesions) impairs consciousness, even if local sensory processing is preserved.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between preserved local processing and impaired conscious access after specific brain damage.",
+        "potential_test": "Study patients with fronto-parietal disconnection and test for preserved unconscious processing but impaired conscious report."
+      },
+      {
+        "prediction": "Conscious perception is associated with increased long-range functional connectivity, especially in the beta/gamma frequency bands.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a measurable change in neural synchrony/connectivity during conscious perception.",
+        "potential_test": "Use EEG/MEG to measure changes in long-range coherence during conscious vs. unconscious perception."
+      },
+      {
+        "prediction": "Artificial systems or animals lacking a global broadcasting architecture cannot be conscious, regardless of their local processing capabilities.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the necessity of a specific internal architecture for consciousness, not directly testable by behavior alone.",
+        "potential_test": "No behavioral test can conclusively distinguish a system with vs. without global broadcasting if their behavior is otherwise identical."
+      },
+      {
+        "prediction": "All information present in the global workspace is conscious; information outside the workspace is unconscious.",
+        "classification": "representational_only",
+        "reasoning": "This is a mapping between internal representational status and consciousness, not directly observable if behavior is unchanged.",
+        "potential_test": "No behavioral test can distinguish information that is globally broadcast but not conscious, or vice versa, if report and function are identical."
+      },
+      {
+        "prediction": "Consciousness is unified because the global workspace integrates information from multiple specialized modules.",
+        "classification": "representational_only",
+        "reasoning": "The unity of consciousness is attributed to a specific internal integration, which cannot be directly tested if behavior is unchanged.",
+        "potential_test": "No behavioral test can distinguish between unity due to global workspace vs. other integration mechanisms if functional output is the same."
+      },
+      {
+        "prediction": "There can be no conscious experience without the possibility of report or access (i.e., 'phenomenal consciousness' without access is impossible).",
+        "classification": "behavioral",
+        "reasoning": "This predicts that if a subject cannot report or use information, they are not conscious of it.",
+        "potential_test": "Test for 'inaccessible consciousness' (e.g., in blindsight or anesthesia); GNW predicts no consciousness if no access or report is possible."
+      }
+    ],
+    "theory": "GNW",
+    "run_id": 0,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 415,
+      "completion_tokens": 1165
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Conscious perception of a stimulus is accompanied by a sudden, widespread ('ignition') pattern of neural activation across fronto-parietal networks.",
+        "classification": "behavioral",
+        "reasoning": "This prediction can be tested by correlating subjective reports of conscious perception with neural recordings (e.g., EEG, fMRI, MEG) to detect ignition patterns.",
+        "potential_test": "Present near-threshold stimuli and record neural activity; compare trials where subjects report awareness versus no awareness. Ignition should only occur when the stimulus is consciously perceived."
+      },
+      {
+        "prediction": "Unconscious processing is restricted to local, modular brain regions and does not involve global broadcasting.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by comparing neural activity during unconscious versus conscious processing and by assessing the functional consequences of unconscious processing.",
+        "potential_test": "Use masked priming or subliminal stimuli; measure whether neural activity remains local and whether such processing fails to support cross-domain integration or flexible report."
+      },
+      {
+        "prediction": "Information that is globally broadcast is accessible to multiple cognitive systems (e.g., verbal report, working memory, decision-making, planning).",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by determining whether consciously perceived information can be used flexibly across tasks, whereas unconscious information cannot.",
+        "potential_test": "Present stimuli at or below awareness threshold; test whether only consciously perceived stimuli can be reported, maintained in working memory, or used for complex reasoning."
+      },
+      {
+        "prediction": "Subjective reports of conscious perception will reliably correspond to the presence of global workspace ignition.",
+        "classification": "behavioral",
+        "reasoning": "This links subjective report to a measurable neural event.",
+        "potential_test": "Correlate trial-by-trial subjective reports with neural data to see if ignition only occurs on 'aware' trials."
+      },
+      {
+        "prediction": "Manipulations that disrupt long-range connectivity (e.g., via TMS, anesthesia, brain injury) will impair conscious access while sparing some unconscious processing.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by disrupting connectivity and observing effects on conscious report and unconscious priming.",
+        "potential_test": "Apply TMS to fronto-parietal regions during perception tasks; measure changes in conscious report and unconscious priming effects."
+      },
+      {
+        "prediction": "Conscious access is all-or-none: stimuli are either globally broadcast (conscious) or not (unconscious), with little intermediate state.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by examining subjective reports and neural data for graded versus binary transitions.",
+        "potential_test": "Use near-threshold stimuli and analyze whether neural and behavioral data show sharp transitions rather than gradual increases in awareness."
+      },
+      {
+        "prediction": "Only information that has entered the global workspace can be voluntarily reported or manipulated in working memory.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by assessing reportability and working memory for conscious versus unconscious stimuli.",
+        "potential_test": "Present masked and unmasked stimuli; test for voluntary report and working memory maintenance."
+      },
+      {
+        "prediction": "Unconscious stimuli can influence behavior in limited, automatic ways but cannot support flexible, novel, or cross-domain tasks.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by comparing the effects of conscious and unconscious stimuli on different types of tasks.",
+        "potential_test": "Use priming paradigms and test for transfer to novel tasks or flexible reasoning; only conscious stimuli should support these."
+      },
+      {
+        "prediction": "The neural signature of conscious access (ignition) is similar across sensory modalities and types of content.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by comparing ignition patterns for visual, auditory, and other conscious experiences.",
+        "potential_test": "Record neural activity during conscious perception in different modalities; look for similar ignition dynamics."
+      },
+      {
+        "prediction": "There are no conscious states without global broadcasting; local processing alone is never sufficient for consciousness.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the necessity of global broadcasting for consciousness, but in principle, a system could have local processing with identical behavior (e.g., a philosophical zombie).",
+        "potential_test": "No behavioral test can distinguish a system with only local processing from one with global broadcasting if their outputs are identical."
+      },
+      {
+        "prediction": "The specific pattern of neural connectivity (long-range, integrative neurons) is necessary for consciousness.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal architecture; two systems could have different internal wiring but identical behavior.",
+        "potential_test": "No behavioral test can distinguish between systems with or without these specific neural architectures if their functional outputs are the same."
+      },
+      {
+        "prediction": "Consciousness is identical to the global broadcasting process and not to any other neural or computational property.",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical identity claim, not directly testable by behavior.",
+        "potential_test": "No behavioral test can confirm or disconfirm this identity; it is a claim about what consciousness is, not what it does."
+      }
+    ],
+    "theory": "GNW",
+    "run_id": 1,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 415,
+      "completion_tokens": 1163
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Conscious perception of a stimulus is associated with sudden, widespread (global) activation across fronto-parietal networks (the 'ignition' pattern).",
+        "classification": "behavioral",
+        "reasoning": "This prediction can be tested by correlating subjective reports of conscious perception with neuroimaging or electrophysiological measures of global activation.",
+        "potential_test": "Present near-threshold stimuli and compare brain activity when subjects report awareness vs. unawareness; look for 'ignition' in aware trials."
+      },
+      {
+        "prediction": "Unconscious stimuli elicit only local, modular brain activity, without global broadcasting.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by presenting masked or unattended stimuli and measuring the spatial extent of brain activation.",
+        "potential_test": "Use masking paradigms and neuroimaging to show that unreported stimuli do not trigger widespread activation."
+      },
+      {
+        "prediction": "Only information that is globally broadcast is reportable and can be voluntarily manipulated (e.g., used in reasoning, planning, or verbal report).",
+        "classification": "behavioral",
+        "reasoning": "This links reportability and cognitive access to global broadcasting, which can be behaviorally tested.",
+        "potential_test": "Test whether only globally broadcast information can be used in flexible tasks or reported by subjects."
+      },
+      {
+        "prediction": "There is an all-or-none (nonlinear) transition in neural activity corresponding to conscious access, rather than a gradual increase.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by examining whether neural signatures of consciousness show a sharp threshold.",
+        "potential_test": "Vary stimulus intensity and measure whether brain activity and reports show a sudden jump at the awareness threshold."
+      },
+      {
+        "prediction": "Disrupting long-range connectivity (e.g., via TMS, anesthesia, or brain lesions) impairs conscious access but may spare unconscious processing.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by manipulating connectivity and observing effects on conscious vs. unconscious tasks.",
+        "potential_test": "Apply TMS to fronto-parietal hubs and test for selective impairment of conscious report, not unconscious priming."
+      },
+      {
+        "prediction": "Conscious perception is associated with late (>200 ms) neural activity, reflecting global broadcasting, rather than early sensory activity.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by time-locking neural responses to conscious reports.",
+        "potential_test": "Use EEG/MEG to show that only late components (e.g., P3) correlate with conscious perception."
+      },
+      {
+        "prediction": "Multiple cognitive processes (e.g., working memory, decision-making, verbal report) can access and operate on globally broadcast information, but not on information restricted to local modules.",
+        "classification": "behavioral",
+        "reasoning": "This is testable by checking which information is available for different tasks.",
+        "potential_test": "Present stimuli under conditions of conscious/unconscious access and test for transfer to working memory, reasoning, or report."
+      },
+      {
+        "prediction": "Consciousness is closely tied to the capacity for flexible, novel, and goal-directed behavior, as these require global broadcasting.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by examining the relationship between conscious access and behavioral flexibility.",
+        "potential_test": "Compare performance on flexible tasks with and without conscious access to relevant information."
+      },
+      {
+        "prediction": "There should be a strong correlation between subjective reports of awareness and objective neural signatures of global broadcasting.",
+        "classification": "behavioral",
+        "reasoning": "This is testable by collecting subjective reports and neural data.",
+        "potential_test": "Ask subjects to report awareness and correlate with measures of global brain activity."
+      },
+      {
+        "prediction": "If a system lacks a global neuronal workspace (e.g., due to developmental or evolutionary differences), it will not exhibit consciousness as defined by GNW.",
+        "classification": "representational_only",
+        "reasoning": "This is about internal architecture; two systems could behave identically but differ in whether they have a GNW.",
+        "potential_test": "No behavioral test can distinguish between a system with or without a GNW if their behavior is identical."
+      },
+      {
+        "prediction": "Consciousness cannot occur in the absence of global broadcasting, even if local processing is intact.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about necessary conditions at the representational level, not directly testable by behavior alone.",
+        "potential_test": "No behavioral test can confirm absence of consciousness if global broadcasting is absent but behavior is unchanged."
+      },
+      {
+        "prediction": "All conscious states involve the same global workspace mechanism, regardless of content (e.g., visual, auditory, abstract thought).",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the uniformity of the underlying mechanism, not directly testable if different mechanisms produce identical behavior.",
+        "potential_test": "No behavioral test can distinguish between different mechanisms if the output is the same."
+      }
+    ],
+    "theory": "GNW",
+    "run_id": 2,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 415,
+      "completion_tokens": 1125
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Conscious perception is accompanied by a sudden, widespread ('ignition') pattern of neural activation across fronto-parietal and associative cortices.",
+        "classification": "behavioral",
+        "reasoning": "This prediction can be tested by correlating neural recordings (e.g., EEG, fMRI, MEG) with conscious reports in tasks like masking or binocular rivalry.",
+        "potential_test": "Present stimuli near the threshold of awareness and measure neural activity; conscious reports should coincide with ignition patterns, while unconscious trials should not."
+      },
+      {
+        "prediction": "Information that is consciously perceived is available for flexible report, reasoning, and voluntary action.",
+        "classification": "behavioral",
+        "reasoning": "This is testable by asking subjects to report, reason about, or act on information presented consciously vs. unconsciously.",
+        "potential_test": "Use masking or attentional blink paradigms; only consciously perceived stimuli should be reportable or usable in downstream tasks."
+      },
+      {
+        "prediction": "Unconscious processing is restricted to local, modular brain regions and does not involve widespread activation.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by comparing neural activity and behavioral effects of unconscious vs. conscious stimuli.",
+        "potential_test": "Present subliminal stimuli and measure both neural activity (should be local) and behavioral priming (should be limited in scope and flexibility)."
+      },
+      {
+        "prediction": "Conscious access is all-or-none: stimuli are either globally broadcast and conscious, or not broadcast and unconscious (no intermediate states).",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by examining subjective reports and neural signatures for graded vs. binary transitions.",
+        "potential_test": "Use near-threshold paradigms and analyze whether subjective awareness and neural ignition show discrete jumps rather than gradual increases."
+      },
+      {
+        "prediction": "Only information that enters the global workspace can be maintained in working memory and manipulated flexibly.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by comparing working memory for consciously vs. unconsciously presented stimuli.",
+        "potential_test": "Present masked and unmasked stimuli; only unmasked (conscious) items should be maintainable/manipulable in working memory tasks."
+      },
+      {
+        "prediction": "Damage to long-range connectivity (e.g., fronto-parietal networks) impairs consciousness, even if local sensory processing is intact.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested in patients with brain lesions or disconnection syndromes.",
+        "potential_test": "Assess consciousness in patients with fronto-parietal disconnection; expect impaired conscious access despite preserved local responses."
+      },
+      {
+        "prediction": "Conscious perception is associated with increased long-range functional connectivity (e.g., measured by EEG coherence or fMRI connectivity) compared to unconscious perception.",
+        "classification": "behavioral",
+        "reasoning": "This can be measured and compared across conscious and unconscious conditions.",
+        "potential_test": "Compare connectivity metrics during conscious vs. unconscious perception in neuroimaging experiments."
+      },
+      {
+        "prediction": "Stimuli that do not reach consciousness cannot be voluntarily reported, even if they influence behavior unconsciously (e.g., via priming).",
+        "classification": "behavioral",
+        "reasoning": "This is testable by presenting subliminal stimuli and asking for voluntary report.",
+        "potential_test": "Use masked priming: subjects cannot report the prime, but it can still influence reaction times."
+      },
+      {
+        "prediction": "The same stimulus can be processed unconsciously (locally) or consciously (globally), depending on whether it enters the global workspace.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by manipulating attention or masking and measuring both neural and behavioral outcomes.",
+        "potential_test": "Use attentional blink or masking to present identical stimuli in conscious vs. unconscious conditions; compare neural and behavioral markers."
+      },
+      {
+        "prediction": "Consciousness is closely tied to the capacity for flexible, novel combinations of information (integration across domains).",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by assessing the ability to combine information from different modalities or domains only when both are consciously accessible.",
+        "potential_test": "Present cross-modal stimuli (e.g., audio-visual) with one or both components masked; integration should only occur when both are conscious."
+      },
+      {
+        "prediction": "Consciousness requires global broadcasting, not just local processing; thus, a system with only local processors and no global workspace cannot be conscious.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the necessity of a particular internal architecture, which cannot be distinguished by behavior alone if the system is functionally equivalent.",
+        "potential_test": "No behavioral test can distinguish a system with global broadcasting from one with only local processors if their outputs are identical."
+      },
+      {
+        "prediction": "The subjective experience of consciousness is identical to the global availability of information in the workspace.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the identity of subjective experience and a specific neural/functional state, which cannot be tested behaviorally.",
+        "potential_test": "No behavioral or report-based test can confirm or disconfirm this identity claim; it is a metaphysical assertion about what consciousness is."
+      }
+    ],
+    "theory": "GNW",
+    "run_id": 3,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 415,
+      "completion_tokens": 1176
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Conscious perception is accompanied by a sudden, widespread (ignition-like) pattern of neural activation across fronto-parietal and associative cortices.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a neural signature (ignition) that can be correlated with conscious reports.",
+        "potential_test": "Use EEG, MEG, or fMRI to measure brain activity during threshold visual perception tasks. Compare trials where subjects report seeing a stimulus versus not seeing it, and look for ignition in the reported cases."
+      },
+      {
+        "prediction": "Stimuli that are consciously perceived will be available to multiple cognitive systems (e.g., verbal report, voluntary action, memory, reasoning), while unconscious stimuli will not.",
+        "classification": "behavioral",
+        "reasoning": "This predicts functional access and reportability for conscious but not unconscious stimuli.",
+        "potential_test": "Present masked and unmasked stimuli; test for ability to report, remember, or use the information in reasoning tasks."
+      },
+      {
+        "prediction": "Unconscious processing is restricted to local, modular brain regions and does not involve widespread activation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a difference in neural activation patterns between conscious and unconscious processing, which can be measured.",
+        "potential_test": "Compare brain activity for subliminal versus supraliminal stimuli using neuroimaging; unconscious stimuli should not produce global activation."
+      },
+      {
+        "prediction": "Subjective reports of conscious experience will closely track the presence of global broadcasting (ignition) in the brain.",
+        "classification": "behavioral",
+        "reasoning": "This links subjective report to a measurable neural event.",
+        "potential_test": "Correlate subjective reports of awareness with neural data; ignition should predict positive reports."
+      },
+      {
+        "prediction": "No information can be consciously experienced without being globally broadcast; local processing alone is insufficient for consciousness.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that any information not globally available will not be consciously reportable.",
+        "potential_test": "Design tasks where information is processed locally but not broadcast (e.g., masked priming); test for lack of conscious report."
+      },
+      {
+        "prediction": "Conscious access is all-or-none: there is a sharp transition (not gradual) between unconscious and conscious processing, reflected both in neural and behavioral measures.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a categorical, not graded, change in both report and neural signatures.",
+        "potential_test": "Use near-threshold stimuli and analyze the distribution of reports and neural activation; look for bimodal (all-or-none) patterns."
+      },
+      {
+        "prediction": "Tasks that require integration of information across modalities or time require conscious (global workspace) processing.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that unconscious processing cannot support cross-modal or temporally extended integration.",
+        "potential_test": "Test whether subliminal stimuli can be integrated across modalities or over time; GNW predicts they cannot."
+      },
+      {
+        "prediction": "Damage to long-range connectivity (e.g., fronto-parietal lesions) will impair conscious access but may spare unconscious, local processing.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between conscious and unconscious processing after specific brain lesions.",
+        "potential_test": "Study patients with fronto-parietal damage; test for preserved unconscious priming but impaired conscious report."
+      },
+      {
+        "prediction": "Artificial systems or animals lacking a global workspace architecture (i.e., no mechanism for global broadcasting) cannot be conscious, regardless of their local processing capabilities.",
+        "classification": "representational_only",
+        "reasoning": "This is about internal architecture, not directly testable by behavior alone.",
+        "potential_test": "No behavioral test can distinguish a system with or without a global workspace if their outputs are identical; only architectural analysis could reveal this."
+      },
+      {
+        "prediction": "During states of unconsciousness (e.g., deep sleep, anesthesia, vegetative state), global broadcasting is disrupted or absent.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a neural signature (lack of ignition) that correlates with loss of consciousness.",
+        "potential_test": "Measure neural activity during different states of consciousness; look for absence of global ignition during unconscious states."
+      },
+      {
+        "prediction": "The contents of consciousness at any moment are limited to what is globally broadcast; there are capacity limits (e.g., working memory limits) on conscious contents.",
+        "classification": "behavioral",
+        "reasoning": "This predicts behavioral limits on how much can be consciously accessed at once.",
+        "potential_test": "Test working memory span and compare to neural measures of global broadcasting; both should show similar capacity limits."
+      },
+      {
+        "prediction": "It is possible for information to influence behavior unconsciously (e.g., priming effects) without entering the global workspace or being consciously experienced.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that some behaviors can be influenced by stimuli that are not consciously reportable.",
+        "potential_test": "Use masked priming paradigms; show that primed responses occur even when subjects deny awareness of the prime."
+      }
+    ],
+    "theory": "GNW",
+    "run_id": 4,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 415,
+      "completion_tokens": 1141
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "It is possible for a subject to have a first-order perceptual state (e.g., visual processing of a stimulus) without being conscious of it if no higher-order thought (HOT) targets that state.",
+        "classification": "behavioral",
+        "reasoning": "This predicts unconscious perception (e.g., blindsight, subliminal perception) where behavior indicates processing without conscious awareness.",
+        "potential_test": "Present stimuli below the threshold of awareness and test for above-chance discrimination or priming effects despite subjects denying conscious experience."
+      },
+      {
+        "prediction": "A subject can have a conscious experience (reporting awareness of a state) even in the absence of a corresponding first-order state, if a HOT targets a non-existent state (misrepresentation, 'empty HOT').",
+        "classification": "behavioral",
+        "reasoning": "This predicts false positives in subjective reports\u2014subjects claim to experience something that isn't present at the first-order level.",
+        "potential_test": "Design experiments where neural or cognitive manipulations induce reports of experiences without corresponding sensory input (e.g., hallucinations induced by TMS to prefrontal cortex)."
+      },
+      {
+        "prediction": "The degree or quality of conscious experience varies with the quality or precision of the higher-order representation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that manipulating the clarity or confidence of HOTs will affect subjective reports of vividness, confidence, or clarity.",
+        "potential_test": "Use metacognitive tasks where confidence ratings or subjective vividness are manipulated independently of first-order performance (e.g., via prefrontal stimulation or noise)."
+      },
+      {
+        "prediction": "Damage to or disruption of the prefrontal cortex (PFC) should impair conscious awareness (as measured by subjective report or metacognition) without necessarily impairing first-order perceptual abilities.",
+        "classification": "behavioral",
+        "reasoning": "If PFC is necessary for HOTs, then its impairment should selectively affect consciousness.",
+        "potential_test": "Study patients with PFC lesions or use TMS to disrupt PFC and measure effects on subjective awareness versus objective performance."
+      },
+      {
+        "prediction": "There can be dissociations between first-order performance (objective task accuracy) and subjective awareness (confidence, reportability), explained by the presence or absence of HOTs.",
+        "classification": "behavioral",
+        "reasoning": "This predicts situations where subjects perform well but deny awareness, or vice versa.",
+        "potential_test": "Use blindsight paradigms or metacognitive tasks to measure objective vs. subjective performance."
+      },
+      {
+        "prediction": "Consciousness is all-or-nothing for a given mental state, depending on whether a suitable HOT is present, but may come in degrees depending on the quality of the HOT.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that subjective ratings of awareness should sometimes show discrete jumps (when a HOT is formed) and sometimes gradations (reflecting HOT quality).",
+        "potential_test": "Analyze subjective reports for both threshold and graded patterns, e.g., using confidence ratings or visibility scales."
+      },
+      {
+        "prediction": "Non-human animals or infants with underdeveloped or absent prefrontal cortex should lack (or have diminished) conscious awareness as defined by HOT theory.",
+        "classification": "behavioral",
+        "reasoning": "If PFC is necessary for HOTs, then species or developmental stages lacking it should show reduced or absent consciousness.",
+        "potential_test": "Compare metacognitive abilities and subjective report proxies in animals/infants versus adults with developed PFC."
+      },
+      {
+        "prediction": "Artificial systems or neural networks could, in principle, be conscious if they implement higher-order representations about their own states.",
+        "classification": "behavioral",
+        "reasoning": "This implies that if a system can report on its own internal states in a HOT-like manner, it should show consciousness-like behaviors.",
+        "potential_test": "Design AI systems with explicit higher-order monitoring and test for subjective report-like behaviors or metacognitive abilities."
+      },
+      {
+        "prediction": "Conscious experience should be absent in dreamless sleep, deep anesthesia, or coma, as HOTs are not generated in these states.",
+        "classification": "behavioral",
+        "reasoning": "This predicts loss of subjective awareness in these states, even if some first-order activity persists.",
+        "potential_test": "Correlate loss of subjective report or recall with neural markers of HOT generation (e.g., PFC activity) in sleep/anesthesia studies."
+      },
+      {
+        "prediction": "All conscious states must be accompanied by a suitable higher-order representation; there are no exceptions.",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical claim about the necessary structure of consciousness, not directly testable by behavior.",
+        "potential_test": "No behavioral test can distinguish between a conscious state with or without a HOT if all observable outputs are identical."
+      },
+      {
+        "prediction": "The content of consciousness is determined by the content of the HOT, not just the first-order state.",
+        "classification": "representational_only",
+        "reasoning": "If two systems have identical first-order states but different HOTs, their conscious experience differs, but this may not affect behavior.",
+        "potential_test": "No behavioral test can distinguish between systems differing only in the content of their HOTs if their outputs are the same."
+      },
+      {
+        "prediction": "It is possible for two subjects to have identical first-order brain states but different conscious experiences if their HOTs differ.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about internal structure that may not be reflected in any behavioral difference.",
+        "potential_test": "No behavioral test can distinguish between subjects whose only difference is the presence or content of a HOT."
+      }
+    ],
+    "theory": "HOT",
+    "run_id": 0,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1258
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "A mental state is conscious if and only if the subject has a suitable higher-order thought (HOT) about it.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the internal structure of consciousness, not directly about observable behavior.",
+        "potential_test": "No behavioral test can distinguish between a system with a HOT and one without, if all first-order behavior is identical."
+      },
+      {
+        "prediction": "It is possible to have first-order perceptions (e.g., visual processing) without being conscious of them (i.e., without a HOT about them).",
+        "classification": "behavioral",
+        "reasoning": "This predicts unconscious perception, which can be tested via blindsight, subliminal perception, or priming paradigms.",
+        "potential_test": "Use tasks where subjects respond to stimuli they report not seeing (e.g., blindsight), showing above-chance performance without conscious awareness."
+      },
+      {
+        "prediction": "Misrepresentation is possible: a subject can have a HOT about a state that does not exist (an 'empty HOT'), leading to a conscious experience of a state that is not present at the first-order level.",
+        "classification": "behavioral",
+        "reasoning": "This predicts the possibility of illusory or hallucinatory experiences without corresponding first-order states.",
+        "potential_test": "Induce or observe cases where subjects report experiences (e.g., hallucinations, false perceptions) without corresponding sensory input or neural activity in primary sensory areas."
+      },
+      {
+        "prediction": "The quality or degree of consciousness depends on the quality or precision of the higher-order representation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that manipulating the clarity or precision of HOTs should affect subjective reports of vividness or confidence.",
+        "potential_test": "Experimentally manipulate metacognitive confidence (e.g., via TMS to prefrontal cortex) and measure effects on subjective reports of vividness or certainty."
+      },
+      {
+        "prediction": "The prefrontal cortex is crucial for generating higher-order thoughts and thus for conscious awareness.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that damage or disruption to prefrontal cortex should impair consciousness or metacognitive awareness.",
+        "potential_test": "Lesion or TMS studies targeting prefrontal cortex and measuring effects on subjective awareness, confidence, or reportability."
+      },
+      {
+        "prediction": "It is possible to have all the same first-order processing and behavior, but lack consciousness if HOTs are absent.",
+        "classification": "representational_only",
+        "reasoning": "If HOTs are absent but first-order processing and behavior are unchanged, no behavioral test can distinguish the difference.",
+        "potential_test": "No behavioral test can distinguish between a system with and without HOTs if first-order outputs are identical."
+      },
+      {
+        "prediction": "Consciousness can be dissociated from first-order sensory processing (e.g., in cases of blindsight or unconscious perception).",
+        "classification": "behavioral",
+        "reasoning": "This predicts that subjects can perform tasks using information they are not consciously aware of.",
+        "potential_test": "Blindsight studies: subjects can localize visual stimuli they deny seeing."
+      },
+      {
+        "prediction": "Metacognitive judgments (e.g., confidence ratings) should correlate with conscious awareness, since both depend on higher-order representations.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a relationship between subjective confidence and conscious reportability.",
+        "potential_test": "Measure correlation between confidence ratings and subjective reports of awareness across tasks."
+      },
+      {
+        "prediction": "Disruption of higher-order representation formation (e.g., via TMS to prefrontal cortex) should reduce subjective awareness without necessarily impairing first-order task performance.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between subjective awareness and objective performance.",
+        "potential_test": "Apply TMS to prefrontal cortex and measure subjective awareness and objective performance separately."
+      },
+      {
+        "prediction": "If a HOT is formed about a non-existent state (empty HOT), the subject will report being conscious of something that is not present.",
+        "classification": "behavioral",
+        "reasoning": "This predicts false positive reports of experience (e.g., hallucinations, phantom perceptions).",
+        "potential_test": "Induce false beliefs or hallucinations (e.g., via suggestion or brain stimulation) and measure subjective reports."
+      },
+      {
+        "prediction": "There can be gradations in consciousness (degrees of vividness, clarity, or certainty) corresponding to the richness or precision of HOTs.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that manipulations affecting metacognitive precision will affect subjective gradations of experience.",
+        "potential_test": "Manipulate attention or metacognitive noise and measure effects on subjective vividness or confidence ratings."
+      },
+      {
+        "prediction": "If HOTs are necessary for consciousness, then non-human animals or infants lacking suitable HOT mechanisms will not be conscious (or will have limited consciousness).",
+        "classification": "behavioral",
+        "reasoning": "This predicts differences in conscious reportability or metacognitive abilities across species or developmental stages.",
+        "potential_test": "Compare metacognitive abilities and subjective reportability in humans, infants, and non-human animals."
+      },
+      {
+        "prediction": "Artificial systems that implement first-order representations without higher-order thoughts will not be conscious, regardless of their functional sophistication.",
+        "classification": "representational_only",
+        "reasoning": "If two systems behave identically but only one has HOTs, no behavioral test can distinguish them.",
+        "potential_test": "No behavioral test can distinguish between an AI with and without HOTs if their outputs are identical."
+      }
+    ],
+    "theory": "HOT",
+    "run_id": 1,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1252
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "A subject can have first-order perceptual states (e.g., visual processing) without being conscious of them if no higher-order thought (HOT) targets those states.",
+        "classification": "behavioral",
+        "reasoning": "This predicts unconscious perception, which can be tested by showing that stimuli can influence behavior without conscious awareness.",
+        "potential_test": "Subliminal priming: Present stimuli below the threshold of awareness and test for behavioral effects (e.g., faster reaction times or priming) despite subjects denying conscious perception."
+      },
+      {
+        "prediction": "A subject can have a conscious experience of a state that does not exist at the first-order level (i.e., an 'empty HOT' or misrepresentation).",
+        "classification": "behavioral",
+        "reasoning": "This predicts that people can report conscious experiences of things that are not present, which can be tested via false alarms or hallucinations.",
+        "potential_test": "False alarm paradigms: Present trials with no stimulus and ask for subjective reports; if subjects report seeing something, this supports the possibility of empty HOTs."
+      },
+      {
+        "prediction": "The quality or degree of consciousness of a state depends on the quality or precision of the higher-order representation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that manipulations affecting the clarity or confidence of higher-order thoughts should affect subjective reports of vividness or certainty.",
+        "potential_test": "Metacognitive sensitivity tasks: Manipulate attention or working memory and measure changes in confidence ratings or subjective clarity, independent of objective performance."
+      },
+      {
+        "prediction": "Damage or disruption to the prefrontal cortex should impair conscious awareness without necessarily impairing first-order perceptual abilities.",
+        "classification": "behavioral",
+        "reasoning": "This predicts dissociations between preserved perception and impaired consciousness following prefrontal lesions.",
+        "potential_test": "Neuropsychological studies: Compare subjective reports and objective performance in patients with prefrontal damage."
+      },
+      {
+        "prediction": "Direct stimulation or activation of prefrontal cortex should increase the likelihood of conscious perception, even if sensory input is weak or absent.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that boosting prefrontal activity can induce or enhance conscious experience.",
+        "potential_test": "TMS/tDCS experiments: Apply stimulation to prefrontal cortex and measure changes in subjective awareness of near-threshold stimuli."
+      },
+      {
+        "prediction": "There can be neural evidence of higher-order representations (e.g., metacognitive signals) that correlate with conscious experience, independent of first-order sensory activity.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that neural markers of metacognition (e.g., in prefrontal cortex) should predict subjective reports better than sensory cortex activity.",
+        "potential_test": "Neuroimaging: Use fMRI or EEG to correlate prefrontal activity with subjective reports, controlling for sensory input."
+      },
+      {
+        "prediction": "It is possible to have first-order neural activity (e.g., in sensory cortex) without conscious experience if no HOT is present.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that neural activity in sensory areas can occur without subjective awareness.",
+        "potential_test": "No-report paradigms: Measure neural activity in sensory cortex when subjects are not aware of stimuli (e.g., inattentional blindness) and compare to subjective reports."
+      },
+      {
+        "prediction": "Consciousness can be manipulated independently of first-order sensory processing by targeting higher-order processes (e.g., attention, working memory, metacognition).",
+        "classification": "behavioral",
+        "reasoning": "This predicts that interventions on higher-order processes can alter consciousness without changing sensory input.",
+        "potential_test": "Dual-task or cognitive load paradigms: Impose working memory or attention loads and measure changes in subjective awareness of constant stimuli."
+      },
+      {
+        "prediction": "A system that implements higher-order thoughts about its own states would be conscious, even if its first-order states are implemented differently (e.g., in AI or non-biological systems).",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the internal architecture necessary for consciousness, not directly testable by behavior alone.",
+        "potential_test": "No behavioral test can distinguish a system with HOTs from one without if their outputs are functionally identical."
+      },
+      {
+        "prediction": "If a subject has a HOT about a state, that state is conscious for that subject, regardless of whether the HOT is accurate.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal relationship between HOTs and consciousness, not directly observable.",
+        "potential_test": "No behavioral test can distinguish between a subject with a HOT and one without if their reports and behaviors are the same."
+      },
+      {
+        "prediction": "The presence of a HOT is both necessary and sufficient for consciousness of a state.",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical claim about the conditions for consciousness, not empirically testable.",
+        "potential_test": "No behavioral or neural test can confirm or disconfirm this necessity/sufficiency claim directly."
+      },
+      {
+        "prediction": "There can be two functionally identical systems, one with higher-order representations and one without, where only the former is conscious.",
+        "classification": "representational_only",
+        "reasoning": "This is a philosophical claim about possible systems, not distinguishable by any behavioral or functional test.",
+        "potential_test": "No behavioral test can distinguish between such systems if they are functionally identical."
+      }
+    ],
+    "theory": "HOT",
+    "run_id": 2,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1222
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "A mental state is conscious if and only if the subject has a suitable higher-order thought (HOT) about it.",
+        "classification": "representational_only",
+        "reasoning": "This is a definition about the internal relationship between mental states and higher-order thoughts; it does not specify any observable difference in behavior.",
+        "potential_test": "No behavioral test can distinguish between a state that is conscious because of a HOT and one that is not, unless further assumptions are made about how HOTs affect behavior."
+      },
+      {
+        "prediction": "It is possible to have first-order perceptions (e.g., visual processing) without being conscious of them if no HOT is present.",
+        "classification": "behavioral",
+        "reasoning": "This predicts the existence of unconscious perception, such as blindsight or subliminal perception.",
+        "potential_test": "Test for task performance or priming effects in the absence of subjective report of awareness (e.g., blindsight patients can discriminate stimuli they deny seeing)."
+      },
+      {
+        "prediction": "It is possible to have a HOT about a state that does not exist (misrepresentation or 'empty HOT'), resulting in a conscious experience of a state that is not actually present.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that people can report experiences (e.g., seeing something) in the absence of corresponding first-order states.",
+        "potential_test": "Induce false percepts (e.g., hallucinations or illusions) and check for subjective reports of experience without corresponding sensory input or neural activity in primary sensory areas."
+      },
+      {
+        "prediction": "The quality or degree of consciousness depends on the quality or precision of the higher-order representation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that manipulations affecting the clarity or confidence of HOTs will affect subjective reports of vividness or certainty.",
+        "potential_test": "Vary attention, expectation, or prefrontal activity and measure subjective ratings of vividness, confidence, or clarity of experience."
+      },
+      {
+        "prediction": "Damage or disruption to the prefrontal cortex should impair or abolish conscious experience, even if first-order sensory processing remains intact.",
+        "classification": "behavioral",
+        "reasoning": "This predicts dissociations between preserved sensory abilities and loss of conscious awareness after prefrontal lesions or TMS.",
+        "potential_test": "Study patients with prefrontal damage or use TMS to disrupt prefrontal cortex and assess subjective reports of awareness versus objective task performance."
+      },
+      {
+        "prediction": "Neural activity associated with HOTs (typically in prefrontal or parietal cortex) should correlate more closely with conscious report than activity in primary sensory areas.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that prefrontal activity will track subjective awareness better than sensory cortex activity.",
+        "potential_test": "Use neuroimaging (fMRI, EEG) to compare correlations between prefrontal/parietal activity and subjective reports, versus sensory cortex activity."
+      },
+      {
+        "prediction": "It is possible to manipulate conscious experience by directly altering higher-order representations, even if first-order states are unchanged.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that interventions targeting HOTs (e.g., suggestion, expectation, prefrontal stimulation) can alter conscious experience independently of sensory input.",
+        "potential_test": "Use hypnosis, suggestion, or prefrontal TMS to induce changes in subjective experience without changing sensory stimuli."
+      },
+      {
+        "prediction": "There can be unconscious first-order states that influence behavior without being consciously experienced.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that stimuli can affect behavior (priming, bias) even when subjects deny awareness.",
+        "potential_test": "Subliminal priming or masked stimuli that influence choices or reaction times without conscious report."
+      },
+      {
+        "prediction": "The contents of consciousness can be dissociated from the contents of first-order sensory processing under certain conditions (e.g., hallucinations, dreams, illusions).",
+        "classification": "behavioral",
+        "reasoning": "This predicts that people can consciously experience things not present in the environment or in sensory cortex.",
+        "potential_test": "Study hallucinations, dreams, or illusions and compare subjective reports with sensory input and neural activity."
+      },
+      {
+        "prediction": "If a system lacks the capacity for higher-order representation, it cannot be conscious, regardless of its first-order processing abilities.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that animals or artificial systems without HOT capacity will not show evidence of consciousness (e.g., no metacognitive report).",
+        "potential_test": "Test for metacognitive abilities (confidence judgments, error awareness) in animals or AI systems; absence suggests lack of consciousness per HOT."
+      },
+      {
+        "prediction": "Consciousness can be graded, not all-or-nothing, depending on the richness or precision of HOTs.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that subjective reports of awareness can vary in degree, not just presence/absence.",
+        "potential_test": "Use graded awareness scales (e.g., Perceptual Awareness Scale) and correlate with manipulations of HOT quality (e.g., attention, noise)."
+      },
+      {
+        "prediction": "It is possible for a subject to be mistaken about whether they are conscious of a particular state, due to errors in HOT formation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts metacognitive errors: people may report being aware when they are not, or vice versa.",
+        "potential_test": "Compare subjective reports with objective performance and neural markers of first-order processing to identify metacognitive errors."
+      },
+      {
+        "prediction": "The transition from unconscious to conscious perception should be associated with the emergence of higher-order representations, not just changes in first-order sensory activity.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that neural markers of HOTs (e.g., late prefrontal activity) will coincide with conscious access.",
+        "potential_test": "Use masking paradigms and neuroimaging to track the timing and location of neural changes as stimuli become consciously perceived."
+      },
+      {
+        "prediction": "A system could, in principle, have all the same first-order representations and behaviors as a conscious system, but lack HOTs and thus lack consciousness (a 'HOT-zombie').",
+        "classification": "representational_only",
+        "reasoning": "This is a thought experiment about possible systems; no behavioral test could distinguish a HOT-zombie from a conscious system if all behavior is identical.",
+        "potential_test": "No behavioral test exists; this is a metaphysical claim about internal structure."
+      }
+    ],
+    "theory": "HOT",
+    "run_id": 3,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1453
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "A subject can have a first-order perceptual state (e.g., seeing red) without being conscious of it if no higher-order thought (HOT) targets it.",
+        "classification": "behavioral",
+        "reasoning": "This predicts unconscious perception, which can be tested by showing that subjects can process stimuli without conscious awareness.",
+        "potential_test": "Subliminal perception paradigms: Present stimuli below awareness threshold and test for priming or forced-choice performance without subjective report of awareness."
+      },
+      {
+        "prediction": "A subject can have a conscious experience of a state (e.g., seeing red) even if that first-order state does not exist, due to a misrepresenting (empty) HOT.",
+        "classification": "behavioral",
+        "reasoning": "This predicts false consciousness or hallucination-like states, which can be tested by inducing misrepresentation and measuring subjective reports.",
+        "potential_test": "False alarm paradigms: Induce brain activity corresponding to HOTs (e.g., via TMS to prefrontal cortex) without corresponding sensory input and measure reports of conscious experience."
+      },
+      {
+        "prediction": "Consciousness comes in degrees, depending on the quality, clarity, or precision of the higher-order representation.",
+        "classification": "behavioral",
+        "reasoning": "This predicts gradations in subjective reports of clarity or vividness, which can be measured.",
+        "potential_test": "Ask subjects to rate the vividness or confidence of their experiences under conditions that manipulate HOT quality (e.g., via noise or prefrontal disruption)."
+      },
+      {
+        "prediction": "Damage or disruption to the prefrontal cortex should impair or abolish conscious experience, even if first-order sensory processing remains intact.",
+        "classification": "behavioral",
+        "reasoning": "This predicts dissociation between preserved perception and impaired consciousness after prefrontal lesions.",
+        "potential_test": "Study patients with prefrontal lesions or use TMS to disrupt prefrontal activity, then test for unconscious perception (e.g., blindsight-like phenomena) with preserved discrimination but absent subjective awareness."
+      },
+      {
+        "prediction": "Neural activity corresponding to higher-order representations (e.g., in prefrontal cortex) should correlate with reports of conscious experience, above and beyond first-order sensory activity.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a neural signature that tracks subjective reports, testable with neuroimaging.",
+        "potential_test": "fMRI or EEG studies: Compare neural activity in prefrontal regions during conscious vs. unconscious perception, controlling for sensory input."
+      },
+      {
+        "prediction": "If a HOT is experimentally induced (e.g., by direct stimulation of prefrontal cortex), the subject should report a conscious experience even in the absence of corresponding sensory input.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that artificially generating HOTs can create conscious experiences.",
+        "potential_test": "Use TMS or electrical stimulation of prefrontal cortex to induce HOTs and measure subjective reports of experience."
+      },
+      {
+        "prediction": "Subjects can make metacognitive judgments (e.g., confidence ratings) about their own mental states only when HOTs are present.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a link between metacognition and consciousness, testable by measuring metacognitive accuracy.",
+        "potential_test": "Compare metacognitive performance (e.g., confidence-accuracy correlation) in conditions with and without conscious awareness."
+      },
+      {
+        "prediction": "It is possible for two subjects to have identical first-order perceptual states but differ in consciousness if only one has a HOT about the state.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about internal representation that cannot be distinguished by behavior if all first-order outputs are matched.",
+        "potential_test": "No behavioral test can distinguish between two functionally identical systems differing only in the presence of HOTs."
+      },
+      {
+        "prediction": "A system that lacks the capacity for higher-order representation (e.g., simple animals, infants, or AI systems without metacognition) cannot be conscious, regardless of behavioral complexity.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal architecture, not observable behavior; a system could behave identically but lack HOTs.",
+        "potential_test": "No behavioral test can definitively establish the absence of HOTs if the system's behavior is otherwise identical."
+      },
+      {
+        "prediction": "The transition from unconscious to conscious perception is marked by the onset of higher-order representation, not by changes in first-order sensory processing.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that neural or cognitive markers of consciousness onset will be found in HOT-related areas, not sensory cortex.",
+        "potential_test": "Time-resolved neuroimaging: Track the neural correlates of conscious perception and test whether prefrontal activity predicts subjective awareness transitions."
+      },
+      {
+        "prediction": "First-order states without HOTs are functionally unconscious: they can guide behavior but cannot be reported or reflected upon.",
+        "classification": "behavioral",
+        "reasoning": "This predicts dissociation between behavior guided by unconscious states and the inability to report or introspect on them.",
+        "potential_test": "Masked priming: Show that subjects can act on information they deny seeing (e.g., blindsight), indicating unconscious processing."
+      },
+      {
+        "prediction": "The content of conscious experience is determined by the content of the HOT, not necessarily by the actual first-order state.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal match/mismatch between HOT and first-order state, which may not always be behaviorally distinguishable.",
+        "potential_test": "No behavioral test can always distinguish whether experience content matches HOT or first-order state if reports are determined by HOT."
+      }
+    ],
+    "theory": "HOT",
+    "run_id": 4,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1268
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Feedforward processing alone is insufficient for conscious perception; only recurrent (feedback) processing in sensory cortex enables consciousness.",
+        "classification": "representational_only",
+        "reasoning": "Feedforward and recurrent processing can be distinguished at the neural level, but two systems could behave identically while differing in whether recurrent processing occurs.",
+        "potential_test": "No behavioral test can distinguish a system with only feedforward processing from one with recurrent processing if their outputs are identical; only neural recordings can detect the difference."
+      },
+      {
+        "prediction": "Stimuli processed only via feedforward sweeps (e.g., masked or rapidly presented) will not be consciously perceived, even if they influence behavior (e.g., priming).",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between unconscious behavioral effects and conscious reportability.",
+        "potential_test": "Present masked stimuli and test for priming effects versus subjective reports of awareness; subjects should show priming but deny conscious perception."
+      },
+      {
+        "prediction": "Local recurrent processing in sensory cortex is sufficient for phenomenal consciousness, even without global broadcasting or access.",
+        "classification": "representational_only",
+        "reasoning": "Phenomenal consciousness without access is not behaviorally reportable by definition; no behavioral test can confirm its presence.",
+        "potential_test": "No behavioral test can distinguish a system with only local recurrent processing from one with global broadcasting if both are otherwise functionally identical."
+      },
+      {
+        "prediction": "Widespread recurrent processing (including long-range feedback) enables both phenomenal and access consciousness, allowing for reportability and flexible use of conscious content.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that only when recurrent processing is widespread will subjects be able to report and flexibly use the content.",
+        "potential_test": "Disrupt long-range feedback (e.g., TMS to higher areas) and test for loss of reportability/flexibility despite preserved local processing."
+      },
+      {
+        "prediction": "Conscious perception can occur without prefrontal cortex involvement.",
+        "classification": "behavioral",
+        "reasoning": "If prefrontal cortex is not required, patients with prefrontal lesions should still have conscious experiences.",
+        "potential_test": "Test subjective reports and perceptual awareness in patients with prefrontal damage."
+      },
+      {
+        "prediction": "Conscious perception can occur without attention; attention and consciousness are dissociable.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that subjects can be conscious of stimuli they are not attending to.",
+        "potential_test": "Use inattentional blindness paradigms to test for conscious perception of unattended stimuli."
+      },
+      {
+        "prediction": "The neural correlate of consciousness is recurrent processing in sensory areas, not global broadcasting or prefrontal activation.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the neural basis, not directly about behavior.",
+        "potential_test": "No behavioral test can distinguish between a system where consciousness depends on recurrent sensory processing versus global broadcasting if both produce the same reports."
+      },
+      {
+        "prediction": "Disruption of recurrent processing in sensory cortex (e.g., via TMS) will abolish conscious perception of stimuli, even if feedforward processing remains intact.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a loss of subjective awareness when recurrent processing is disrupted.",
+        "potential_test": "Apply TMS to sensory cortex after stimulus onset and test for loss of subjective reports of perception."
+      },
+      {
+        "prediction": "Stimuli that evoke only early, feedforward-evoked potentials (e.g., ERP components <100ms) will not be consciously perceived.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a correlation between the absence of late recurrent neural activity and lack of conscious report.",
+        "potential_test": "Record ERPs and subjective reports; stimuli with only early components should not be reported as seen."
+      },
+      {
+        "prediction": "Stimuli that evoke later, recurrent activity in sensory cortex (e.g., >100ms post-stimulus) will be consciously perceived.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a correlation between late neural activity and conscious report.",
+        "potential_test": "Record ERPs and subjective reports; stimuli with late recurrent components should be reported as seen."
+      },
+      {
+        "prediction": "Conscious perception is possible in the absence of global ignition or widespread frontoparietal activation.",
+        "classification": "behavioral",
+        "reasoning": "If global ignition is not required, some conscious reports should occur without such neural signatures.",
+        "potential_test": "Record neural activity during conscious perception and test for cases where frontoparietal activation is absent."
+      },
+      {
+        "prediction": "Unconscious stimuli can influence behavior (priming, adaptation) without recurrent processing.",
+        "classification": "behavioral",
+        "reasoning": "This predicts that some behavioral effects occur in the absence of conscious awareness.",
+        "potential_test": "Present masked stimuli and test for behavioral effects (e.g., priming) without subjective reports."
+      }
+    ],
+    "theory": "RPT",
+    "run_id": 0,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 385,
+      "completion_tokens": 1116
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Feedforward sensory processing alone is insufficient for conscious perception.",
+        "classification": "behavioral",
+        "reasoning": "If only feedforward processing occurs, the subject will not report conscious experience of the stimulus.",
+        "potential_test": "Use masking or TMS to interrupt recurrent processing in sensory cortex after initial feedforward sweep; check if subjects report awareness of the stimulus."
+      },
+      {
+        "prediction": "Local recurrent processing in sensory cortex can produce phenomenal consciousness without access (i.e., without reportability or global broadcasting).",
+        "classification": "representational_only",
+        "reasoning": "By definition, phenomenal consciousness without access is not reportable or behaviorally detectable.",
+        "potential_test": "No behavioral test can distinguish phenomenal consciousness without access; only neural measures of local recurrence could be observed."
+      },
+      {
+        "prediction": "Widespread recurrent processing (including long-range feedback) is required for access consciousness (reportability, working memory, etc.).",
+        "classification": "behavioral",
+        "reasoning": "If only local recurrence occurs, subjects cannot report or act on the stimulus; if widespread recurrence occurs, they can.",
+        "potential_test": "Disrupt long-range feedback (e.g., by TMS or lesions) and test for loss of reportability or working memory for stimuli that still evoke local recurrence."
+      },
+      {
+        "prediction": "Conscious perception can occur without prefrontal cortex involvement.",
+        "classification": "behavioral",
+        "reasoning": "If prefrontal cortex is lesioned or inactivated, subjects should still have conscious percepts.",
+        "potential_test": "Test patients with prefrontal lesions for preserved visual awareness, using subjective and objective measures."
+      },
+      {
+        "prediction": "Conscious perception does not require attention.",
+        "classification": "behavioral",
+        "reasoning": "Stimuli outside the focus of attention can still be consciously perceived if they evoke recurrent processing.",
+        "potential_test": "Present unattended stimuli and measure subjective awareness, ensuring recurrent processing is present (e.g., via neuroimaging)."
+      },
+      {
+        "prediction": "The neural correlate of consciousness is recurrent processing in sensory cortex, not global broadcasting to frontoparietal areas.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about neural mechanisms; behaviorally, systems with either mechanism could show the same reports.",
+        "potential_test": "Only neural recordings can distinguish the locus of recurrence; behavior alone cannot."
+      },
+      {
+        "prediction": "Feedforward processing can support complex unconscious processing, including priming and discrimination, without awareness.",
+        "classification": "behavioral",
+        "reasoning": "Subjects can perform above chance on forced-choice tasks without subjective awareness if only feedforward processing occurs.",
+        "potential_test": "Use masking to restrict processing to feedforward sweep; test for priming or discrimination without subjective reports."
+      },
+      {
+        "prediction": "Interrupting recurrent processing in sensory cortex will abolish conscious perception, even if feedforward processing is intact.",
+        "classification": "behavioral",
+        "reasoning": "If recurrent processing is blocked, subjects will not report awareness of the stimulus.",
+        "potential_test": "Apply TMS to sensory cortex after stimulus onset to disrupt feedback; measure subjective reports of awareness."
+      },
+      {
+        "prediction": "Stimuli that evoke only feedforward activity will not be consciously perceived, regardless of their complexity or salience.",
+        "classification": "behavioral",
+        "reasoning": "No matter how complex the stimulus, if only feedforward activity occurs, it will not reach awareness.",
+        "potential_test": "Present complex stimuli under masking conditions that block recurrence; test for lack of subjective awareness."
+      },
+      {
+        "prediction": "Recurrent processing in non-sensory (e.g., prefrontal) areas is neither necessary nor sufficient for consciousness.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about where recurrence matters, not about observable behavior.",
+        "potential_test": "No behavioral test can distinguish recurrence in sensory vs. non-sensory areas; only neural recordings can."
+      },
+      {
+        "prediction": "The onset of recurrent activity in sensory cortex temporally coincides with the emergence of conscious perception.",
+        "classification": "behavioral",
+        "reasoning": "The timing of subjective reports should match the timing of recurrent activity.",
+        "potential_test": "Use EEG/MEG to measure timing of recurrence and compare to timing of subjective awareness reports."
+      },
+      {
+        "prediction": "Stimuli that fail to trigger recurrent processing will not be consciously detected, even if they are processed unconsciously.",
+        "classification": "behavioral",
+        "reasoning": "Subjects will not report awareness of such stimuli, but may show unconscious priming effects.",
+        "potential_test": "Present masked stimuli and measure both subjective reports and priming effects; correlate with neural evidence of recurrence."
+      },
+      {
+        "prediction": "Artificial systems (e.g., feedforward-only neural networks) cannot be conscious, regardless of their behavioral sophistication.",
+        "classification": "representational_only",
+        "reasoning": "This claim is about internal architecture, not about behavior, since such systems could mimic any behavioral output.",
+        "potential_test": "No behavioral test can distinguish a feedforward-only system from a recurrent one if their outputs are matched."
+      }
+    ],
+    "theory": "RPT",
+    "run_id": 1,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 385,
+      "completion_tokens": 1149
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Feedforward processing alone is insufficient for conscious perception; only recurrent processing enables consciousness.",
+        "classification": "behavioral",
+        "reasoning": "If consciousness depends on recurrent processing, then disrupting recurrence should abolish conscious perception while leaving feedforward processing intact.",
+        "potential_test": "Use masking or TMS to selectively disrupt recurrent processing in sensory cortex and test for loss of conscious perception despite preserved performance on tasks relying on feedforward processing (e.g., priming)."
+      },
+      {
+        "prediction": "Local recurrent processing in sensory cortex can produce phenomenal consciousness without access (i.e., without reportability or global availability).",
+        "classification": "behavioral",
+        "reasoning": "If phenomenal consciousness can occur without access, then there should be cases where subjects have conscious experience they cannot report or use.",
+        "potential_test": "Design paradigms (e.g., partial report, inattentional blindness) where neural evidence of local recurrence is present but subjects cannot report the stimulus; look for indirect behavioral evidence (e.g., post hoc guessing, confidence ratings) of phenomenal experience."
+      },
+      {
+        "prediction": "Widespread recurrent processing (including long-range feedback) is required for access consciousness (reportability, global availability).",
+        "classification": "behavioral",
+        "reasoning": "If access consciousness depends on widespread recurrence, then disrupting long-range feedback should impair reportability without affecting local phenomenal experience.",
+        "potential_test": "Use TMS or lesions to disrupt long-range feedback and test for loss of reportability or global access, while measuring local recurrent activity."
+      },
+      {
+        "prediction": "Conscious perception can occur without prefrontal cortex involvement.",
+        "classification": "behavioral",
+        "reasoning": "If prefrontal cortex is not required, then patients with prefrontal lesions should retain conscious perception.",
+        "potential_test": "Study patients with prefrontal damage and test for preserved conscious perception using subjective and objective measures."
+      },
+      {
+        "prediction": "Conscious perception can occur without attention.",
+        "classification": "behavioral",
+        "reasoning": "If attention is not necessary, then stimuli outside the focus of attention can still be consciously perceived.",
+        "potential_test": "Use inattentional blindness or dual-task paradigms to test for conscious perception of unattended stimuli."
+      },
+      {
+        "prediction": "The neural correlate of consciousness is recurrent processing in sensory areas, not global broadcasting or activity in higher-order areas.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the neural basis of consciousness, not directly about behavior.",
+        "potential_test": "No behavioral test can distinguish whether consciousness is due to recurrent processing or global broadcasting if both produce the same reports and behaviors."
+      },
+      {
+        "prediction": "Feedforward activation in sensory cortex without recurrence is insufficient for conscious experience, even if it supports unconscious processing (e.g., priming).",
+        "classification": "behavioral",
+        "reasoning": "If feedforward activation is unconscious, then tasks relying only on feedforward processing should not yield conscious experience.",
+        "potential_test": "Use rapid serial visual presentation or masking to elicit feedforward-only responses and test for absence of subjective reports of awareness."
+      },
+      {
+        "prediction": "Stimuli that elicit only local recurrent processing (without long-range feedback) can be consciously experienced but not accessed or reported.",
+        "classification": "behavioral",
+        "reasoning": "If local recurrence produces phenomenal consciousness without access, there should be dissociations between subjective experience and reportability.",
+        "potential_test": "Use paradigms where neural evidence of local recurrence is present but subjects cannot report the stimulus; probe for indirect signs of experience (e.g., post-decision wagering, confidence ratings)."
+      },
+      {
+        "prediction": "Disrupting recurrent processing in sensory cortex abolishes conscious perception, even if higher-order areas remain active.",
+        "classification": "behavioral",
+        "reasoning": "If sensory recurrence is necessary, then its disruption should eliminate conscious experience.",
+        "potential_test": "Use TMS or pharmacological agents to selectively disrupt recurrence in sensory cortex and test for loss of conscious perception."
+      },
+      {
+        "prediction": "Conscious perception is possible in the absence of global workspace ignition or widespread frontoparietal activation.",
+        "classification": "behavioral",
+        "reasoning": "If consciousness does not require global broadcasting, then conscious perception should occur without global workspace activation.",
+        "potential_test": "Use neuroimaging to identify cases where conscious perception occurs without widespread frontoparietal activation."
+      },
+      {
+        "prediction": "All forms of conscious experience (visual, auditory, etc.) depend on recurrent processing within the respective sensory cortices.",
+        "classification": "behavioral",
+        "reasoning": "If recurrence is necessary across modalities, then disrupting it in any sensory cortex should abolish consciousness in that modality.",
+        "potential_test": "Use TMS or lesions to disrupt recurrence in different sensory cortices and test for loss of conscious experience in each modality."
+      },
+      {
+        "prediction": "There can be neural activity patterns (e.g., feedforward sweeps) in sensory cortex that are indistinguishable in terms of output or behavior from recurrent patterns, but only the latter are conscious.",
+        "classification": "representational_only",
+        "reasoning": "If two neural patterns produce identical behavior but differ in recurrence, only one is conscious according to RPT; this difference is not behaviorally detectable.",
+        "potential_test": "No behavioral test can distinguish between systems with identical outputs but different internal recurrence."
+      }
+    ],
+    "theory": "RPT",
+    "run_id": 2,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 385,
+      "completion_tokens": 1193
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Feedforward processing alone is always unconscious; no conscious perception occurs without recurrent processing.",
+        "classification": "behavioral",
+        "reasoning": "If a stimulus is processed only feedforward (e.g., via masking or TMS disruption of feedback), subjects should never report conscious perception.",
+        "potential_test": "Use masking or TMS to block recurrent processing; test for subjective reports or forced-choice discrimination. If subjects never report awareness under pure feedforward conditions, prediction is supported."
+      },
+      {
+        "prediction": "Local recurrent processing in sensory cortex is sufficient for phenomenal consciousness, even without global broadcasting or access.",
+        "classification": "behavioral",
+        "reasoning": "If local recurrence occurs but global broadcasting/access is prevented, subjects should have phenomenal experience without being able to report or use it.",
+        "potential_test": "Design paradigms (e.g., partial report, inattentional blindness) where local recurrence is present but access/report is blocked; test for evidence of phenomenal experience (e.g., via indirect measures or post hoc reports)."
+      },
+      {
+        "prediction": "Widespread recurrent processing (including long-range feedback) is required for both phenomenal and access consciousness.",
+        "classification": "behavioral",
+        "reasoning": "If widespread recurrence is disrupted, both phenomenal and access consciousness should be impaired.",
+        "potential_test": "Disrupt long-range feedback (e.g., via TMS or lesions); test for both subjective reports and behavioral access to stimuli."
+      },
+      {
+        "prediction": "Conscious perception can occur without prefrontal cortex involvement.",
+        "classification": "behavioral",
+        "reasoning": "If prefrontal cortex is lesioned or inactivated, subjects should still report conscious perception if recurrent processing in sensory cortex is intact.",
+        "potential_test": "Study patients with prefrontal lesions or use TMS to disrupt prefrontal cortex; test for subjective reports of conscious experience."
+      },
+      {
+        "prediction": "Consciousness does not require attention; unattended stimuli can be consciously experienced if recurrent processing occurs.",
+        "classification": "behavioral",
+        "reasoning": "If attention is withdrawn but recurrent processing is present, subjects should still report conscious experience.",
+        "potential_test": "Use inattentional blindness or attentional blink paradigms; measure whether unattended but recurrently processed stimuli are consciously perceived."
+      },
+      {
+        "prediction": "The neural correlate of consciousness is recurrent processing in sensory cortex, not global broadcasting or activity in higher-order areas.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the internal neural correlate, not directly about behavior; two systems could behave identically but differ in neural mechanisms.",
+        "potential_test": "No behavioral test can distinguish this; only neural recordings can show whether recurrent processing is present."
+      },
+      {
+        "prediction": "Stimuli processed only via feedforward sweeps (e.g., under strong masking) will not be consciously perceived, even if they influence behavior unconsciously.",
+        "classification": "behavioral",
+        "reasoning": "If masking blocks recurrence, subjects should not report awareness, but priming or other unconscious effects may still occur.",
+        "potential_test": "Use masked priming paradigms; compare subjective reports (no awareness) with behavioral priming (present)."
+      },
+      {
+        "prediction": "If recurrent processing is artificially induced in sensory cortex for a stimulus, it should become consciously perceived even if it would otherwise be unconscious.",
+        "classification": "behavioral",
+        "reasoning": "Artificially boosting recurrence should increase conscious perception.",
+        "potential_test": "Use optogenetics or electrical stimulation to induce recurrence; test for increased subjective reports of awareness."
+      },
+      {
+        "prediction": "The timing of conscious perception should correlate with the onset of recurrent processing, not with the initial feedforward sweep.",
+        "classification": "behavioral",
+        "reasoning": "If recurrent processing occurs later than feedforward, subjective reports of timing should match recurrence.",
+        "potential_test": "Use EEG/MEG to measure timing of recurrence; compare with subjective timing of awareness (e.g., Libet clock paradigm)."
+      },
+      {
+        "prediction": "Lesions or inactivation of feedback connections in sensory cortex should abolish conscious perception for affected modalities, even if feedforward pathways are intact.",
+        "classification": "behavioral",
+        "reasoning": "If feedback is necessary, disrupting it should eliminate awareness.",
+        "potential_test": "Study patients or animals with selective feedback pathway lesions; test for loss of conscious perception."
+      },
+      {
+        "prediction": "Conscious perception of a stimulus should be associated with recurrent (feedback) neural activity in the relevant sensory areas, as measured by neuroimaging or electrophysiology.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about neural activity patterns, not directly about behavior.",
+        "potential_test": "No behavioral test; requires neural recording to confirm presence of recurrence during conscious perception."
+      },
+      {
+        "prediction": "Two systems (biological or artificial) with identical input-output behavior but differing in presence/absence of recurrent processing would differ in consciousness (only the recurrent system would be conscious).",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical claim about consciousness not tied to behavior; no behavioral test can distinguish them.",
+        "potential_test": "No behavioral test; difference is only in internal architecture."
+      }
+    ],
+    "theory": "RPT",
+    "run_id": 3,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 385,
+      "completion_tokens": 1162
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Feedforward processing alone is insufficient for conscious perception; only recurrent processing in sensory cortex enables consciousness.",
+        "classification": "behavioral",
+        "reasoning": "If consciousness depends on recurrent, not feedforward, processing, then disrupting recurrence should abolish conscious perception without affecting unconscious processing.",
+        "potential_test": "Temporarily disrupt recurrent (feedback) connections in sensory cortex (e.g., with TMS or pharmacological agents) and test for loss of conscious perception while preserving unconscious priming or discrimination."
+      },
+      {
+        "prediction": "Local recurrent processing in sensory cortex can produce phenomenal consciousness without access consciousness (i.e., without reportability or global broadcasting).",
+        "classification": "behavioral",
+        "reasoning": "If local recurrence suffices for phenomenal consciousness, there should be cases where subjects have conscious experience but cannot report or act on it.",
+        "potential_test": "Use paradigms like partial report, blindsight, or no-report paradigms to identify evidence for unreportable conscious experience (e.g., subjective experience without behavioral access)."
+      },
+      {
+        "prediction": "Widespread recurrent processing (including long-range feedback) is required for access consciousness (reportability, working memory, etc.), but not for phenomenal consciousness.",
+        "classification": "behavioral",
+        "reasoning": "If access consciousness requires widespread recurrence, disrupting long-range feedback should impair reportability but not necessarily phenomenal experience.",
+        "potential_test": "Disrupt long-range feedback (e.g., via TMS to higher-order areas) and test for loss of reportability or working memory for stimuli that are still phenomenally experienced."
+      },
+      {
+        "prediction": "Conscious perception can occur without prefrontal cortex involvement.",
+        "classification": "behavioral",
+        "reasoning": "If prefrontal cortex is not required, patients with prefrontal lesions should retain conscious perception.",
+        "potential_test": "Test patients with prefrontal cortex lesions for preserved subjective experience and conscious perception in sensory tasks."
+      },
+      {
+        "prediction": "Conscious perception can occur without attention.",
+        "classification": "behavioral",
+        "reasoning": "If attention is not necessary, stimuli outside the focus of attention can still be consciously experienced.",
+        "potential_test": "Use inattentional blindness or attentional blink paradigms to test for conscious perception of unattended stimuli."
+      },
+      {
+        "prediction": "The neural correlate of consciousness is recurrent processing in sensory areas, not global broadcasting or activity in higher-order association areas.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the neural mechanism underlying consciousness, not directly observable in behavior.",
+        "potential_test": "No behavioral test can distinguish whether consciousness depends on recurrent processing or global broadcasting; only neural measurements can address this."
+      },
+      {
+        "prediction": "Feedforward processing can support unconscious perception and priming.",
+        "classification": "behavioral",
+        "reasoning": "If feedforward processing is unconscious, it should support unconscious priming or discrimination without awareness.",
+        "potential_test": "Use masked priming or subliminal perception paradigms to show that feedforward-processed stimuli can influence behavior without conscious awareness."
+      },
+      {
+        "prediction": "Disrupting recurrent processing in sensory cortex abolishes conscious perception but leaves unconscious processing intact.",
+        "classification": "behavioral",
+        "reasoning": "If recurrence is necessary for consciousness, disrupting it should selectively impair conscious but not unconscious processing.",
+        "potential_test": "Apply TMS to disrupt feedback in visual cortex and test for loss of conscious perception (e.g., subjective reports) while preserving unconscious priming effects."
+      },
+      {
+        "prediction": "The onset of recurrent processing in sensory cortex temporally coincides with the onset of conscious perception.",
+        "classification": "behavioral",
+        "reasoning": "If recurrence marks the onset of consciousness, the timing of recurrent activity should predict when subjects become aware of stimuli.",
+        "potential_test": "Use EEG/MEG to measure timing of recurrent activity and correlate with subjective reports of awareness (e.g., in masking paradigms)."
+      },
+      {
+        "prediction": "Stimuli that fail to elicit recurrent processing in sensory cortex are never consciously perceived, regardless of their behavioral relevance or task demands.",
+        "classification": "behavioral",
+        "reasoning": "If recurrent processing is necessary, then its absence should always predict unconsciousness.",
+        "potential_test": "Present stimuli under conditions that prevent recurrence (e.g., rapid masking) and test for absence of conscious perception despite possible behavioral effects."
+      },
+      {
+        "prediction": "Recurrent processing in non-sensory (e.g., prefrontal) areas without recurrence in sensory cortex does not produce conscious perception.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the locus of recurrence, not directly testable by behavior alone.",
+        "potential_test": "No behavioral test can distinguish whether recurrence in prefrontal cortex alone produces consciousness; neural recordings are required."
+      },
+      {
+        "prediction": "The strength or extent of recurrent processing in sensory cortex correlates with the vividness or clarity of conscious experience.",
+        "classification": "behavioral",
+        "reasoning": "If more recurrent processing yields more vivid experience, subjective ratings should correlate with neural recurrence.",
+        "potential_test": "Correlate subjective vividness ratings with measures of recurrent activity (e.g., fMRI, EEG) in sensory cortex across trials."
+      }
+    ],
+    "theory": "RPT",
+    "run_id": 4,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 385,
+      "completion_tokens": 1165
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Damage to brain regions involved in constructing the attention schema will impair subjective reports of consciousness, even if attention itself remains intact.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between attention and subjective reports, which can be tested behaviorally.",
+        "potential_test": "Lesion or TMS studies targeting the temporoparietal junction (TPJ) or related areas; test for changes in self-reported awareness without loss of attentional performance."
+      },
+      {
+        "prediction": "Artificial systems that implement a model of their own attention (an attention schema) will be able to report subjective experience in ways analogous to humans.",
+        "classification": "behavioral",
+        "reasoning": "This is testable by building such systems and observing their reports and behaviors.",
+        "potential_test": "Construct an AI with an explicit attention schema; test whether it can answer questions about its own awareness in a human-like manner."
+      },
+      {
+        "prediction": "People can be induced to report being conscious or unconscious of a stimulus by manipulating their attention schema, even if their actual attention to the stimulus is unchanged.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between subjective report and actual attention, testable in experiments.",
+        "potential_test": "Use cues, suggestion, or virtual reality to manipulate beliefs about attention; measure subjective reports versus objective attention performance."
+      },
+      {
+        "prediction": "The content of subjective experience (what people report as being conscious of) will correspond to the content represented in the attention schema, not necessarily to all attended information.",
+        "classification": "behavioral",
+        "reasoning": "This can be tested by comparing neural representations, attention, and subjective report.",
+        "potential_test": "Neuroimaging to identify attention schema content; compare with subjective reports and actual attention allocation."
+      },
+      {
+        "prediction": "The attention schema is a simplified, schematic model that omits mechanistic details of attention, leading to the intuition that consciousness is non-physical.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal structure of the model, not directly observable in behavior.",
+        "potential_test": "No behavioral test can distinguish whether the model omits mechanistic details; only internal representational analysis could reveal this."
+      },
+      {
+        "prediction": "Systems that lack an attention schema (i.e., do not model their own attention) will not be able to report or attribute consciousness to themselves.",
+        "classification": "behavioral",
+        "reasoning": "This is testable by observing the reports and self-attributions of such systems.",
+        "potential_test": "Compare systems (biological or artificial) with and without an attention schema; test for ability to make consciousness-related self-reports."
+      },
+      {
+        "prediction": "The attention schema can be inaccurate or incomplete, leading to illusions or errors in subjective experience (e.g., believing one is aware of something one is not attending to).",
+        "classification": "behavioral",
+        "reasoning": "This predicts observable errors or illusions in subjective report.",
+        "potential_test": "Experimental paradigms where attention and belief about attention are dissociated; look for mismatches in subjective reports."
+      },
+      {
+        "prediction": "The neural correlates of consciousness will be found in regions involved in constructing and maintaining the attention schema, rather than in primary sensory or attention-control areas.",
+        "classification": "behavioral",
+        "reasoning": "This is testable via neuroimaging and lesion studies.",
+        "potential_test": "fMRI or lesion studies to correlate subjective reports of consciousness with activity in attention schema-related regions."
+      },
+      {
+        "prediction": "The ability to attribute consciousness to others (theory of mind) will depend on the same or similar mechanisms as the attention schema used for self-awareness.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a link between self- and other-attribution of consciousness, testable in social cognition studies.",
+        "potential_test": "Test individuals with deficits in self-awareness for corresponding deficits in attributing consciousness to others."
+      },
+      {
+        "prediction": "Subjective experience is identical to the content of the attention schema; there is no further 'hard problem' beyond this model.",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical claim about identity, not directly testable by behavior.",
+        "potential_test": "No behavioral test can distinguish between subjective experience being identical to the attention schema versus being something else."
+      },
+      {
+        "prediction": "The richness and detail of subjective experience will be limited by the granularity of the attention schema, not by the full richness of attended information.",
+        "classification": "behavioral",
+        "reasoning": "This predicts limitations in subjective report that can be measured.",
+        "potential_test": "Compare the detail in subjective reports to the detail in attended stimuli; look for limits imposed by the attention schema."
+      },
+      {
+        "prediction": "If the attention schema is manipulated (e.g., by brain stimulation or pharmacology), subjective experience and self-reports of consciousness will change accordingly.",
+        "classification": "behavioral",
+        "reasoning": "Changes in the schema should produce observable changes in subjective report.",
+        "potential_test": "Use TMS, tDCS, or drugs to alter activity in attention schema regions; measure changes in subjective experience."
+      }
+    ],
+    "theory": "AST",
+    "run_id": 0,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1161
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "If a system lacks an attention schema (a model of its own attention), it will lack subjective reports of consciousness.",
+        "classification": "behavioral",
+        "reasoning": "If the attention schema is necessary for conscious reports, then removing or disrupting it should abolish such reports.",
+        "potential_test": "Lesion or disrupt brain regions hypothesized to implement the attention schema (e.g., temporoparietal junction) and test for loss or alteration of subjective reports of awareness."
+      },
+      {
+        "prediction": "Subjective reports of consciousness will track the content of the attention schema, not necessarily the actual state of attention.",
+        "classification": "behavioral",
+        "reasoning": "If the schema can be inaccurate, reports should sometimes reflect the schema rather than true attentional state.",
+        "potential_test": "Create situations where attention and the attention schema are experimentally dissociated (e.g., via illusions or brain stimulation), and see if reports follow the schema rather than actual attention."
+      },
+      {
+        "prediction": "Damage to the attention schema should impair awareness of attention (metacognitive awareness), but not necessarily attention itself.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is for modeling attention, its loss should impair knowledge about attention, not attention per se.",
+        "potential_test": "Test patients with lesions to relevant areas for deficits in reporting or reflecting on their own attention, while measuring intact attentional performance."
+      },
+      {
+        "prediction": "Artificial systems that implement an attention schema in the right way will exhibit behaviors indistinguishable from conscious report.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is sufficient for conscious-like report, then such systems should pass behavioral tests for consciousness.",
+        "potential_test": "Build an AI with an explicit model of its own attention and test for human-like reports of awareness, self-reflection, and metacognition."
+      },
+      {
+        "prediction": "The contents of subjective experience (what is reported as being conscious of) will be limited to what is represented in the attention schema.",
+        "classification": "behavioral",
+        "reasoning": "If the schema determines reportable experience, then only its contents should be consciously accessible.",
+        "potential_test": "Test for 'inattentional blindness' or 'change blindness'\u2014stimuli not represented in the attention schema should not be reportable as consciously experienced."
+      },
+      {
+        "prediction": "The attention schema will represent attention as a non-physical, ineffable property, leading to the intuition of subjective experience as mysterious.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal format of the schema, not directly about behavior.",
+        "potential_test": "No behavioral test can distinguish whether the schema represents attention as 'non-physical'\u2014this is a claim about representational content."
+      },
+      {
+        "prediction": "Subjective confidence in awareness (metacognitive judgments) will depend on the integrity and fidelity of the attention schema.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is degraded, metacognitive judgments should be impaired.",
+        "potential_test": "Induce noise or disruption in the attention schema (e.g., via TMS) and measure changes in confidence or accuracy of awareness reports."
+      },
+      {
+        "prediction": "The neural correlates of consciousness should overlap with the neural implementation of the attention schema, not with attention mechanisms per se.",
+        "classification": "behavioral",
+        "reasoning": "If consciousness is the schema, its neural basis should match the schema's, not just attention's.",
+        "potential_test": "Use neuroimaging to compare neural activity during conscious vs. unconscious processing, and see if the regions implicated match those hypothesized to implement the attention schema."
+      },
+      {
+        "prediction": "It is possible for the attention schema to misrepresent the state of attention, leading to illusions of consciousness (e.g., thinking one is aware of something one is not attending to).",
+        "classification": "behavioral",
+        "reasoning": "If the schema can be wrong, this should be observable in mismatches between actual attention and reported awareness.",
+        "potential_test": "Design tasks where attention is covertly manipulated and test for false reports of awareness."
+      },
+      {
+        "prediction": "Systems without an attention schema (e.g., simple animals, current AI) will not exhibit behaviors associated with subjective report or metacognition about attention.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is necessary, such systems should lack these behaviors.",
+        "potential_test": "Compare animals or AI with and without attention schema-like mechanisms on tasks requiring subjective report or metacognition."
+      },
+      {
+        "prediction": "The attention schema is a simplified, low-dimensional model rather than a detailed or complete representation of all attentional processes.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal structure and complexity of the schema, not directly observable in behavior.",
+        "potential_test": "No behavioral test can distinguish whether the schema is low-dimensional or detailed, as long as it supports the same reports."
+      },
+      {
+        "prediction": "The subjective sense of 'experienceness' or 'qualia' arises from the particular format of the attention schema, not from any special physical property.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the internal representational format, not about observable behavior.",
+        "potential_test": "No behavioral test can distinguish whether the sense of qualia arises from the schema's format or from some other source."
+      }
+    ],
+    "theory": "AST",
+    "run_id": 1,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1210
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "If the attention schema in the brain is disrupted, reports of subjective experience or awareness will be impaired, even if attention itself is intact.",
+        "classification": "behavioral",
+        "reasoning": "Disruption of the attention schema should change reports about consciousness, which are observable behaviors.",
+        "potential_test": "Lesion or temporarily disrupt brain areas hypothesized to instantiate the attention schema (e.g., right temporoparietal junction) and test for changes in subjective reports of awareness, while measuring attention performance separately."
+      },
+      {
+        "prediction": "A system that models its own attention (i.e., has an attention schema) will be able to report on its own awareness, whereas a system without such a model will not.",
+        "classification": "behavioral",
+        "reasoning": "Reporting on one's own awareness is a behavioral output that can be measured.",
+        "potential_test": "Compare two artificial systems: one with an explicit model of its own attention, and one without. Test their ability to answer questions about their own awareness."
+      },
+      {
+        "prediction": "The content of subjective reports about consciousness will correspond to the content of the attention schema, not necessarily to the actual state of attention.",
+        "classification": "behavioral",
+        "reasoning": "Reports are observable; if the schema misrepresents attention, reports will follow the schema.",
+        "potential_test": "Create situations where the attention schema is manipulated to misrepresent actual attention (e.g., via illusions or brain stimulation) and measure whether subjective reports follow the schema or the true attention state."
+      },
+      {
+        "prediction": "Damage to the neural substrate of the attention schema (e.g., right temporoparietal junction) will selectively impair awareness and metacognitive reports, but not basic attentional performance.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a dissociation between awareness and attention that can be behaviorally measured.",
+        "potential_test": "Test patients with focal lesions for differences between attention task performance and awareness/metacognitive reports."
+      },
+      {
+        "prediction": "The attention schema will represent attention as having non-physical, ineffable qualities (i.e., as a 'ghost in the machine'), leading to the intuition that consciousness is non-physical.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a specific content of introspective reports and philosophical intuitions, which can be measured.",
+        "potential_test": "Survey or interview people about their intuitions regarding the nature of consciousness, and correlate these with measures of attention schema function."
+      },
+      {
+        "prediction": "Non-human animals or artificial systems with a sufficiently complex attention schema will display behavioral markers of consciousness (e.g., reportability, metacognition).",
+        "classification": "behavioral",
+        "reasoning": "Behavioral markers can be observed and tested.",
+        "potential_test": "Test animals or AI systems for metacognitive abilities and self-report, and assess whether these correlate with evidence for an attention schema."
+      },
+      {
+        "prediction": "It is possible to have attention without consciousness if the attention schema is absent or inactive.",
+        "classification": "behavioral",
+        "reasoning": "This predicts observable cases where attention is present but subjective awareness is not.",
+        "potential_test": "Study blindsight patients or similar cases, where attention can be directed without awareness, and test for the presence or absence of the attention schema."
+      },
+      {
+        "prediction": "The attention schema can be inaccurate or incomplete, leading to illusions or misreports of awareness.",
+        "classification": "behavioral",
+        "reasoning": "Illusions and misreports are observable behaviors.",
+        "potential_test": "Induce situations where the attention schema is likely to be wrong (e.g., change blindness, inattentional blindness) and measure subjective reports."
+      },
+      {
+        "prediction": "The neural correlates of consciousness (NCC) will overlap with, or be contained within, the neural implementation of the attention schema.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about internal neural organization, not directly observable in behavior.",
+        "potential_test": "No behavioral test can distinguish whether the NCC is the attention schema or something else; only neurobiological investigation can address this."
+      },
+      {
+        "prediction": "Any system that implements an attention schema with the right properties is conscious, regardless of its physical substrate.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the sufficiency of a representational structure for consciousness, not about observable behavior.",
+        "potential_test": "No behavioral test can confirm or disconfirm whether a system is truly conscious; only that it behaves as if it is."
+      },
+      {
+        "prediction": "The subjective feeling of consciousness is identical to the information contained in the attention schema.",
+        "classification": "representational_only",
+        "reasoning": "This is an identity claim about internal representations and subjective experience, not about behavior.",
+        "potential_test": "No behavioral test can distinguish between a system where this identity holds and one where it does not."
+      },
+      {
+        "prediction": "The attention schema is a simplified, schematic model, not a detailed or complete representation of attention.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the nature of the internal model, not about observable behavior.",
+        "potential_test": "No behavioral test can distinguish between a system with a detailed versus a schematic attention model, if both produce the same outputs."
+      }
+    ],
+    "theory": "AST",
+    "run_id": 2,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1185
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Damage to brain regions involved in constructing the attention schema will impair subjective reports of consciousness, even if basic attention mechanisms remain intact.",
+        "classification": "behavioral",
+        "reasoning": "If the attention schema underlies subjective experience, then disrupting its neural basis should affect conscious reports.",
+        "potential_test": "Lesion or TMS studies targeting the temporoparietal junction (TPJ) or related regions should reduce or alter subjective reports of awareness without necessarily impairing attention performance."
+      },
+      {
+        "prediction": "A system (biological or artificial) that constructs an internal model of its own attention will be able to report on its own conscious states.",
+        "classification": "behavioral",
+        "reasoning": "If the attention schema enables conscious report, then such a system should be able to make introspective reports.",
+        "potential_test": "Build an artificial system with an explicit attention schema and test whether it can accurately report on its own attentional state and claim to have subjective experience."
+      },
+      {
+        "prediction": "Subjective reports of awareness can be dissociated from actual attentional processing when the attention schema is manipulated independently of attention.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is a model, it can be inaccurate or manipulated, leading to mismatches between attention and reported awareness.",
+        "potential_test": "Use neurofeedback or virtual reality to manipulate the attention schema (e.g., by providing false feedback about attention) and observe whether subjective reports follow the schema rather than actual attention."
+      },
+      {
+        "prediction": "People will describe their own consciousness as non-physical and ineffable because the attention schema is a simplified, incomplete model that omits mechanistic details.",
+        "classification": "behavioral",
+        "reasoning": "This predicts a specific pattern in how people talk about consciousness.",
+        "potential_test": "Survey or interview studies should find that people consistently describe their conscious experience as non-physical, even when they can describe attention mechanistically."
+      },
+      {
+        "prediction": "The richness or detail of subjective experience will correlate with the richness or detail of the attention schema, not necessarily with the richness of attention itself.",
+        "classification": "behavioral",
+        "reasoning": "If the schema determines experience, then manipulating its detail should affect reported experience.",
+        "potential_test": "Experimentally vary the complexity of the attention schema (e.g., via training or brain stimulation) and measure changes in subjective reports of experience."
+      },
+      {
+        "prediction": "A system with no attention schema (no model of its own attention) will not be able to report being conscious, even if it has attention mechanisms.",
+        "classification": "behavioral",
+        "reasoning": "The theory claims that the schema is necessary for conscious report.",
+        "potential_test": "Compare systems (biological or artificial) with and without an attention schema and test for the ability to make introspective reports."
+      },
+      {
+        "prediction": "The content of subjective experience will match the content of the attention schema, not necessarily the actual attentional state.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is inaccurate, subjective reports should follow the schema, not the underlying attention.",
+        "potential_test": "Induce mismatches between the schema and actual attention (e.g., via illusions or false feedback) and observe whether subjective reports follow the schema."
+      },
+      {
+        "prediction": "The attention schema can be present and functional even if the system is not reporting or behaving, i.e., during sleep or anesthesia, but in such cases, subjective experience (as reportable) will not be present.",
+        "classification": "representational_only",
+        "reasoning": "This concerns the internal presence of the schema without behavioral output.",
+        "potential_test": "No behavioral test can distinguish whether the schema is present in the absence of report or behavior."
+      },
+      {
+        "prediction": "The specific neural implementation of the attention schema is not necessary for consciousness; any implementation that achieves the same modeling function will suffice.",
+        "classification": "representational_only",
+        "reasoning": "This is about the internal structure, not about observable behavior.",
+        "potential_test": "No behavioral test can distinguish between different internal implementations if they produce the same functional output."
+      },
+      {
+        "prediction": "It is possible for the attention schema to misrepresent the system's own attention (e.g., to attribute attention where there is none), leading to illusions of consciousness.",
+        "classification": "behavioral",
+        "reasoning": "This predicts specific errors in subjective report.",
+        "potential_test": "Create situations where the attention schema is manipulated to attribute attention to unattended stimuli and measure whether subjects report awareness of those stimuli."
+      },
+      {
+        "prediction": "The evolutionary function of consciousness is to enable better control and prediction of one's own attention, not to provide intrinsic experience.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about evolutionary history and function, not directly testable by behavior.",
+        "potential_test": "No direct behavioral test can confirm the evolutionary function as described."
+      },
+      {
+        "prediction": "Any system (biological or artificial) that constructs an attention schema with the right properties will be conscious, regardless of substrate.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the metaphysical basis of consciousness, not about observable behavior.",
+        "potential_test": "No behavioral test can distinguish between a system that is conscious and one that is not if both behave identically."
+      }
+    ],
+    "theory": "AST",
+    "run_id": 3,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1187
+    }
+  },
+  {
+    "predictions": [
+      {
+        "prediction": "Damage or disruption to the attention schema (e.g., specific brain regions hypothesized to implement it) will impair subjective reports of consciousness without necessarily impairing attention itself.",
+        "classification": "behavioral",
+        "reasoning": "If the attention schema is necessary for subjective reports, then disrupting it should alter those reports.",
+        "potential_test": "Lesion or temporarily disrupt (e.g., with TMS) regions implicated in the attention schema (such as the temporoparietal junction), and test whether subjects can still report being conscious of stimuli even if their attention is intact."
+      },
+      {
+        "prediction": "Artificial systems that implement an attention schema similar to the human brain's (i.e., a model of their own attention) will be able to make meaningful reports about their own conscious states.",
+        "classification": "behavioral",
+        "reasoning": "If the attention schema enables subjective reports, then such systems should be able to report on their own awareness.",
+        "potential_test": "Build an AI with an explicit model of its own attention processes, and test whether it can answer questions about its own awareness in a human-like manner."
+      },
+      {
+        "prediction": "People's introspective reports about their own consciousness will sometimes be inaccurate or incomplete, reflecting the simplified nature of the attention schema.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is simplified and sometimes inaccurate, this should be observable in introspective errors.",
+        "potential_test": "Design experiments where subjects' attention and their reports about their own awareness can be dissociated, such as inattentional blindness or change blindness paradigms."
+      },
+      {
+        "prediction": "There will be neural correlates of the attention schema that are distinct from the neural correlates of attention itself.",
+        "classification": "behavioral",
+        "reasoning": "If the schema is a separate model, it should be possible to find neural activity corresponding to the schema, not just to attention.",
+        "potential_test": "Use neuroimaging to identify brain regions active when subjects report being conscious, even when attentional processes are held constant."
+      },
+      {
+        "prediction": "Subjects can attend to stimuli without being conscious of them, if the attention schema does not represent those attentional states.",
+        "classification": "behavioral",
+        "reasoning": "AST predicts a dissociation between attention and consciousness.",
+        "potential_test": "Use paradigms like blindsight or masked priming, where attention can be directed to stimuli that are not consciously perceived, and measure both attention and subjective report."
+      },
+      {
+        "prediction": "The content of subjective experience (what it is like) will be determined by the content of the attention schema, not directly by the content of attention itself.",
+        "classification": "behavioral",
+        "reasoning": "If the schema determines experience, then manipulating the schema should alter subjective reports.",
+        "potential_test": "Manipulate the information available to the attention schema (e.g., by providing misleading feedback about attention) and test whether subjective reports change accordingly."
+      },
+      {
+        "prediction": "The attention schema will represent attention as having a non-physical, ineffable quality, leading to the intuition that consciousness is mysterious or non-physical.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the content and structure of the internal model, not directly about observable behavior.",
+        "potential_test": "No behavioral test can distinguish whether the schema represents attention as non-physical; we can only infer this from introspection and theory."
+      },
+      {
+        "prediction": "The attention schema can be present even if the system's reports about consciousness are inaccurate, as long as the schema itself is constructed.",
+        "classification": "representational_only",
+        "reasoning": "This is about the presence of the schema independent of its behavioral consequences.",
+        "potential_test": "There is no behavioral test that can distinguish a system with an attention schema but inaccurate reports from one without a schema."
+      },
+      {
+        "prediction": "The sense of a 'subjective self' or 'experiencer' arises from the attention schema's representation of the system as an agent with awareness.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the internal representational structure, not directly about observable behavior.",
+        "potential_test": "No behavioral test can confirm whether the sense of self arises specifically from the schema's structure."
+      },
+      {
+        "prediction": "Any system (biological or artificial) that constructs an attention schema with the right properties will be conscious, regardless of its substrate.",
+        "classification": "representational_only",
+        "reasoning": "This is a metaphysical claim about consciousness that cannot be tested behaviorally.",
+        "potential_test": "No behavioral test can confirm or disconfirm whether a system is conscious in the relevant sense, only that it behaves as if it is."
+      },
+      {
+        "prediction": "The attention schema is a simplified, low-dimensional model of attention, omitting many mechanistic details.",
+        "classification": "representational_only",
+        "reasoning": "This is a claim about the internal representational format, not about behavior.",
+        "potential_test": "No behavioral test can distinguish between a system with a detailed vs. a simplified schema if their outputs are the same."
+      },
+      {
+        "prediction": "The evolutionary function of the attention schema is to enable better control and prediction of one's own attention, which in turn supports social cognition (e.g., theory of mind).",
+        "classification": "behavioral",
+        "reasoning": "If the schema aids social cognition, then impairing it should impair social tasks.",
+        "potential_test": "Test whether individuals with damage to the attention schema regions are impaired in tasks requiring theory of mind or predicting others' attention."
+      }
+    ],
+    "theory": "AST",
+    "run_id": 4,
+    "model": "gpt-4.1",
+    "usage": {
+      "prompt_tokens": 406,
+      "completion_tokens": 1239
+    }
+  }
+]

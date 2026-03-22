@@ -1,0 +1,29 @@
+\section{Related Work}
+\label{sec:related}
+
+\para{Behavioral testability in philosophy of mind.}
+The idea that meaningful theoretical distinctions must be behaviorally grounded has deep roots.
+\citet{dennett1988quining} argues through a series of thought experiments that qualia---the supposedly private, ineffable properties of experience---are incoherent once stripped of their behavioral and functional correlates.
+\citet{turing1950computing} proposed that behavioral indistinguishability should settle questions about machine thought, a position that implicitly endorses the no costume theories rule.
+On the other side, \citet{chalmers2018meta} defends the conceivability of zombies---beings behaviorally identical to conscious agents but lacking experience---which, if coherent, would imply that some meaningful distinctions are inherently non-behavioral.
+\citet{block1995confusion} draws a related distinction between phenomenal consciousness (P-consciousness) and access consciousness (A-consciousness), arguing that P-consciousness may exist without behavioral access.
+Our work does not resolve this philosophical debate but instead asks an empirical question: \emph{to what extent} do current theories actually rely on non-behavioral distinctions?
+
+\para{The unfolding argument.}
+\citet{doerig2019unfolding} provide the most direct formal precursor to our work.
+They show that any recurrent neural network can be ``unfolded'' into a feedforward network with identical input-output behavior.
+Since \IIT assigns high integrated information ($\Phi$) to recurrent architectures but zero to their behaviorally equivalent feedforward counterparts, \IIT's core measure is neither necessary nor sufficient for consciousness as indexed by behavior.
+Our Experiment~3 generalizes this argument: rather than proving the existence of a single counterexample, we systematically measure how much each theory's consciousness attributions shift when substrate changes while behavior is held constant.
+
+\para{Theory comparison in consciousness science.}
+Several recent efforts have attempted to compare consciousness theories empirically.
+The COGITATE adversarial collaboration~\citep{melloni2023adversarial} tested preregistered predictions from \IIT and \GNW across 256 participants using fMRI, M-EEG, and iEEG, but results were inconclusive for both theories.
+The ConTraSt database~\citep{yaron2022contrast} cataloged 412 experiments and found that \emph{methodological choices predict theory allegiance irrespective of findings}---a striking pattern consistent with the hypothesis that theories are less empirically distinct than claimed.
+\citet{kirkeby2024quantifying} proposed a Bayesian ``Quantification to the Best Explanation'' framework for scoring theories, noting that most theories agree on cognitive predictions but diverge on phenomenal claims.
+Our work complements these efforts by directly measuring the behavioral content of each theory's predictions rather than comparing how well each theory fits existing data.
+
+\para{LLMs as proxy reasoners.}
+Using language models to systematically apply theoretical frameworks across many scenarios is a relatively new methodological approach.
+\citet{butlin2023consciousness} used a theory-heavy approach to derive indicator properties for AI consciousness, consulting theories of consciousness to identify what substrate and processing features might support experience.
+We adopt a complementary strategy: rather than asking what each theory requires for consciousness, we ask how consistently each theory's predictions track behavior versus substrate.
+The key advantage of an LLM proxy is consistency---it applies each theory with equal engagement, avoiding the bias \citet{yaron2022contrast} documented where human researchers' theory allegiances contaminate their methodological choices.

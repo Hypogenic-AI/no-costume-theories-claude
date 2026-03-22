@@ -1,0 +1,40 @@
+\section{Introduction}
+\label{sec:intro}
+
+Imagine you are convinced that a person sitting across from you is conscious.
+They speak fluently, respond emotionally, and reason about their own mental states.
+Then the person reaches up and removes a mask, revealing that they are a robot.
+Nothing about their behavior has changed---only your knowledge of their substrate.
+Should your assessment of their consciousness change?
+
+If you answer ``yes,'' your theory of consciousness depends on something other than behavior.
+We call such theories \emph{costume theories}: frameworks whose key theoretical distinctions do not correspond to any behavioral test.
+The ``no costume theories'' rule states that all meaningful theoretical distinctions must ultimately cash out in observable behavioral differences; those that do not are \emph{essentially aesthetic}~\citep{dennett1988quining}.
+
+\para{Why this matters.}
+The science of consciousness has produced dozens of competing theories over three decades, yet the field lacks agreed-upon methods for deciding between them~\citep{yaron2022contrast, kirkeby2024quantifying}.
+Adversarial collaborations have yielded inconclusive results~\citep{melloni2023adversarial}, and meta-analyses reveal that methodological choices predict theory allegiance better than empirical findings do~\citep{yaron2022contrast}.
+If much of this disagreement is aesthetic rather than empirical---if theories differ primarily in representational vocabulary rather than behavioral predictions---then the field is allocating resources to distinctions that cannot, even in principle, be resolved by experiment.
+
+\para{The gap.}
+While the philosophical arguments for behavioral testability have been articulated~\citep{dennett1988quining, doerig2019unfolding}, no study has \emph{systematically quantified} how much of each major theory's content is behaviorally testable versus purely representational.
+The ConTraSt database~\citep{yaron2022contrast} catalogs which studies support which theories, but does not directly measure the proportion of testable versus untestable claims.
+The unfolding argument~\citep{doerig2019unfolding} targets Integrated Information Theory (\IIT) specifically, but no comparable analysis spans the full landscape of leading theories.
+
+\para{Our approach.}
+We introduce three complementary metrics---\costumeratio, prediction agreement, and \costumesens---and apply them across five major theories of consciousness: \IIT~\citep{tononi2016iit}, \GNW~\citep{dehaene2011gnw}, \HOT~\citep{rosenthal2005hot}, \RPT~\citep{lamme2006rpt}, and \AST~\citep{graziano2015attention}.
+Using \gptmodel as a knowledgeable proxy reasoner, we conduct three experiments totaling ${\sim}175$ systematic evaluations (\figref{fig:summary}).
+This approach offers consistency (one model applies each theory with equal engagement), scale (20 scenarios $\times$ 5 theories $\times$ multiple runs), and transparency (all prompts and responses are recorded).
+
+\para{Preview of results.}
+\IIT is overwhelmingly a costume theory: 92\% of its predictions are representational-only ($p = 0.007$ vs.\ other theories).
+When behavior is held constant but substrate changes, \IIT scores drop by 84 points ($d = 5.09$), nearly double any other theory.
+The four non-\IIT theories form a cohesive behavioral cluster, agreeing 65--87\% of the time, while \IIT agrees with them only 35--45\%.
+
+We make the following contributions:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We propose the \costumeratio, prediction agreement, and \costumesens metrics for quantifying the empirical content of scientific theories.
+    \item We conduct the first systematic, multi-theory comparison of behavioral versus representational predictions across five leading consciousness theories.
+    \item We provide quantitative evidence that \IIT is the theory most vulnerable to the ``no costume theories'' criterion, with effect sizes exceeding $d = 5$.
+    \item We release all experimental materials---prompts, raw responses, and analysis code---to enable replication and extension.
+\end{itemize}

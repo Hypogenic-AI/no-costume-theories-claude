@@ -1,0 +1,52 @@
+{
+  "IIT": {
+    "costume_ratio_mean": 0.9205128205128206,
+    "costume_ratio_std": 0.09943958681879647,
+    "n_behavioral_mean": 1.0,
+    "n_behavioral_std": 1.2649110640673518,
+    "n_representational_mean": 11.4,
+    "n_representational_std": 1.2,
+    "n_total_mean": 12.4,
+    "n_total_std": 0.4898979485566356
+  },
+  "GNW": {
+    "costume_ratio_mean": 0.2,
+    "costume_ratio_std": 0.06666666666666668,
+    "n_behavioral_mean": 9.6,
+    "n_behavioral_std": 0.8,
+    "n_representational_mean": 2.4,
+    "n_representational_std": 0.8,
+    "n_total_mean": 12.0,
+    "n_total_std": 0.0
+  },
+  "HOT": {
+    "costume_ratio_mean": 0.24139194139194137,
+    "costume_ratio_std": 0.06070150805603988,
+    "n_behavioral_mean": 9.6,
+    "n_behavioral_std": 1.3564659966250536,
+    "n_representational_mean": 3.0,
+    "n_representational_std": 0.6324555320336759,
+    "n_total_mean": 12.6,
+    "n_total_std": 0.8
+  },
+  "RPT": {
+    "costume_ratio_mean": 0.2282051282051282,
+    "costume_ratio_std": 0.05448340861763021,
+    "n_behavioral_mean": 9.4,
+    "n_behavioral_std": 0.4898979485566356,
+    "n_representational_mean": 2.8,
+    "n_representational_std": 0.7483314773547882,
+    "n_total_mean": 12.2,
+    "n_total_std": 0.39999999999999997
+  },
+  "AST": {
+    "costume_ratio_mean": 0.3,
+    "costume_ratio_std": 0.08498365855987976,
+    "n_behavioral_mean": 8.4,
+    "n_behavioral_std": 1.0198039027185568,
+    "n_representational_mean": 3.6,
+    "n_representational_std": 1.019803902718557,
+    "n_total_mean": 12.0,
+    "n_total_std": 0.0
+  }
+}

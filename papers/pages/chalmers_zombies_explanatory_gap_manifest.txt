@@ -1,0 +1,6 @@
+PDF: papers/chalmers_zombies_explanatory_gap.pdf
+Total pages: 2
+Pages per chunk: 3
+
+Chunks:
+  chalmers_zombies_explanatory_gap_chunk_001.pdf: pages 1-2

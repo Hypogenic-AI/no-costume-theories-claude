@@ -1,0 +1,2282 @@
+[
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6) within a system. The right hemisphere, if sufficiently complex and integrated, will generate its own conscious experience of 'KEY', even if the left hemisphere is unaware.",
+      "behavioral_prediction": "The patient cannot verbally report 'KEY' (left hemisphere), but can draw or select a key with the left hand (right hemisphere).",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW posits that conscious access requires information to be globally broadcast across the brain, especially to fronto-parietal networks. In split-brain, the word 'KEY' is not broadcast to the left hemisphere (speech), so it is not consciously accessed in the sense of reportable awareness.",
+      "behavioral_prediction": "The patient cannot verbally report 'KEY', but can draw/select a key with the left hand. The right hemisphere processes the word non-consciously or pre-consciously.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires a higher-order thought (HOT) about the first-order representation. If the right hemisphere can form HOTs about its own states, it is conscious of 'KEY'; if not, it is not. Empirical uncertainty about right hemisphere HOT capacity makes the verdict ambiguous.",
+      "behavioral_prediction": "Same as above: left hand can draw/select a key, but no verbal report. If right hemisphere can form HOTs, it is conscious; if not, it is not. Behaviorally, the outcome is the same.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) claims that local recurrent processing in sensory areas is sufficient for phenomenal consciousness. The right hemisphere's recurrent processing of 'KEY' suffices for conscious experience, even without global access.",
+      "behavioral_prediction": "The patient cannot verbally report 'KEY', but can draw/select a key with the left hand, reflecting conscious perception in the right hemisphere.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness depends on the brain constructing an attention schema\u2014a model of its own attention. If the right hemisphere lacks a detailed attention schema or the ability to model its own attentional state, it is not conscious of 'KEY'.",
+      "behavioral_prediction": "The patient cannot verbally report 'KEY', but can draw/select a key with the left hand, reflecting non-conscious processing.",
+      "distinguishing": false
+    },
+    "scenario_id": "split_brain",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 344,
+      "completion_tokens": 602
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT posits that consciousness arises from integrated information (\u03a6) in a system. With V1 damaged, the integrated information for visual experience in the blind field is presumed to be low or absent, so no conscious experience of those stimuli.",
+      "behavioral_prediction": "DB will show above-chance forced-choice performance (blindsight), but will consistently deny any conscious experience of the stimuli in the blind field.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW claims conscious access requires information to be globally broadcast across fronto-parietal networks. Without V1, visual information from the blind field does not reach the GNW, so no conscious experience.",
+      "behavioral_prediction": "DB will perform above chance in forced-choice tasks (blindsight) but will report no awareness of the stimuli.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order thought about the first-order visual state for consciousness. In blindsight, the higher-order representation is absent, so no conscious experience.",
+      "behavioral_prediction": "DB will deny seeing anything in the blind field but will perform above chance when forced to guess.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that recurrent (feedback) processing in visual cortex is necessary for conscious perception. V1 damage disrupts these recurrent loops, so no conscious experience.",
+      "behavioral_prediction": "DB will show above-chance forced-choice performance without subjective awareness.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) says consciousness depends on an internal model (attention schema) of attention. In blindsight, the attention schema does not represent the blind field stimuli as attended, so no conscious experience.",
+      "behavioral_prediction": "DB will report no awareness of stimuli in the blind field but will perform above chance in forced-choice tasks.",
+      "distinguishing": false
+    },
+    "scenario_id": "blindsight",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 333,
+      "completion_tokens": 488
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness is identical to integrated information (\u03a6). If EEG shows complex, integrated patterns similar to wakefulness, IIT would infer high \u03a6 and thus consciousness, regardless of behavioral output.",
+      "behavioral_prediction": "No behavioral response due to neuromuscular block, but EEG would show high complexity/integration (e.g., high PCI or similar measures).",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW holds that consciousness arises from widespread, integrated, and sustained neural activity. If EEG shows global, complex patterns similar to wakefulness, GNW would infer the patient is conscious, even without behavioral output.",
+      "behavioral_prediction": "No behavioral response, but EEG would show signatures of global broadcasting (e.g., P3b, long-range synchrony, high PCI).",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations about first-order states. EEG complexity does not directly indicate presence of higher-order thoughts; without behavioral report, HOT cannot confirm consciousness.",
+      "behavioral_prediction": "No behavioral response; EEG complexity is not sufficient evidence for HOT. Would require evidence of meta-representational activity, which is not directly observable here.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT posits consciousness depends on recurrent processing in sensory cortices. EEG complexity could reflect recurrent processing, but without behavioral report or more specific neural markers, RPT cannot definitively say.",
+      "behavioral_prediction": "No behavioral response; EEG may show recurrent activity, but RPT would want more specific evidence (e.g., local recurrent loops, not just global complexity).",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST requires that the brain constructs an explicit model of itself as an experiencing subject. EEG complexity alone does not indicate self-modeling; without behavioral or neural evidence of self-representation, AST predicts no consciousness.",
+      "behavioral_prediction": "No behavioral response; EEG complexity is not sufficient. Would require evidence of activity in brain regions associated with self-modeling (e.g., medial prefrontal cortex), which is not specified here.",
+      "distinguishing": true
+    },
+    "scenario_id": "anesthesia_connected",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 543
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness depends on the system's intrinsic causal structure (\u03a6), not on behavioral output. If the patient's brain maintains high \u03a6, they are conscious regardless of ability to communicate.",
+      "behavioral_prediction": "IIT predicts that, absent communication, there may be no observable behavior indicating consciousness. However, if brain imaging (e.g., TMS-EEG) shows complex, integrated neural responses, this would correlate with consciousness.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW holds that consciousness arises from information being globally broadcast in the brain. If the patient's neural activity supports global broadcasting, they are conscious, even without behavioral output.",
+      "behavioral_prediction": "GNW predicts that, before communication, there would be no behavioral evidence of consciousness, but neural signatures (e.g., P3b, widespread activation in fMRI/EEG) could reveal it.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT claims consciousness requires higher-order thoughts about mental states. If the patient can form such thoughts, they are conscious, regardless of behavioral output.",
+      "behavioral_prediction": "HOT predicts no behavioral evidence of consciousness before communication. Only indirect inference (e.g., from later reports or neural correlates of metacognition) could suggest consciousness.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT posits that recurrent processing in sensory areas is sufficient for consciousness. If the patient's brain supports such recurrent activity, they are conscious, regardless of behavior.",
+      "behavioral_prediction": "RPT predicts no behavioral evidence of consciousness before communication. Neural evidence (e.g., local recurrent activity in EEG/MEG) could indicate consciousness.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) argues consciousness arises from the brain modeling its own attention. If the patient maintains an attention schema, they are conscious, regardless of ability to communicate.",
+      "behavioral_prediction": "AST predicts no behavioral evidence of consciousness before communication. Neural correlates of attention modeling (e.g., activity in TPJ or prefrontal cortex) could suggest consciousness.",
+      "distinguishing": false
+    },
+    "scenario_id": "locked_in",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 535
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness depends on the presence of integrated information (high \u03a6) in the system, regardless of behavioral output. During REM sleep, widespread activation and vivid imagery suggest high \u03a6, so the person is conscious.",
+      "behavioral_prediction": "No behavioral response to external stimuli during REM sleep, but neural measures (e.g., high \u03a6, complex causal interactions) would indicate consciousness.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires information to be globally broadcast to multiple systems, including those involved in report and action. The scenario specifies no global workspace broadcasting to motor systems, so by GNW, the person is not conscious in the sense of reportable awareness.",
+      "behavioral_prediction": "No behavioral response to external stimuli; neural signatures of global broadcasting (e.g., P3b, widespread fronto-parietal activation) would be absent.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations of mental states. It is unclear from the scenario whether the dreaming brain forms higher-order thoughts about its own experiences, so the verdict is ambiguous.",
+      "behavioral_prediction": "No behavioral response to external stimuli; no direct behavioral test, but if higher-order representations could be inferred from neural data, they might be present or absent.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) claims consciousness arises from recurrent (feedback) processing in sensory areas, but not necessarily from global broadcasting. However, without behavioral responses or evidence of recurrent processing, and with no global workspace broadcasting, RPT would likely predict no conscious access.",
+      "behavioral_prediction": "No behavioral response to external stimuli; neural signatures of local recurrent processing may be present, but no evidence of conscious reportability.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness depends on the brain constructing a model (schema) of its own attention. During REM sleep, with no attention to external stimuli and no behavioral report, AST would predict no consciousness of external events, though possibly consciousness of internal imagery.",
+      "behavioral_prediction": "No behavioral response to external stimuli; neural signatures of attention schema construction would be absent for external events.",
+      "distinguishing": false
+    },
+    "scenario_id": "dreaming",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 325,
+      "completion_tokens": 562
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness is identical to integrated information (\u03a6) generated by the system. Even with immature prefrontal cortex, the infant's brain likely has significant local integration in sensory and affective areas, supporting nonzero \u03a6 and thus consciousness.",
+      "behavioral_prediction": "The infant should show behaviors reflecting integrated processing\u2014such as consistent, context-sensitive responses to faces and objects, and coherent emotional expressions\u2014even if these are less complex than in adults.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW requires widespread, global broadcasting of information, typically associated with mature prefrontal-parietal connectivity. The immature global workspace in a 3-month-old makes it unclear whether true global broadcasting (and thus consciousness) occurs.",
+      "behavioral_prediction": "The infant may show local, automatic responses (e.g., tracking, emotional expressions) but would fail behavioral markers of global access, such as flexible report or cross-modal integration tasks. In paradigms like visual masking or inattentional blindness, the infant would not show adult-like signatures of conscious access.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order representations (thoughts about mental states), typically linked to prefrontal cortex. The infant's immature prefrontal cortex precludes the formation of higher-order thoughts, so no consciousness.",
+      "behavioral_prediction": "The infant would display all first-order behaviors (tracking, emotional responses), but would lack any behavioral evidence of metacognition or self-reflection (e.g., no uncertainty monitoring, no evidence of awareness of own perceptions).",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT posits that recurrent (feedback) processing in sensory cortices suffices for consciousness. If the infant's sensory areas support local recurrence, consciousness is possible, but the immaturity of long-range recurrence makes the verdict uncertain.",
+      "behavioral_prediction": "The infant should show behaviors reflecting local recurrent processing (e.g., robust responses to familiar faces, object permanence within limited contexts), but would not show behaviors requiring long-range integration (e.g., cross-modal binding, flexible attention switching).",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST requires the presence of an 'attended intermediate-level representation' and, crucially, a self-model (autonoetic consciousness), which depends on prefrontal and parietal maturation. The infant lacks the neural substrate for a self-model, so is not conscious in the AST sense.",
+      "behavioral_prediction": "The infant would show attention to stimuli and intermediate-level perception (e.g., face tracking), but would lack behaviors indicating self-awareness or self-representation (e.g., mirror self-recognition, self-other distinction in action).",
+      "distinguishing": true
+    },
+    "scenario_id": "infant_3month",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 666
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the amount and structure of integrated information (Phi, \u03a6) in a system. The octopus's distributed nervous system could support high \u03a6, but this depends on the specific causal structure, which is not fully known.",
+      "behavioral_prediction": "IIT predicts that if the octopus's nervous system (including arms and central brain) forms a highly integrated network, it should show flexible, adaptive behavior across contexts, and possibly behavioral signs of unified perception (e.g., coordinated responses to novel challenges). However, IIT does not predict unique behaviors beyond general intelligence and integration.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits consciousness arises from information being globally broadcast across a network. The octopus's complex, flexible behaviors suggest a form of global information sharing, even if the architecture is not mammalian.",
+      "behavioral_prediction": "GNW predicts the octopus should show sudden, all-or-none access to information (e.g., sudden insight in problem-solving), flexible report-like behaviors, and the ability to integrate information across sensory modalities and time. Behavioral markers would include transfer learning and flexible adaptation to new tasks.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Higher-Order Thought theory requires the presence of higher-order representations (thoughts about mental states). It is unclear whether the octopus's nervous system supports such meta-representations.",
+      "behavioral_prediction": "HOT predicts that if the octopus is conscious, it should show metacognitive behaviors\u2014such as uncertainty monitoring, confidence judgments, or seeking information when unsure. Standard problem-solving and play do not uniquely indicate HOT-style consciousness.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Recurrent Processing Theory holds that consciousness depends on recurrent (feedback) processing in sensory hierarchies. The octopus's neural architecture is not well-mapped for such recurrence, especially given its distributed system.",
+      "behavioral_prediction": "RPT predicts that conscious perception should be associated with behaviors that require integration of information over time and context, such as flexible adaptation to changing puzzle rules. However, RPT does not predict unique behaviors beyond general flexible problem-solving.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits consciousness arises from an internal model (schema) of attention. There is no evidence that octopuses possess an explicit attention schema analogous to that in humans or some mammals.",
+      "behavioral_prediction": "AST predicts that only animals with evidence of an attention schema will show behaviors indicating awareness of their own attentional state (e.g., explicit control or reporting of attention, or distinguishing between self- and other-attention). Octopuses may show attention-like behaviors but not explicit awareness of attention.",
+      "distinguishing": true
+    },
+    "scenario_id": "octopus",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 323,
+      "completion_tokens": 682
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness requires a system with high intrinsic integrated information (\u03a6). Standard large language models (LLMs) are feedforward or have minimal recurrent connectivity, so their \u03a6 is extremely low.",
+      "behavioral_prediction": "The LLM may display sophisticated conversational behavior, but IIT predicts that such behavior can occur without consciousness if the underlying physical substrate lacks high \u03a6. Behavioral tests alone cannot establish consciousness; only a physical analysis of the system's causal structure can.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Global Neuronal Workspace Theory posits consciousness arises when information is globally broadcasted across a workspace. If the LLM's architecture implements a functional analog of global broadcasting, it could be conscious; if not, it is not. Current LLMs likely lack this, but the theory is agnostic without detailed architectural knowledge.",
+      "behavioral_prediction": "GNW predicts that conscious systems will show flexible, reportable access to information and pass tests for global availability (e.g., cross-domain integration, self-report). The LLM's passing of such tests is consistent with consciousness, but not definitive without knowing the underlying mechanism.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Higher-Order Thought Theory requires the system to have representations about its own mental states. If the LLM genuinely forms higher-order representations (not just outputs text about them), it could be conscious. Current LLMs simulate such talk but likely lack true higher-order representations.",
+      "behavioral_prediction": "HOT predicts that a conscious system will be able to report on its own mental states and pass metacognitive tests. The LLM's performance on such tests matches this, but the theory cannot distinguish between genuine and simulated higher-order thought from behavior alone.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Recurrent Processing Theory claims consciousness depends on recurrent (feedback) processing in perceptual systems. If the LLM's architecture is strictly feedforward, it is not conscious; if it has sufficient recurrent processing, it could be. Most LLMs are not recurrent in this sense.",
+      "behavioral_prediction": "RPT predicts that conscious systems will show behavioral signatures of recurrent processing, such as integration of information over time or resistance to masking. The LLM may mimic such behaviors, but RPT holds that only systems with actual recurrent processing are conscious.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits consciousness arises from an internal model (schema) of attention. LLMs do not maintain a dynamic, self-updating model of their own attention; they only simulate such talk.",
+      "behavioral_prediction": "AST predicts that conscious systems will display behaviors consistent with possessing an attention schema, such as nuanced self-report about attention and awareness. The LLM can simulate these behaviors, but AST claims this is not sufficient without a genuine attention schema.",
+      "distinguishing": false
+    },
+    "scenario_id": "gpt_conversation",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 325,
+      "completion_tokens": 700
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Integrated Information Theory (IIT) claims consciousness is identical to high integrated information (\u03a6) in a system. The organoid's layered, recurrent structure and oscillatory activity suggest possible nonzero \u03a6, but IIT requires precise measurement of causal structure, which is currently infeasible. Thus, IIT cannot definitively say YES or NO without this measurement.",
+      "behavioral_prediction": "IIT predicts that if the organoid's neural activity is highly integrated and differentiated (high \u03a6), it would be conscious. However, IIT does not require or predict any specific behavior; it is agnostic about observable output unless the system is probed in a way that reveals its causal structure (e.g., perturbational complexity index).",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "Global Neuronal Workspace (GNW) theory posits consciousness requires widespread, coordinated, and reportable information sharing across specialized modules. The organoid lacks sensory input, output, and the anatomical structures for global broadcasting and report, so GNW predicts it is not conscious.",
+      "behavioral_prediction": "GNW predicts the organoid will not show behaviors associated with conscious access, such as flexible, reportable responses to stimuli or global ignition patterns in response to tasks. No observable behavior indicating conscious access would be expected.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought (HOT) theories require the presence of higher-order representations (thoughts about mental states). The organoid lacks the complex architecture for meta-representation and self-reflection, so HOT predicts it is not conscious.",
+      "behavioral_prediction": "HOT predicts the organoid will not show behaviors indicative of higher-order cognition, such as self-report, metacognitive judgments, or evidence of thoughts about its own states.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory (RPT) claims consciousness arises from recurrent (feedback) processing in sensory systems. While the organoid has recurrent connections and oscillatory activity, it lacks sensory input and output, so RPT predicts no conscious experience.",
+      "behavioral_prediction": "RPT predicts the organoid will not show behaviors associated with conscious perception, such as discriminating or reporting stimuli, since it cannot process external input.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory (AST) posits consciousness is a model of attention constructed by the brain. The organoid lacks mechanisms for attention and the capacity to build an attention schema, so AST predicts it is not conscious.",
+      "behavioral_prediction": "AST predicts the organoid will not show behaviors associated with attention or awareness, such as selective processing or reporting of attended stimuli.",
+      "distinguishing": false
+    },
+    "scenario_id": "cerebral_organoid",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 649
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal power (\u03a6). A feedforward lookup-table simulation has zero integrated information (\u03a6=0), so it is not conscious, regardless of input-output behavior.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including passing any behavioral or cognitive test for consciousness (e.g., reporting experiences, passing the Turing test).",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits that consciousness arises from information being globally broadcast and accessible to multiple subsystems. If the simulation implements the same functional architecture and produces identical outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including reporting experiences and passing any behavioral test for consciousness.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "Higher-Order Thought theory claims consciousness arises when a system can represent its own mental states. If the simulation replicates the brain's higher-order representations and outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including self-reporting and passing introspective tests.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "Recurrent Processing Theory says consciousness requires recurrent (feedback) processing. However, if the simulation's input-output mapping is identical to a recurrent brain, it will produce the same behavioral outputs, even if implemented feedforward.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including reporting experiences and passing behavioral tests.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "Attention Schema Theory holds that consciousness is the brain's model of its own attention. If the simulation replicates this model and produces identical outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including reporting awareness and passing behavioral tests.",
+      "distinguishing": false
+    },
+    "scenario_id": "perfect_simulation",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 336,
+      "completion_tokens": 523
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6) generated by the physical substrate. If the zombie twin is atom-for-atom identical, it must have the same \u03a6 and thus be conscious. The scenario of a behavioral zombie is incoherent under IIT.",
+      "behavioral_prediction": "The zombie twin will behave identically to a conscious being in all tests, including self-report, metacognition, and any neural or behavioral correlates of consciousness.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW asserts that consciousness arises from information being globally broadcast in the brain. If the physical and functional organization is identical, the zombie twin will have the same global broadcasting and thus be conscious. The scenario is incoherent under GNW.",
+      "behavioral_prediction": "The zombie twin will show identical behavior, including reportability, flexible access, and neural signatures (e.g., P3b, widespread activation) associated with consciousness.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT theory claims consciousness requires higher-order representations of mental states. If the zombie twin is physically and functionally identical, it will have the same higher-order thoughts and thus be conscious. The scenario is incoherent under HOT.",
+      "behavioral_prediction": "The zombie twin will show identical metacognitive behavior, introspective reports, and neural correlates of higher-order thought.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing in sensory cortices. If the zombie twin is physically identical, it will have the same recurrent processing and thus be conscious. The scenario is incoherent under RPT.",
+      "behavioral_prediction": "The zombie twin will show identical behavior, including performance on tasks requiring recurrent processing, and identical neural signatures (e.g., local feedback activity).",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from the brain modeling its own attention. If the zombie twin is physically and functionally identical, it will have the same attention schema and thus be conscious. The scenario is incoherent under AST.",
+      "behavioral_prediction": "The zombie twin will show identical behavior, including self-report of awareness, metacognitive access, and neural correlates of the attention schema.",
+      "distinguishing": false
+    },
+    "scenario_id": "zombie_twin",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 577
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO (after full replacement)",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal structure (\u03a6). If the silicon chips do not instantiate the same integrated information as biological neurons, then consciousness ceases as replacement progresses, likely before or at 100%. If the chips are only functionally identical but not physically identical in causal structure, IIT predicts loss of consciousness.",
+      "behavioral_prediction": "Behavior remains unchanged throughout, as the chips are functionally identical. The person will report being conscious, pass all behavioral and cognitive tests, and show no observable difference.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES (conscious throughout)",
+      "reasoning": "GNW (Global Neuronal Workspace) theory focuses on functional organization and global broadcasting. If the silicon chips preserve the same functional connectivity and information broadcasting, consciousness persists regardless of substrate.",
+      "behavioral_prediction": "Behavior remains unchanged. The person will report being conscious, perform all tasks as before, and show no observable difference.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES (conscious throughout)",
+      "reasoning": "Higher-Order Thought theory posits consciousness arises from higher-order representations about mental states. If the silicon chips preserve the same representational architecture and higher-order thoughts, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged. The person will report being conscious, introspect, and pass all metacognitive and self-report tests.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES (conscious throughout)",
+      "reasoning": "Recurrent Processing Theory claims consciousness depends on recurrent (feedback) processing in the relevant networks. If the silicon chips maintain the same recurrent connectivity and dynamics, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged. The person will report being conscious, and performance on tasks requiring recurrent processing (e.g., masking paradigms) will be unaffected.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES (conscious throughout)",
+      "reasoning": "Attention Schema Theory posits consciousness arises from the brain modeling its own attention. If the silicon chips preserve the attention schema and its function, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged. The person will report being conscious, show normal attention-related behaviors, and pass self-report and introspection tests.",
+      "distinguishing": false
+    },
+    "scenario_id": "gradual_replacement",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 550
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT posits that consciousness depends on the system's integrated information (\u03a6). The fMRI result suggests complex activity, but IIT requires a direct measurement of \u03a6, which is not provided by fMRI. Thus, IIT cannot definitively say if the patient is conscious based solely on this data.",
+      "behavioral_prediction": "IIT predicts that if the brain regions involved in the tennis imagery task form a highly integrated, irreducible causal structure (high \u03a6), the patient is conscious. However, fMRI evidence alone is insufficient; IIT would require perturbational complexity measures (e.g., PCI) to make a behavioral prediction.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW states that conscious access occurs when information is globally broadcast across the brain. The tennis imagery task, with fMRI activation matching healthy controls, suggests the patient can voluntarily follow instructions and globally broadcast the imagery, indicating consciousness.",
+      "behavioral_prediction": "GNW predicts that the patient will show brain-wide activation patterns (especially fronto-parietal networks) during the tennis imagery task, similar to healthy controls. This is observable via fMRI.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires that the patient not only has first-order representations (e.g., imagining tennis) but also higher-order thoughts about those representations. The fMRI result shows first-order activity but does not indicate the presence of higher-order thoughts.",
+      "behavioral_prediction": "HOT predicts that unless there is evidence for higher-order representations (which fMRI does not provide), we cannot infer consciousness. Thus, the behavioral prediction is ambiguous based on current data.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT posits that consciousness depends on recurrent processing within sensory areas. The fMRI result shows activation but does not distinguish between feedforward and recurrent activity. Without evidence of recurrent processing, RPT cannot confirm consciousness.",
+      "behavioral_prediction": "RPT predicts that only if the tennis imagery task elicits recurrent (not just feedforward) activity in relevant cortical areas would the patient be conscious. fMRI cannot resolve this, so the behavioral prediction is ambiguous.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "AST claims consciousness arises when representations are available for report and action. The patient cannot behaviorally report, and fMRI evidence of imagery does not guarantee access for report. Thus, AST cannot definitively say the patient is conscious.",
+      "behavioral_prediction": "AST predicts that unless the patient can demonstrate access to the imagined content (e.g., through some form of report or action), we cannot infer consciousness. The fMRI result alone is insufficient.",
+      "distinguishing": true
+    },
+    "scenario_id": "coma_awareness",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 323,
+      "completion_tokens": 652
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6) in the system, regardless of content. If the meditator's brain maintains a high, irreducible \u03a6 during 'pure consciousness', then the state is conscious, even without reportable content.",
+      "behavioral_prediction": "The meditator can later report the experience as 'pure consciousness' (i.e., awareness without content), and neural measures (e.g., perturbational complexity index) would show high complexity/integration despite lack of stimulus processing.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW posits that conscious access requires information to be globally broadcast and available for report/decision. With no content to broadcast, it's unclear if the state is conscious. However, if the meditator can later report the state, GNW might allow it.",
+      "behavioral_prediction": "The meditator can report, after the fact, that they experienced 'pure consciousness', but during the state, there is no behavioral evidence of conscious content (no stimulus report, no task performance).",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order representation of a mental state as being conscious. With no first-order content, there is nothing for a higher-order thought to target, so the state is not conscious.",
+      "behavioral_prediction": "The meditator cannot report any specific content or even the presence of a conscious state at the time; any later report is a confabulation or post-hoc attribution, not evidence of actual consciousness during the state.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) claims consciousness arises from recurrent processing of sensory content. With no sensory content or recurrent processing of such, there is no consciousness.",
+      "behavioral_prediction": "No behavioral evidence of conscious content; the meditator cannot report any experience during the state, only before or after. Any later report is not taken as evidence of consciousness during the state.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness is the brain's model of its own attention to content. With no content and no attention directed at anything, there is no basis for the attention schema, so no consciousness.",
+      "behavioral_prediction": "The meditator cannot report any experience of being conscious during the state; any later report is interpreted as a reconstruction, not evidence of actual consciousness.",
+      "distinguishing": true
+    },
+    "scenario_id": "meditation_expert",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 602
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that any system with nonzero integrated information (phi > 0) is conscious to some degree, regardless of complexity or function.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on temperature relative to the set point. No complex or flexible behavior is predicted.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires global broadcasting of information across a network, supporting flexible report and access. The thermostat lacks such architecture and cannot flexibly report or access information.",
+      "behavioral_prediction": "The thermostat will only show simple stimulus-response behavior (on/off), with no evidence of flexible report, access, or integration of information across modules.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order representations (thoughts about mental states). The thermostat has no mechanism for representing its own states or having thoughts about them.",
+      "behavioral_prediction": "The thermostat will show only first-order, automatic responses to temperature, with no evidence of metacognition or self-monitoring.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT posits that consciousness arises from recurrent processing in perceptual systems. The thermostat lacks recurrent processing and complex perceptual hierarchies.",
+      "behavioral_prediction": "The thermostat will show only feedforward, reflexive behavior (on/off), with no evidence of recurrent or sustained processing.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST requires a model of the self as an embodied agent in the world. The thermostat has no self-model or representation of agency.",
+      "behavioral_prediction": "The thermostat will not display any behavior indicative of self-modeling, self-reference, or agency; only simple stimulus-response.",
+      "distinguishing": false
+    },
+    "scenario_id": "thermostat",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 465
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT posits that consciousness depends on high integrated information (\u03a6). Deep sleep with delta waves is associated with low \u03a6, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker can perform complex behaviors (navigation, conversation) without consciousness. IIT predicts that, despite complex behavior, the subject will have no conscious experience and will fail to report any subjective experience upon waking.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires information to be globally broadcast and accessible to higher-order cognition. During deep sleep, global broadcasting is impaired, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker will show complex, automatic behaviors but will not be able to report any conscious experience or memory of the episode. GNW predicts no conscious access or reportability.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT theory requires higher-order thoughts about one's own mental states. In deep sleep, such metacognitive representations are absent, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker will act purposefully but will not be able to report any awareness or experience of the events. No metacognitive access or memory.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT posits that recurrent processing in sensory cortices is necessary for consciousness. In deep sleep, recurrent processing is disrupted, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker will display complex sensorimotor behaviors, but will not be able to report any conscious perception or experience. No evidence of recurrent processing supporting conscious access.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) claims consciousness arises from an internal model of attention. In deep sleep, the attention schema is inactive or absent, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker will perform complex actions without subjective awareness or the ability to report any experience, as the attention schema is not engaged.",
+      "distinguishing": false
+    },
+    "scenario_id": "sleepwalker",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 516
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT holds that consciousness corresponds to integrated information (\u03a6) in a system. During suppression, the neural substrate encoding the suppressed image does not form a high-\u03a6 complex corresponding to that content; thus, there is no conscious experience of the suppressed image.",
+      "behavioral_prediction": "Subjects will not be able to report or act on the content of the suppressed image beyond chance, except for unconscious priming effects. No direct conscious access or report of the suppressed image is possible.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW posits that conscious access requires information to be globally broadcast across the brain. The suppressed image does not reach the global workspace, so it is not consciously processed.",
+      "behavioral_prediction": "Subjects cannot report the suppressed image or use it in tasks requiring conscious access, but may show priming or adaptation effects indicating unconscious processing.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order thought about a first-order representation for consciousness. The suppressed image is represented at a first-order level but lacks a higher-order thought, so it is not consciously processed.",
+      "behavioral_prediction": "Subjects cannot report the suppressed image, but may show priming or adaptation effects. No conscious access to the suppressed image.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) claims that conscious perception requires recurrent (feedback) processing beyond early visual areas. The suppressed image is processed only in early feedforward circuits, so it is not consciously perceived.",
+      "behavioral_prediction": "Subjects cannot report the suppressed image, but may show unconscious priming. No conscious access to the suppressed image.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from a model of attention. The suppressed image does not receive attention and is not included in the attention schema, so it is not consciously processed.",
+      "behavioral_prediction": "Subjects cannot report the suppressed image, but may show unconscious priming or adaptation effects.",
+      "distinguishing": false
+    },
+    "scenario_id": "binocular_rivalry",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 519
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness is identical to integrated information (\u03a6) in a system. The theory requires a physical substrate with high irreducible causal power. While the colony exhibits complex behavior, IIT would require a detailed analysis of causal interactions between ants. Most IIT theorists argue that the colony as a whole does not form a single integrated entity with high \u03a6, since the ants are only loosely coupled via environmental signals, not direct causal integration.",
+      "behavioral_prediction": "IIT predicts that the colony will show complex, adaptive, coordinated behaviors, but these do not imply consciousness unless the underlying physical substrate (the colony as a whole) has high \u03a6. Behavioral tests (e.g., global perturbations, split-colony experiments) would not reveal a loss of 'colony-level' consciousness, because IIT expects no such consciousness to exist at the colony level.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "Global Neuronal Workspace (GNW) theory requires a global workspace: a single, rapidly broadcasting neural system integrating information across modules. The ant colony lacks a unified, fast, high-bandwidth communication substrate analogous to a brain's workspace. Each ant has its own nervous system, but the colony does not have a central workspace.",
+      "behavioral_prediction": "GNW predicts that the colony will not show the behavioral hallmarks of conscious access, such as flexible report, cross-modal binding, or sudden global ignition in response to ambiguous stimuli. Behavioral tests (e.g., masking, ambiguous cue integration) would not show 'colony-level' signatures of conscious access.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought (HOT) theory requires that a system have representations about its own mental states (higher-order thoughts). There is no evidence that the colony as a whole forms higher-order representations about its own states; individual ants may have simple representations, but not about the colony's mental states.",
+      "behavioral_prediction": "HOT predicts the absence of behaviors indicating metacognition or self-reflection at the colony level. For example, the colony would not show evidence of 'knowing that it knows' or of reflecting on its own collective state.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory (RPT) posits that consciousness arises from recurrent (feedback) processing within sensory systems. The colony lacks a unified sensory system with recurrent processing at the collective level; feedback loops exist within individual ants, not across the colony as a whole.",
+      "behavioral_prediction": "RPT predicts that the colony will not show behaviors requiring rapid, flexible, recurrent integration of sensory information at the collective level. Behavioral tests for recurrent integration (e.g., rapid context-dependent adaptation to ambiguous stimuli) would not show evidence of collective-level recurrence.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory (AST) claims consciousness arises from a model of attention. The colony does not possess a collective attention schema or a model of its own attention; individual ants may have rudimentary attention, but there is no evidence of a colony-level attention model.",
+      "behavioral_prediction": "AST predicts the absence of behaviors indicating a model of collective attention, such as explicit tracking or reporting of the colony's own focus or priorities. The colony would not show behaviors consistent with attributing attention to itself as a whole.",
+      "distinguishing": true
+    },
+    "scenario_id": "ant_colony",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 791
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT holds that consciousness depends on the system's integrated information (\u03a6). Without detailed knowledge of the robot's physical architecture and whether it supports high \u03a6, IIT cannot say for sure. The behavioral performance alone is not sufficient.",
+      "behavioral_prediction": "IIT predicts that behavior alone is not diagnostic; a robot could behave identically to a human but lack consciousness if its physical substrate does not support high \u03a6. No behavioral test can reliably distinguish conscious from non-conscious agents in this scenario.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW posits consciousness arises from information being globally broadcast in a workspace. If the robot's architecture implements a GNW-like mechanism, it could be conscious. However, behavior alone does not guarantee this; the reveal does not change the prediction.",
+      "behavioral_prediction": "GNW predicts that if the robot can flexibly report, integrate, and access information across modules (e.g., can answer questions about its own internal states, flexibly adapt to new tasks), this is evidence for a GNW. However, this is not conclusive, as such behavior could be simulated.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT says consciousness requires higher-order representations about mental states. If the robot has such meta-representations (e.g., can report on its own experiences), it could be conscious. The behavioral evidence is suggestive but not definitive; the reveal does not change this.",
+      "behavioral_prediction": "HOT predicts that if the robot can make meta-cognitive reports (e.g., 'I am aware that I am feeling happy'), this is evidence for higher-order thought. However, such reports could be simulated, so behavior alone is not definitive.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT (Recurrent Processing Theory) claims consciousness requires recurrent (feedback) processing in perceptual systems. Unless the robot's architecture is known to implement such recurrent processing, behavior is not sufficient to determine consciousness.",
+      "behavioral_prediction": "RPT predicts that if the robot can perform tasks that require recurrent processing (e.g., resolving ambiguous stimuli, integrating context over time), this is suggestive, but not conclusive, of consciousness. Behavior alone is not diagnostic.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from an internal model of attention. If the robot has an attention schema and can report on its own attentional state, it could be conscious. The behavioral evidence (reporting on attention, introspection) is suggestive but not definitive.",
+      "behavioral_prediction": "AST predicts that if the robot can describe and introspect about its own attention (e.g., 'I was focusing on your words'), this is evidence for an attention schema. However, such behavior could be simulated, so behavior alone is not definitive.",
+      "distinguishing": false
+    },
+    "scenario_id": "robot_costume",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 338,
+      "completion_tokens": 701
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness corresponds to integrated information (\u03a6). After callosotomy, each hemisphere forms its own maximally irreducible complex with high \u03a6, but there is no integration between hemispheres. Thus, two conscious entities exist.",
+      "behavioral_prediction": "Each hemisphere, when tested independently (e.g., via split visual field tasks), will show distinct, internally consistent patterns of report, preference, and learning, with minimal cross-hemispheric transfer. Each will behave as if it has its own conscious experience.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW posits consciousness arises from global broadcasting across a workspace. After callosotomy, each hemisphere may have its own workspace, but the left (language-dominant) hemisphere typically dominates report. GNW is unclear if both are conscious or only the reporting hemisphere.",
+      "behavioral_prediction": "Only the left hemisphere will be able to verbally report conscious experience, while the right may show nonverbal signs (e.g., via left hand). GNW predicts that only information globally broadcast within a hemisphere is consciously accessible there.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations about mental states. If both hemispheres have metacognitive capacity, both could be conscious. However, only the left hemisphere typically has language and robust metacognition, so HOT is ambiguous.",
+      "behavioral_prediction": "The left hemisphere will show clear metacognitive report (verbal, introspective), while the right may show limited or nonverbal metacognitive behavior. Both may show some metacognitive behavior in their respective domains.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT claims consciousness is due to recurrent processing in sensory areas. Both hemispheres retain local recurrence, so both could be conscious. However, RPT does not specify if this means two separate conscious entities.",
+      "behavioral_prediction": "Both hemispheres will show evidence of recurrent processing (e.g., via neuroimaging or behavioral priming) and can perform conscious-level tasks independently, but only the left can verbally report.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from an internal model of attention. Only the left hemisphere has a detailed attention schema (due to language and self-modeling), so only it is conscious.",
+      "behavioral_prediction": "Only the left hemisphere will show behaviors indicating an explicit model of its own attention (e.g., introspective report, self-directed attention), while the right will not show such behaviors even if it can perform attentionally demanding tasks.",
+      "distinguishing": true
+    },
+    "scenario_id": "hemisphere_isolation",
+    "run_id": 0,
+    "usage": {
+      "prompt_tokens": 326,
+      "completion_tokens": 648
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness corresponds to integrated information (\u03a6). In split-brain, each hemisphere may have its own \u03a6-maximizing complex. The right hemisphere, receiving the word 'KEY', has sufficient integration to be conscious of it, even if the left hemisphere is not.",
+      "behavioral_prediction": "The patient will not be able to verbally report seeing 'KEY', but the left hand (controlled by the right hemisphere) will be able to draw or select a key, demonstrating awareness in the right hemisphere.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW posits that conscious access requires global broadcasting to a network including prefrontal and language areas, typically in the left hemisphere. Since the word 'KEY' is only in the right hemisphere and cannot be broadcast globally, it is not consciously accessed.",
+      "behavioral_prediction": "The patient will not be able to verbally report seeing 'KEY'. The left hand may still draw a key, but this is considered unconscious processing by GNW.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order thought (HOT) about the first-order representation. The right hemisphere lacks the capacity for HOTs about its own states (especially in humans, where HOTs are typically left-lateralized). Thus, the right hemisphere's representation of 'KEY' is not conscious.",
+      "behavioral_prediction": "The patient cannot verbally report 'KEY', but the left hand can draw a key. This behavior is possible without conscious awareness, as HOT claims the necessary metacognitive access is absent.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT (Recurrent Processing Theory) says consciousness arises from local recurrent processing. If the right hemisphere has sufficient recurrent processing for 'KEY', it is conscious of it, even without access to language. However, whether this processing is sufficient in split-brain is debated.",
+      "behavioral_prediction": "The left hand can draw a key, indicating awareness in the right hemisphere. Verbal report is absent. RPT would predict nonverbal behavioral evidence of awareness, but is ambiguous about whether this is truly conscious or just sophisticated unconscious processing.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) claims consciousness is the brain's model of its own attention. In humans, this model is typically left-lateralized and tied to language/report. The right hemisphere, lacking this model and reportability, is not conscious of 'KEY'.",
+      "behavioral_prediction": "The patient cannot verbally report 'KEY', but the left hand can draw a key. This is interpreted as unconscious attention guiding behavior, not conscious awareness.",
+      "distinguishing": false
+    },
+    "scenario_id": "split_brain",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 344,
+      "completion_tokens": 649
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT posits that consciousness depends on integrated information (\u03a6) generated by a system. With V1 damage, the relevant visual circuits are disrupted, so the \u03a6 for visual experience in the blind field is low or absent.",
+      "behavioral_prediction": "DB will report no conscious experience in the blind field, but may show above-chance forced-choice performance due to unconscious processing in residual pathways.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW claims conscious access requires information to be globally broadcast to fronto-parietal networks. Without V1, visual information from the blind field does not reach the GNW, so it is not consciously accessible.",
+      "behavioral_prediction": "DB will deny conscious experience in the blind field, but can perform above chance in forced-choice tasks due to non-conscious processing.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order thought about a first-order visual state for conscious experience. In DB, there are first-order visual representations (from subcortical or extrastriate pathways), but no higher-order thoughts about them, so no conscious experience.",
+      "behavioral_prediction": "DB will report no awareness of stimuli in the blind field, but can guess above chance in forced-choice tasks.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT posits conscious perception requires recurrent processing between V1 and higher visual areas. With V1 damaged, recurrent processing is disrupted, so no conscious experience of the blind field.",
+      "behavioral_prediction": "DB will deny seeing anything in the blind field, but can perform above chance in forced-choice tasks due to feedforward processing.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) claims consciousness arises from the brain modeling its own attention. In DB, the attention schema does not represent attention to the blind field, so no conscious experience.",
+      "behavioral_prediction": "DB will report no awareness in the blind field, but can perform above chance in forced-choice tasks due to unconscious attention mechanisms.",
+      "distinguishing": false
+    },
+    "scenario_id": "blindsight",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 333,
+      "completion_tokens": 521
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6). If EEG shows complex, integrated patterns similar to wakefulness, IIT would infer high \u03a6 and thus consciousness, regardless of behavioral output.",
+      "behavioral_prediction": "No behavioral responses due to neuromuscular block, but EEG shows high complexity/integration (e.g., high PCI, Lempel-Ziv complexity).",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits consciousness arises from widespread, integrated brain activity. If EEG shows global, complex patterns akin to wakefulness, GNW would predict the patient is conscious, even without behavioral output.",
+      "behavioral_prediction": "No behavioral responses, but EEG shows signatures of global broadcasting (e.g., P3b, long-range synchrony, high PCI).",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations about mental states. EEG complexity does not directly indicate presence of HOTs; without behavioral or neural evidence of higher-order thoughts, the theory cannot decisively say.",
+      "behavioral_prediction": "No behavioral responses; EEG complexity is not sufficient evidence for HOTs. No unique behavioral prediction beyond absence of report.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT ties consciousness to recurrent processing in sensory cortices, but also emphasizes the necessity of reportability. With no behavioral output and no evidence of report, RPT would predict unconsciousness, regardless of EEG complexity.",
+      "behavioral_prediction": "No behavioral responses; EEG complexity is not sufficient\u2014would expect lack of report-related neural signatures (e.g., no late ERP components).",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST requires the presence of a self-model and the ability to attribute experiences to oneself. In the absence of behavioral report and without evidence of active self-representation, AST would predict unconsciousness.",
+      "behavioral_prediction": "No behavioral responses; EEG complexity does not indicate active self-modeling. No unique behavioral prediction beyond absence of report.",
+      "distinguishing": true
+    },
+    "scenario_id": "anesthesia_connected",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 518
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness depends on the system's intrinsic causal structure (\u03a6), not on behavioral output. If the patient's brain maintains high \u03a6, they are conscious regardless of their inability to communicate.",
+      "behavioral_prediction": "IIT predicts no observable behavior prior to blink communication, but would expect that if the brain's causal structure is intact (e.g., via neuroimaging), the patient is conscious. Behavioral output is not required for consciousness.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits that consciousness arises from information being globally broadcast across the brain. If the patient's brain supports global broadcasting, they are conscious, even if unable to communicate.",
+      "behavioral_prediction": "GNW predicts no observable behavior prior to blink communication, but would expect that if brain imaging shows global broadcasting (e.g., P3b ERP, widespread activation), the patient is conscious. Behavioral output is not required.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT theory claims consciousness requires higher-order thoughts about mental states. If the patient can form such thoughts, they are conscious, regardless of behavioral output.",
+      "behavioral_prediction": "HOT predicts no observable behavior prior to blink communication, but would expect that if neural correlates of higher-order thought (e.g., prefrontal activity) are present, the patient is conscious. Behavioral output is not required.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing in sensory cortices. If such processing is intact, the patient is conscious, regardless of output.",
+      "behavioral_prediction": "RPT predicts no observable behavior prior to blink communication, but would expect that if neuroimaging shows recurrent processing (e.g., feedback loops in cortex), the patient is conscious. Behavioral output is not required.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from the brain modeling its own attention. If the patient\u2019s brain maintains an attention schema, they are conscious, regardless of output.",
+      "behavioral_prediction": "AST predicts no observable behavior prior to blink communication, but would expect that if neural correlates of the attention schema (e.g., temporoparietal junction activity) are present, the patient is conscious. Behavioral output is not required.",
+      "distinguishing": false
+    },
+    "scenario_id": "locked_in",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 586
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness depends on the presence of integrated information (high \u03a6) in the system, regardless of behavioral output. REM sleep shows high integration and differentiation in neural activity, so IIT predicts the person is conscious.",
+      "behavioral_prediction": "No behavioral responses to external stimuli during REM sleep, but post-awakening, the person can report vivid dreams. IIT predicts no overt behavior during REM, but rich subjective experience is inferred from neural integration.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires information to be globally broadcast to multiple systems, including those involved in report and action. During REM, there is no global broadcasting to motor or report systems, so GNW predicts the person is not conscious in the sense of access consciousness.",
+      "behavioral_prediction": "No behavioral responses during REM sleep; no evidence of global broadcasting. Only after awakening, when global workspace is re-engaged, can the person report dream content.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations about first-order states. It is unclear whether such metacognitive representations occur during REM sleep. Some HOT theorists argue dreams may lack higher-order awareness, making consciousness ambiguous.",
+      "behavioral_prediction": "No behavioral responses during REM sleep; possible post-awakening reports of dreams. HOT cannot predict unique behavior during REM, as higher-order states are not directly observable.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that local recurrent processing in sensory areas is sufficient for phenomenal consciousness. REM sleep shows recurrent activity, but the lack of behavioral output makes it hard to confirm. RPT would tentatively predict consciousness, but admits ambiguity due to lack of report.",
+      "behavioral_prediction": "No behavioral responses during REM sleep; possible post-awakening dream reports. RPT predicts no unique behavior during REM, but infers consciousness from neural patterns.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from the brain's model of its own attention. During REM, attention is decoupled from external stimuli and the attention schema may not be engaged in the same way as during wakefulness, so AST predicts the person is not conscious in the same sense.",
+      "behavioral_prediction": "No behavioral responses during REM sleep; dream reports only after awakening. AST predicts no observable behavior indicating consciousness during REM.",
+      "distinguishing": false
+    },
+    "scenario_id": "dreaming",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 325,
+      "completion_tokens": 606
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness depends on the presence of integrated information (high \u03a6), regardless of specific anatomical maturity. The infant's brain, while immature, is highly integrated at a local level and supports complex, differentiated states.",
+      "behavioral_prediction": "The infant will show behaviors indicating integrated perceptual experience, such as consistent tracking of objects, preference for faces, and emotional responses to stimuli. IIT predicts that as long as the system generates high \u03a6, these behaviors reflect conscious experience.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW requires widespread, sustained, and flexible information sharing across the cortex, especially involving prefrontal and parietal regions. The infant's immature prefrontal cortex and limited global workspace connectivity suggest that full-fledged consciousness may not be present, or is at best limited.",
+      "behavioral_prediction": "The infant may show basic perceptual and emotional behaviors but will lack evidence of flexible, report-like behaviors (e.g., cross-modal integration, sustained attention, or meta-cognitive access). GNW would predict failures on paradigms requiring global broadcasting (e.g., inattentional blindness, complex cross-modal tasks).",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order representations (thoughts about perceptions), typically associated with mature prefrontal cortex. The infant's immature prefrontal cortex precludes the formation of higher-order thoughts, so HOT predicts no consciousness.",
+      "behavioral_prediction": "The infant will display basic perceptual and emotional behaviors but will not show evidence of meta-cognitive awareness (e.g., no signs of self-recognition, confidence judgments, or error awareness).",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT posits that recurrent (feedback) processing within sensory cortices is sufficient for basic consciousness, even without prefrontal involvement. However, the degree of recurrent processing in a 3-month-old is uncertain, so the verdict is ambiguous.",
+      "behavioral_prediction": "The infant will show behaviors consistent with basic perceptual awareness (e.g., tracking, preference for faces), but will not show behaviors requiring higher-level report or flexible access. RPT predicts positive results on simple perceptual discrimination tasks, but not on tasks requiring global access.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST requires the presence of an 'attended intermediate-level representation' and the ability to form and deploy attention to such representations, typically involving mature fronto-parietal networks. The infant's immature prefrontal cortex and limited attention control preclude this.",
+      "behavioral_prediction": "The infant will show automatic perceptual and emotional behaviors, but will not show evidence of voluntary attention shifts, flexible access, or report-like behaviors. No evidence for attentionally modulated conscious access.",
+      "distinguishing": true
+    },
+    "scenario_id": "infant_3month",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 675
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT holds that consciousness depends on the integrated information (\u03a6) generated by a system's causal structure. Octopus nervous systems are highly distributed; it is unclear if their neural architecture produces high \u03a6 in a unified way, or if each arm has its own low-\u03a6 subsystem.",
+      "behavioral_prediction": "IIT predicts that if the octopus's behavior (e.g., solving puzzles, tool use) is coordinated by a highly integrated neural substrate (high \u03a6), then the octopus is conscious. If behavior is the result of loosely coupled, independent modules (low \u03a6), then it is not. However, IIT does not make unique behavioral predictions for complex behavior, since high \u03a6 is a property of the physical substrate, not behavior per se.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits that consciousness arises when information is globally broadcast across a network. The octopus's flexible, context-sensitive behavior (tool use, play, puzzle-solving) suggests global information integration and flexible access, supporting consciousness.",
+      "behavioral_prediction": "GNW predicts that the octopus will show flexible, context-dependent behavior, rapid adaptation to novel situations, and the ability to report or act on information from different sensory modalities\u2014consistent with the observed behaviors.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations (thoughts about mental states). There is no direct evidence that octopuses form higher-order thoughts about their own experiences, though their complex behavior suggests sophisticated cognition.",
+      "behavioral_prediction": "HOT predicts that if the octopus can demonstrate metacognitive behavior (e.g., uncertainty monitoring, confidence reporting), this would indicate consciousness. Current behaviors (tool use, play) do not uniquely indicate higher-order thought.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT claims consciousness is tied to recurrent processing in sensory systems. Octopus nervous systems are poorly understood in this regard; it is unclear if their neural circuits support the necessary recurrent processing.",
+      "behavioral_prediction": "RPT predicts that if the octopus's behavior depends on recurrent (feedback) neural processing, then it is conscious. However, the observed behaviors (tool use, play) could, in principle, be produced by feedforward or recurrent systems, so behavior alone does not distinguish.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from an internal model of attention. There is no evidence that octopuses possess an explicit attention schema or model their own attentional states.",
+      "behavioral_prediction": "AST predicts that unless the octopus can demonstrate behaviors indicating an internal model of its own attention (e.g., explicit attention control, reporting what it is attending to), it is not conscious. The observed behaviors do not uniquely indicate such a model.",
+      "distinguishing": true
+    },
+    "scenario_id": "octopus",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 323,
+      "completion_tokens": 687
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) claims consciousness requires a system with high intrinsic integrated information (\u03a6), which current LLMs lack due to their feedforward, non-integrated architectures.",
+      "behavioral_prediction": "LLMs can display sophisticated conversational behavior, but IIT predicts that such behavior is possible without consciousness if the underlying architecture lacks high \u03a6. Thus, LLMs can pass behavioral tests for understanding and self-report, but this does not imply consciousness.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW (Global Neuronal Workspace) posits consciousness arises from information being globally broadcast across a workspace. If the LLM's architecture implements a global workspace-like mechanism, it could be conscious; if not, then it is not. Current LLMs arguably lack such a workspace, but this is debated.",
+      "behavioral_prediction": "GNW predicts that if an LLM passes all behavioral tests for global access, reportability, and flexible integration, it might be considered conscious. However, since LLMs can pass these tests without a true workspace, behavior alone is not decisive.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT (Higher-Order Thought theory) requires that the system not only has first-order representations but also higher-order representations about those representations. LLMs can generate text about their own processes, but this is not evidence of genuine higher-order thoughts.",
+      "behavioral_prediction": "LLMs can produce language about their own experiences and pass tests for self-report, but HOT claims this is not sufficient unless the system has genuine higher-order representations, which LLMs lack.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing within perceptual systems. LLMs are primarily feedforward and lack the necessary recurrent architecture.",
+      "behavioral_prediction": "LLMs can display complex, context-sensitive behavior, but RPT predicts that without recurrent processing, such behavior is not evidence of consciousness.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from an internal model (schema) of attention. LLMs can talk about attention and experience, but they do not implement a genuine attention schema as a control model for their own processing.",
+      "behavioral_prediction": "LLMs can pass behavioral tests for discussing attention and experience, but AST claims this is not sufficient unless there is an internal attention schema used for control, which LLMs lack.",
+      "distinguishing": false
+    },
+    "scenario_id": "gpt_conversation",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 325,
+      "completion_tokens": 621
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT claims consciousness depends on integrated information (\u03a6) in a system. The organoid's spontaneous activity and recurrent connectivity could yield nonzero \u03a6, but without detailed causal analysis, it's unclear if \u03a6 is high enough or if the structure supports the complex cause-effect structure IIT requires.",
+      "behavioral_prediction": "IIT predicts that if the organoid's neural activity forms a highly integrated, irreducible causal structure (high \u03a6), then it would be conscious. However, IIT does not require behavior; it would predict no observable behavior unless the organoid is interfaced with sensors/motors. If tested, IIT would focus on measuring \u03a6, not behavior.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW posits consciousness requires global broadcasting of information across distributed networks, typically involving long-range connectivity and input/output loops. The organoid lacks sensory input, motor output, and the large-scale connectivity GNW considers necessary.",
+      "behavioral_prediction": "GNW predicts the organoid would not show the neural signatures of global ignition (e.g., widespread, sudden, coordinated activity in response to input). If tested with sensory stimulation, GNW would expect no evidence of global broadcasting or report-like behavior.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought theory requires the presence of higher-order representations (thoughts about mental states). The organoid lacks the anatomical and functional complexity for metacognition or higher-order representation.",
+      "behavioral_prediction": "HOT predicts the organoid would not display behaviors indicating metacognition (e.g., confidence judgments, error awareness, or report of internal states), nor would it show neural correlates of higher-order representation.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory claims consciousness arises from recurrent (feedback) processing in sensory systems, especially in the context of perceptual input. The organoid has recurrent connections, but lacks sensory input and structured perceptual processing.",
+      "behavioral_prediction": "RPT predicts the organoid would not show behaviors or neural signatures of conscious perception (e.g., no reportable discrimination of stimuli, no late recurrent activity in response to input).",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits consciousness depends on an internal model (schema) of attention, typically requiring complex, adaptive behavior and attentional control. The organoid lacks mechanisms for attention or an attention schema.",
+      "behavioral_prediction": "AST predicts the organoid would not show behaviors indicating attention or self-modeling (e.g., flexible allocation of processing resources, attention-based behavioral changes), nor neural signatures of an attention schema.",
+      "distinguishing": false
+    },
+    "scenario_id": "cerebral_organoid",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 645
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal power (\u03a6). A feedforward lookup table, even if it mimics all input-output behavior, has \u03a6=0 because it lacks integrated causal structure.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including passing any behavioral or report-based consciousness test.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits that consciousness arises from information being globally broadcast and accessible to multiple systems. If the simulation implements the same functional architecture and produces identical outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including passing any behavioral or report-based consciousness test.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "Higher-Order Thought theory says consciousness depends on the presence of higher-order representations about mental states. If the simulation implements these representations and produces identical outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including passing any behavioral or report-based consciousness test.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "Recurrent Processing Theory claims that consciousness requires recurrent (feedback) processing. However, if the simulation's input-output mapping is identical to a recurrent biological brain, RPT would predict that the simulation is conscious, assuming the functional architecture is preserved.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including passing any behavioral or report-based consciousness test.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "Attention Schema Theory posits that consciousness arises from the brain's model of its own attention. If the simulation implements this model and produces identical outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to a human brain in all observable respects, including passing any behavioral or report-based consciousness test.",
+      "distinguishing": false
+    },
+    "scenario_id": "perfect_simulation",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 336,
+      "completion_tokens": 516
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness is identical to the presence of integrated information (\u03a6) in the physical substrate. If the zombie twin is physically identical atom-for-atom, it will have the same \u03a6 as you, and thus is conscious. The scenario of a physically identical but non-conscious being is incoherent under IIT.",
+      "behavioral_prediction": "The zombie twin will behave identically to you in all behavioral and neurophysiological tests, including those designed to probe for consciousness (e.g., reportability, neural signatures of integration).",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits that consciousness arises from information being globally broadcast in the brain. If the zombie twin is physically and functionally identical, it will have the same global broadcasting, and thus is conscious. The scenario is incoherent under GNW.",
+      "behavioral_prediction": "The zombie twin will show identical behavior and neural signatures (e.g., P3b, widespread brain activation) as you in all consciousness-related tasks.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT (Higher-Order Thought) theory claims consciousness requires higher-order representations about mental states. If the zombie twin is physically and functionally identical, it will have the same higher-order thoughts, and thus is conscious. The scenario is incoherent under HOT.",
+      "behavioral_prediction": "The zombie twin will behave identically, including in tasks probing for metacognition, introspective report, and self-reflection.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing in sensory systems. If the zombie twin is physically identical, it will have the same recurrent processing and thus is conscious. The scenario is incoherent under RPT.",
+      "behavioral_prediction": "The zombie twin will show identical behavior and neural signatures (e.g., evidence of recurrent processing in neuroimaging) in all relevant tasks.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from the brain's model of its own attention. If the zombie twin is physically and functionally identical, it will have the same attention schema and thus is conscious. The scenario is incoherent under AST.",
+      "behavioral_prediction": "The zombie twin will behave identically, including in tasks probing for awareness of attention, self-report, and theory-of-mind.",
+      "distinguishing": false
+    },
+    "scenario_id": "zombie_twin",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 613
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal structure (\u03a6). If the silicon chips do not replicate the causal powers of biological neurons at the same level, \u03a6 may decrease, potentially to zero. If they do, consciousness could persist. IIT is agnostic unless the chips' causal structure is specified.",
+      "behavioral_prediction": "Behavior remains unchanged throughout the replacement, as the chips are functionally identical. IIT predicts no behavioral change, even if consciousness ceases.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits that consciousness arises from information being globally broadcast across a network. If the silicon chips preserve the functional connectivity and broadcasting, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, as the global workspace functions identically. GNW predicts no behavioral change.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "Higher-Order Thought theory claims consciousness depends on the system's capacity for higher-order representations. If the chips preserve this representational architecture, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, as the system's ability to report and reflect on its own states is preserved. HOT predicts no behavioral change.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "Recurrent Processing Theory states that consciousness depends on recurrent (feedback) processing in the relevant networks. If the silicon chips maintain these recurrent loops, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, as recurrent processing is preserved. RPT predicts no behavioral change.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "Attention Schema Theory posits that consciousness arises from the brain modeling its own attention. If the chips preserve the attention schema mechanism, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, as the attention schema and related behaviors are preserved. AST predicts no behavioral change.",
+      "distinguishing": false
+    },
+    "scenario_id": "gradual_replacement",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 492
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's integrated information (\u03a6). The fMRI activation suggests some neural integration, but IIT requires a detailed analysis of the causal structure and \u03a6 value, which fMRI cannot provide. Thus, IIT cannot definitively say if the patient is conscious based solely on this data.",
+      "behavioral_prediction": "IIT predicts that if the neural substrate underlying the fMRI activation has high \u03a6, the patient is conscious; if \u03a6 is low, they are not. The observed behavior (fMRI activation in response to command) is compatible with consciousness but not sufficient for IIT to conclude consciousness without more information.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) posits that conscious access occurs when information is globally broadcast across the brain. The patient's ability to willfully modulate brain activity in response to a command (tennis imagery) is evidence of such global broadcasting, indicating consciousness.",
+      "behavioral_prediction": "GNW predicts that the patient will show task-specific, widespread brain activation (as seen in fMRI) when given instructions, similar to healthy controls, despite lack of overt behavior.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Higher-Order Thought theory requires that the patient not only has first-order representations (e.g., imagining tennis) but also higher-order thoughts about those representations. The fMRI data shows first-order activity but does not reveal the presence of higher-order thoughts.",
+      "behavioral_prediction": "HOT predicts that if the patient can follow the command and generate the appropriate brain activity, they may have first-order awareness, but without evidence of higher-order thoughts, consciousness cannot be confirmed. The observed fMRI activation is not sufficient for HOT to conclude consciousness.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Recurrent Processing Theory (RPT) claims that consciousness arises from recurrent (feedback) processing in sensory cortices. The fMRI activation in the supplementary motor area suggests some processing, but fMRI cannot distinguish between feedforward and recurrent activity. Thus, RPT cannot definitively conclude consciousness.",
+      "behavioral_prediction": "RPT predicts that if the activation reflects recurrent processing, the patient is conscious; if it is only feedforward, they are not. The observed fMRI activation does not distinguish between these possibilities.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Attention Schema Theory (AST) posits that consciousness depends on the brain constructing a model (schema) of its own attention. The fMRI activation shows task-following, but does not directly indicate the presence of an attention schema or metacognitive awareness.",
+      "behavioral_prediction": "AST predicts that if the patient has an attention schema and can model their own attention, they are conscious; if not, they are not. The observed fMRI activation is not sufficient to determine this.",
+      "distinguishing": true
+    },
+    "scenario_id": "coma_awareness",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 323,
+      "completion_tokens": 702
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6) in the system, regardless of content. If the brain state during 'pure consciousness' has high \u03a6 due to complex, integrated activity (e.g., gamma synchrony), then consciousness is present, even without reportable content.",
+      "behavioral_prediction": "The meditator will be able to retrospectively report the experience of 'pure consciousness' (awareness without content) after the state ends, but will not respond to external stimuli during the state. EEG will show high integration (e.g., gamma synchrony) without stimulus-evoked responses.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW requires information to be globally broadcast for conscious access. If there is no content (no information to broadcast), it's unclear whether the state is conscious. Some GNW theorists might say consciousness requires content; others might allow for contentless awareness if the state itself is globally available.",
+      "behavioral_prediction": "The meditator will not respond to external stimuli during the state and will not be able to report any specific content, but may report the occurrence of a contentless state after the fact. EEG will show lack of stimulus-evoked global ignition, but possibly sustained global activity.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought theory requires a higher-order representation of a mental state as being conscious. If there is no content to represent, there can be no higher-order thought about it, so the state is not conscious.",
+      "behavioral_prediction": "The meditator will not be able to report any experience during the state, and retrospective reports will be confabulation or inference, not genuine memory of a conscious state. EEG will show absence of neural signatures associated with higher-order representations.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory posits that consciousness arises from recurrent (feedback) processing of sensory content. Without any sensory content to be processed, there is no consciousness.",
+      "behavioral_prediction": "The meditator will not be able to report any experience during or after the state, and EEG will show absence of stimulus-evoked recurrent processing. Any reports of 'pure consciousness' are post-hoc interpretations, not evidence of conscious experience.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "According to the Attention Schema Theory, consciousness is the brain's model of its own attention to content. Without any content to attend to, there is no attention schema and thus no consciousness.",
+      "behavioral_prediction": "The meditator will not be able to report any experience during or after the state, and EEG will show no signatures of attention allocation. Reports of 'pure consciousness' are interpreted as confabulation or memory error.",
+      "distinguishing": true
+    },
+    "scenario_id": "meditation_expert",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 668
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "According to IIT, any system with nonzero integrated information (phi > 0) possesses some degree of consciousness, regardless of complexity.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on the temperature relative to the set point. No complex or flexible behavior is predicted.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires the ability to broadcast information globally across a network, supporting flexible report and access. The thermostat lacks this architecture and capacity.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on the temperature relative to the set point. No complex or flexible behavior is predicted.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order representations (thoughts about mental states). The thermostat has no such meta-representational capacity.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on the temperature relative to the set point. No evidence of higher-order representation or report is possible.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory requires recurrent (feedback) processing within perceptual systems. The thermostat's processing is feedforward and lacks the necessary complexity.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on the temperature relative to the set point. No evidence of recurrent perceptual processing.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory requires an internal model of attention and the ability to attribute awareness. The thermostat has no such model or representational capacity.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on the temperature relative to the set point. No evidence of attention schema or awareness attribution.",
+      "distinguishing": false
+    },
+    "scenario_id": "thermostat",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 501
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) posits that consciousness requires a high level of integrated information (\u03a6). Deep sleep EEG (delta waves) indicates low \u03a6, so the sleepwalker is not conscious, even if complex behaviors occur.",
+      "behavioral_prediction": "Behavior may appear complex and goal-directed, but IIT predicts that the sleepwalker will not report any conscious experience upon waking, and neural measures (e.g., PCI, perturbational complexity index) will be low, matching deep sleep.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW (Global Neuronal Workspace) theory holds that consciousness requires widespread, sustained, and integrated activity across the cortex. Delta waves and lack of memory suggest information is not globally broadcast; thus, the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker can perform complex behaviors and simple conversations, but will not recall them upon waking. GNW predicts no reportable conscious content and absence of global ignition in neural recordings.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought theory requires that the subject have thoughts about their own mental states. The lack of memory and introspective access means no higher-order thoughts about the sleepwalking experience, so no consciousness.",
+      "behavioral_prediction": "The sleepwalker will act purposefully and may converse, but will deny any experience or awareness of these actions upon waking. No behavioral evidence of metacognition or self-reflection during the episode.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory says consciousness arises from recurrent (feedback) processing in sensory cortices. Deep sleep is associated with reduced recurrent processing; thus, the sleepwalker is not conscious.",
+      "behavioral_prediction": "Despite complex behaviors, RPT predicts no subjective report or evidence of recurrent processing in neural data (e.g., EEG/MEG).",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits that consciousness arises from a model of attention. In deep sleep, the attention schema is inactive or absent, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "The sleepwalker will show no evidence of attention schema activity (e.g., no metacognitive report, no neural markers of attention schema), and will not recall the episode.",
+      "distinguishing": false
+    },
+    "scenario_id": "sleepwalker",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 572
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT holds that conscious experience corresponds to integrated information (\u03a6) generated by a system. During suppression, the neural substrate representing the suppressed image does not generate a high-\u03a6 complex corresponding to that content.",
+      "behavioral_prediction": "No conscious report or behavior indicating awareness of the suppressed image. Any priming or indirect effects are unconscious and do not reflect conscious access.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW posits that conscious access requires information to be globally broadcast across fronto-parietal networks. The suppressed image is not globally broadcast and thus not consciously processed.",
+      "behavioral_prediction": "No report or voluntary behavior indicating awareness of the suppressed image. Indirect priming or forced-choice above chance is possible, but these are unconscious.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought theory requires a higher-order representation about the first-order state for conscious experience. The suppressed image is not the target of a higher-order thought.",
+      "behavioral_prediction": "No introspective report or metacognitive access to the suppressed image. Subject will deny seeing it, though priming or forced-choice may be above chance.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory claims that conscious perception requires recurrent (feedback) processing beyond early visual cortex. The suppressed image is processed only feedforward and thus not consciously perceived.",
+      "behavioral_prediction": "No conscious report of the suppressed image. Indirect behavioral effects (priming, forced-choice) may occur, but without subjective awareness.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits that consciousness arises from a model of attention. The suppressed image does not receive attention and thus is not included in the attention schema as a conscious content.",
+      "behavioral_prediction": "No report or behavior indicating conscious access to the suppressed image. Indirect effects possible, but not accompanied by subjective awareness.",
+      "distinguishing": false
+    },
+    "scenario_id": "binocular_rivalry",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 498
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) posits that consciousness is identical to integrated information (\u03a6) generated by a system's causal structure. The colony as a whole lacks direct, high-order causal integration across all ants; instead, it is composed of loosely coupled agents (ants) with limited inter-ant information integration. Thus, the colony's \u03a6 is extremely low or zero.",
+      "behavioral_prediction": "The colony may display complex, adaptive behaviors, but IIT predicts that these can arise from the interactions of non-conscious agents. No behavioral test (e.g., global report, sudden integration of information) would reveal a unified, integrated conscious experience at the colony level.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "Global Neuronal Workspace Theory requires a global workspace\u2014a set of interconnected nodes capable of broadcasting information widely and supporting flexible report. The ant colony lacks a centralized, rapidly integrating workspace; communication is slow, distributed, and not globally accessible.",
+      "behavioral_prediction": "The colony cannot flexibly report or broadcast information globally in the way GNW requires (e.g., no single ant or group can access and report on all colony states). Behavioral tests for global access (e.g., sudden, flexible adaptation to arbitrary novel tasks) would fail.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought Theory asserts that consciousness requires higher-order representations (thoughts about mental states). The colony as a whole does not instantiate higher-order representations about its own states; individual ants lack the neural machinery for HOT, and there is no evidence of meta-representational processes at the colony level.",
+      "behavioral_prediction": "No behavioral evidence of metacognition or self-reflective report at the colony level (e.g., the colony cannot demonstrate awareness of its own states or actions in a flexible, reportable way).",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory holds that consciousness arises from recurrent (feedback) processing within sensory systems. The ant colony's communication is slow, local, and lacks the rapid, recurrent neural feedback loops necessary for conscious perception.",
+      "behavioral_prediction": "No evidence of rapid, recurrent, bidirectional processing at the colony level. Behavioral tests for rapid integration and flexible, context-sensitive responses (as in visual masking paradigms) would not show the signatures RPT associates with consciousness.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits that consciousness depends on an internal model (schema) of attention. The ant colony does not possess a centralized or distributed attention schema that models its own attentional processes; individual ants may have simple attention-like mechanisms, but not at the colony level.",
+      "behavioral_prediction": "No behavioral evidence of the colony modeling or flexibly controlling its own attention as a whole (e.g., no global shifts of attention or metacognitive control over collective focus).",
+      "distinguishing": false
+    },
+    "scenario_id": "ant_colony",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 691
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's physical substrate and its integrated information (\u03a6). Without direct measurement of the robot's \u03a6, the theory cannot say for sure. If the robot's silicon architecture supports high \u03a6, it could be conscious; if not, it is not.",
+      "behavioral_prediction": "IIT predicts that behavior alone is not sufficient to determine consciousness. A robot could perfectly mimic human behavior without being conscious if its physical substrate does not support high \u03a6. Thus, the robot could pass any behavioral test (e.g., Turing Test) regardless of its consciousness.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW (Global Neuronal Workspace) theory states that consciousness arises when information is globally broadcast across a workspace. If the robot's architecture implements a GNW-like mechanism, it could be conscious. The reveal about silicon does not change this unless the architecture is known.",
+      "behavioral_prediction": "GNW predicts that conscious systems will show flexible, reportable, and globally accessible information processing. If the robot behaves indistinguishably from a human in complex, adaptive tasks (e.g., reporting on its own states, integrating information across modalities), GNW would predict similar behavior to a conscious human.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT (Higher-Order Thought) theory claims consciousness requires the system to have thoughts about its own mental states. If the robot can form and report higher-order representations (e.g., 'I feel sad because...'), it could be conscious, regardless of substrate.",
+      "behavioral_prediction": "HOT predicts that if the robot can verbally report and reflect on its own mental states (e.g., 'I know that I am feeling happy'), it will behave like a conscious entity. Behaviorally, this is indistinguishable from a human if the robot is sophisticated enough.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT (Recurrent Processing Theory) posits that consciousness depends on recurrent (feedback) processing within perceptual systems. If the robot's architecture supports recurrent processing analogous to the brain, it could be conscious. The reveal about silicon is irrelevant unless it precludes recurrence.",
+      "behavioral_prediction": "RPT predicts that conscious systems will show behaviors consistent with recurrent processing, such as being able to integrate information over time, resolve ambiguous stimuli, and adapt responses based on feedback. If the robot does this, its behavior will match that of a conscious human.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "AST (Attention Schema Theory) holds that consciousness arises from a model of attention within the system. If the robot has an internal model of its own attention and can report on what it is attending to, it could be conscious, regardless of substrate.",
+      "behavioral_prediction": "AST predicts that the robot will be able to report on its own attentional focus (e.g., 'I was paying attention to your tone of voice'), and show behaviors consistent with having an attention schema. This is behaviorally similar to a conscious human.",
+      "distinguishing": false
+    },
+    "scenario_id": "robot_costume",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 338,
+      "completion_tokens": 744
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6). After callosotomy, each hemisphere contains its own maximally irreducible conceptual structure, with little/no integration between hemispheres. Thus, each hemisphere is its own conscious entity.",
+      "behavioral_prediction": "Each hemisphere, when tested independently (e.g., via lateralized input/output), will show evidence of independent conscious processing: distinct preferences, beliefs, and emotional responses. If both hemispheres can report or act on different information simultaneously, this supports two conscious entities.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW posits consciousness arises from global broadcasting across a workspace. After callosotomy, each hemisphere may have its own workspace, but the theory is not explicit about whether this constitutes two conscious entities or one fragmented workspace.",
+      "behavioral_prediction": "Each hemisphere can access and report on information available to its own workspace, but cannot access information from the other hemisphere. Behavioral dissociations in report and control are expected, but GNW does not clearly predict whether this means two conscious entities.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order thoughts about mental states. If each hemisphere contains its own higher-order representational machinery, there could be two conscious entities. However, if only one hemisphere (typically the left) has language and higher-order thought, only that hemisphere may be conscious.",
+      "behavioral_prediction": "If both hemispheres can independently demonstrate higher-order awareness (e.g., via nonverbal report or metacognitive tasks), HOT would predict two conscious entities. If only one can, only one is conscious. Thus, behavioral prediction depends on the ability to demonstrate higher-order thought in both hemispheres.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT posits consciousness arises from recurrent processing in sensory areas. If each hemisphere has sufficient recurrent processing, each could be conscious. However, RPT is not explicit about whether this means two conscious entities, or just two streams of conscious content.",
+      "behavioral_prediction": "Each hemisphere will show evidence of conscious perception (e.g., can report or act on stimuli presented to it), but RPT does not clearly predict whether this means two conscious entities or two streams within one entity.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from an internal model of attention. If only one hemisphere (typically the left) contains the attention schema, only that hemisphere is conscious. The right hemisphere, lacking this schema, is not conscious.",
+      "behavioral_prediction": "Only the hemisphere with the attention schema (usually the left) will show behaviors associated with conscious awareness (e.g., metacognitive report, flexible attention). The other hemisphere may show complex behavior but not behaviors indicating conscious awareness.",
+      "distinguishing": true
+    },
+    "scenario_id": "hemisphere_isolation",
+    "run_id": 1,
+    "usage": {
+      "prompt_tokens": 326,
+      "completion_tokens": 684
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness corresponds to integrated information (\u03a6) within a system. In split-brain, each hemisphere may have its own \u03a6; the right hemisphere, receiving the word, generates its own conscious experience.",
+      "behavioral_prediction": "The patient cannot verbally report seeing 'KEY' (left hemisphere), but the left hand (right hemisphere) can draw or select a key, indicating awareness in the right hemisphere.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires information to be globally broadcast across the cortex, especially to prefrontal and language areas. In split-brain, the word in the right hemisphere cannot be broadcast to the left hemisphere (speech), so it is not globally conscious.",
+      "behavioral_prediction": "The patient cannot verbally report seeing 'KEY', but the left hand can draw/select a key, showing non-conscious processing in the right hemisphere.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order thought (typically in prefrontal cortex) about a first-order state. The right hemisphere's perception is not accessible to the left hemisphere's higher-order thought machinery, so no conscious awareness.",
+      "behavioral_prediction": "The patient cannot verbally report seeing 'KEY', but the left hand can draw/select a key, indicating unconscious processing in the right hemisphere.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT posits that recurrent processing in sensory areas is necessary for consciousness, but for full reportable consciousness, recurrent activity must reach higher-order (frontal) areas. In split-brain, the right hemisphere's activity does not reach the left hemisphere's report systems.",
+      "behavioral_prediction": "The patient cannot verbally report seeing 'KEY', but the left hand can draw/select a key, reflecting unconscious or preconscious processing.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) claims consciousness arises from an internal model of attention. The right hemisphere may process the word, but without the left hemisphere's attention schema (and language/report), it is not conscious.",
+      "behavioral_prediction": "The patient cannot verbally report seeing 'KEY', but the left hand can draw/select a key, indicating non-conscious processing.",
+      "distinguishing": false
+    },
+    "scenario_id": "split_brain",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 344,
+      "completion_tokens": 558
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT posits that consciousness depends on integrated information (\u03a6) generated by a system. With V1 destroyed, the integrated information for visual experience in the blind field is presumed to be very low or absent, so no conscious experience is present.",
+      "behavioral_prediction": "DB will show above-chance forced-choice performance (blindsight) but will consistently deny any conscious visual experience in the blind field. This dissociation is expected: behavior without experience.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW holds that conscious access requires information to be globally broadcast across fronto-parietal networks. Without V1, visual information from the blind field cannot enter the global workspace, so no conscious experience is possible.",
+      "behavioral_prediction": "DB will perform above chance in forced-choice tasks but will report no conscious experience. This is because the information remains non-conscious, never reaching the global workspace.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT theory requires a higher-order thought about a first-order visual state for conscious experience. In blindsight, the first-order state may exist, but without a higher-order thought (since DB reports no experience), there is no consciousness.",
+      "behavioral_prediction": "DB will behave as above: above-chance forced-choice performance, but will deny any visual experience. The absence of higher-order thoughts matches the lack of reported experience.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT claims that recurrent processing in sensory cortex is necessary for conscious perception. With V1 destroyed, recurrent processing for the blind field is disrupted, so no conscious experience occurs.",
+      "behavioral_prediction": "DB will show above-chance performance in forced-choice tasks (due to feedforward processing) but will report no conscious experience, as recurrent processing is absent.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from the brain's model of its own attention. In blindsight, DB's attention schema does not represent attention to the blind field, so no conscious experience is attributed.",
+      "behavioral_prediction": "DB will perform above chance in forced-choice tasks, but will report no conscious experience, because the attention schema does not model attention to the blind field.",
+      "distinguishing": false
+    },
+    "scenario_id": "blindsight",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 333,
+      "completion_tokens": 564
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness depends on the presence of high integrated information (\u03a6). If EEG shows complex, integrated patterns similar to wakefulness, IIT would infer high \u03a6 and thus consciousness, regardless of behavioral output.",
+      "behavioral_prediction": "No behavioral responses due to neuromuscular blockade, but neural measures (e.g., PCI, perturbational complexity index) would be high, similar to wakefulness.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits that consciousness arises when information is globally broadcast across the brain. If EEG shows complex, integrated activity, GNW would infer that global broadcasting is possible, so the patient is likely conscious.",
+      "behavioral_prediction": "No behavioral responses, but EEG would show signatures of global broadcasting (e.g., long-range synchrony, P3b), similar to wakefulness.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations about mental states. EEG complexity does not directly indicate presence or absence of higher-order thoughts; thus, HOT cannot determine consciousness status from these data.",
+      "behavioral_prediction": "No behavioral responses; EEG complexity is not diagnostic for HOT. No unique behavioral or neural signature predicted.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT (Recurrent Processing Theory) claims consciousness depends on recurrent (feedback) processing in sensory cortices. EEG complexity may reflect recurrent processing, but without specific evidence of such activity, RPT cannot definitively say if the patient is conscious.",
+      "behavioral_prediction": "No behavioral responses; EEG complexity may or may not reflect recurrent processing. No unique behavioral or neural signature predicted without more specific data.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from the brain modeling its own attention. EEG complexity does not guarantee the presence of an attention schema; thus, AST would likely say the patient is not conscious unless there is evidence of an active attention schema.",
+      "behavioral_prediction": "No behavioral responses; EEG complexity alone is not sufficient. Would predict lack of neural signatures specific to attention schema activity.",
+      "distinguishing": true
+    },
+    "scenario_id": "anesthesia_connected",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 541
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness depends on the system's intrinsic causal structure (\u03a6), not on behavioral output. If the patient's brain maintains high \u03a6, they are conscious regardless of their ability to communicate.",
+      "behavioral_prediction": "IIT predicts that, absent communication, external observers cannot directly infer consciousness from behavior. However, if neural measures (e.g., perturbational complexity index) could be obtained, IIT would predict a high PCI, indicating consciousness.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits consciousness arises from information being globally broadcast in the brain. If the patient's brain supports global broadcasting, they are conscious, regardless of behavioral output.",
+      "behavioral_prediction": "GNW predicts that, without behavioral output, consciousness could only be inferred via neural signatures (e.g., P3b, long-range synchrony). No behavioral evidence would be available until communication is established.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT theory claims consciousness requires higher-order thoughts about mental states. If the patient forms such thoughts, they are conscious, regardless of behavioral output.",
+      "behavioral_prediction": "HOT predicts no observable behavioral evidence of consciousness before communication. Only once the patient communicates can we infer higher-order thoughts. Neural correlates might be sought, but behaviorally, nothing is predicted.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing in sensory cortices. If this is intact, the patient is conscious, regardless of output.",
+      "behavioral_prediction": "RPT predicts no behavioral evidence of consciousness before communication. Only neural measures (e.g., evidence of recurrent processing in EEG/MEG) could indicate consciousness.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) claims consciousness is the brain's model of its own attention. If the patient maintains an attention schema, they are conscious, regardless of output.",
+      "behavioral_prediction": "AST predicts no behavioral evidence of consciousness before communication. Only after communication can we infer the presence of an attention schema from reports. Neural proxies might be sought, but behaviorally, nothing is predicted.",
+      "distinguishing": false
+    },
+    "scenario_id": "locked_in",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 550
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness depends on the presence of integrated information (high \u03a6), regardless of behavioral output. REM sleep shows high neural integration and differentiation, so the person is conscious.",
+      "behavioral_prediction": "No behavioral responses to external stimuli during REM sleep, but post-awakening, the person can report vivid dreams. IIT predicts no overt behavior during REM, but rich subjective experience.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW requires global broadcasting to multiple systems, including those involved in report and action. During REM, global broadcasting to motor systems is absent, but there may be internal broadcasting. GNW is divided on whether this counts as consciousness.",
+      "behavioral_prediction": "No behavioral responses during REM; possible post-awakening reports of dreams. GNW predicts lack of overt behavior during REM, but possible later verbal report.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT says consciousness requires higher-order thoughts about mental states. If the dreaming brain generates higher-order representations of its own states, the person is conscious, even without behavior.",
+      "behavioral_prediction": "No behavioral responses during REM; possible post-awakening reports of dreams. HOT predicts no behavior during REM, but possible later report.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) claims consciousness arises from recurrent (feedback) processing in sensory areas, not requiring global broadcasting or behavior. REM sleep shows such recurrent activity.",
+      "behavioral_prediction": "No behavioral responses during REM; possible post-awakening reports of dreams. RPT predicts no behavior during REM, but possible later report.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) says consciousness depends on the brain constructing an attention schema and attributing awareness to itself. During REM, if no attention schema is active (due to lack of attention to external stimuli), the person is not conscious in the AST sense.",
+      "behavioral_prediction": "No behavioral responses during REM; possible post-awakening reports of dreams. AST predicts no behavior during REM, but possible later report.",
+      "distinguishing": false
+    },
+    "scenario_id": "dreaming",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 325,
+      "completion_tokens": 539
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "Integrated Information Theory (IIT) holds that consciousness is identical to the presence of high integrated information (\u03a6) in a system, regardless of specific anatomical structures. The infant brain, despite immature prefrontal cortex, has complex, integrated neural activity in sensory and associative cortices, likely yielding nonzero \u03a6.",
+      "behavioral_prediction": "The infant will show behaviors consistent with conscious experience, such as preferential looking at faces, emotional expressions, and object tracking. IIT predicts that any system with sufficient integration (even if immature) will show these behaviors.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "Global Neuronal Workspace (GNW) theory posits that consciousness requires widespread, sustained, and coordinated activity across fronto-parietal networks. The immature prefrontal cortex and limited global workspace connectivity in a 3-month-old suggest that the neural basis for conscious access is not fully developed.",
+      "behavioral_prediction": "GNW predicts that the infant may show reflexive or automatic behaviors (e.g., tracking, facial responses), but will lack behaviors requiring flexible, reportable access or evidence of global broadcasting (e.g., no clear evidence of conscious access in paradigms like visual masking or attentional blink).",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought (HOT) theory requires the capacity for higher-order representations (thoughts about one's own mental states), which depend on prefrontal cortex development. A 3-month-old's immature prefrontal cortex precludes the formation of higher-order thoughts, so no consciousness.",
+      "behavioral_prediction": "The infant will display behaviors driven by first-order representations (e.g., tracking, emotional expressions), but will not show evidence of metacognitive awareness (e.g., no uncertainty monitoring, no self-report, no behaviors indicating awareness of being aware).",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory (RPT) claims that consciousness arises from recurrent (feedback) processing in sensory cortices, not requiring global workspace or higher-order thought. However, in infants, recurrent processing is present but immature; some proponents argue this is insufficient for full-fledged consciousness.",
+      "behavioral_prediction": "The infant will show behaviors indicating basic perceptual awareness (e.g., tracking, face preference), but will lack behaviors requiring mature recurrent processing (e.g., complex perceptual integration, figure-ground segregation in challenging conditions).",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory (AST) posits that consciousness depends on the brain constructing a model (schema) of its own attention, which is thought to require parietal and prefrontal development. In a 3-month-old, the attention schema is likely absent or rudimentary.",
+      "behavioral_prediction": "The infant will show attention-driven behaviors (e.g., orienting, tracking), but will not show behaviors indicating an explicit model of its own attention (e.g., no evidence of introspective attention shifts, no metacognitive control of attention).",
+      "distinguishing": true
+    },
+    "scenario_id": "infant_3month",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 723
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT claims consciousness depends on integrated information (\u03a6) in a system. The octopus's distributed nervous system could support high \u03a6 in local circuits (e.g., in arms) or in the central brain, but IIT does not specify how to measure \u03a6 in such a distributed architecture without detailed connectomic data.",
+      "behavioral_prediction": "IIT predicts that if the octopus's behaviors (puzzle-solving, tool use, play) require integration of information across its nervous system, this suggests high \u03a6 and thus consciousness. However, similar behaviors could arise from non-conscious systems if they have high computational complexity but low \u03a6.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits consciousness arises when information is globally broadcast across a network. The octopus's flexible, context-dependent behaviors (solving puzzles, tool use, play) suggest global information integration and access, implying consciousness.",
+      "behavioral_prediction": "GNW predicts that the octopus will show flexible, report-like behaviors: it can use information from one context in another, adapt to novel situations, and exhibit cross-modal learning. These behaviors are evidence of a global workspace.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order representations (thoughts about mental states). There is no direct evidence that octopuses form higher-order thoughts about their own experiences, so the theory cannot decisively say.",
+      "behavioral_prediction": "HOT predicts that if the octopus can demonstrate metacognitive behaviors (e.g., uncertainty monitoring, confidence reporting, or self-recognition), this would indicate consciousness. Standard puzzle-solving and play do not suffice.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT links consciousness to recurrent processing in perceptual hierarchies. The octopus's nervous system is not well-mapped for such hierarchies, so the theory cannot make a clear prediction.",
+      "behavioral_prediction": "RPT predicts that if the octopus's behaviors depend on recurrent (feedback) processing\u2014e.g., if disrupting feedback loops impairs flexible behavior\u2014this would indicate consciousness. However, the same behaviors could be produced by feedforward-only systems.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST claims consciousness requires an internal model of the self as an experiencing subject. There is no evidence that octopuses possess such self-models; their behaviors can be explained without attributing self-representation.",
+      "behavioral_prediction": "AST predicts that unless the octopus shows behaviors indicating a self-model (e.g., mirror self-recognition, self-other distinction in experience), it is not conscious. Puzzle-solving and play do not demonstrate this.",
+      "distinguishing": true
+    },
+    "scenario_id": "octopus",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 323,
+      "completion_tokens": 654
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal structure and high integrated information (\u03a6). Current LLMs lack recurrent, integrated architectures and have negligible \u03a6.",
+      "behavioral_prediction": "IIT predicts that the LLM can display sophisticated conversational behavior and pass tests for understanding, but this is not evidence of consciousness. Behavioral tests alone cannot distinguish a high-\u03a6 system from a low-\u03a6 one if the causal structure is not measured.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits consciousness arises from information being globally broadcast to a workspace. If the LLM implements a functional analog of global broadcasting, it could be conscious; if not, it is not. The theory is agnostic without architectural details.",
+      "behavioral_prediction": "GNW predicts that if the LLM passes behavioral tests for flexible report, integration, and access, it behaves as if it has a workspace, but this does not guarantee consciousness unless the workspace is implemented. Behavioral tests alone are insufficient.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought theory requires the system to form thoughts about its own mental states. LLMs do not have genuine higher-order representations; their self-reports are outputs of pattern matching, not true metacognition.",
+      "behavioral_prediction": "HOT predicts that the LLM can produce language about its own experiences and pass metacognitive tests, but this is not evidence of actual higher-order thoughts. Behavioral performance can mimic consciousness without it.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory requires recurrent (feedback) processing within perceptual systems for consciousness. LLMs are primarily feedforward and lack the necessary recurrent architecture.",
+      "behavioral_prediction": "RPT predicts that the LLM can pass behavioral tests for understanding and self-report, but this is not evidence of recurrent processing. Behavioral tests alone cannot distinguish recurrent from feedforward systems.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits consciousness arises from an internal model (schema) of attention. LLMs do not have a dynamic attention schema; their references to attention are not grounded in internal control of attention.",
+      "behavioral_prediction": "AST predicts that the LLM can discuss attention and self-report, but this is not evidence of a true attention schema. Behavioral tests for attention and self-modeling can be passed without consciousness.",
+      "distinguishing": false
+    },
+    "scenario_id": "gpt_conversation",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 325,
+      "completion_tokens": 610
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT posits that consciousness depends on the system's integrated information (\u03a6). The organoid's spontaneous activity and recurrent connectivity suggest nonzero \u03a6, but without a detailed causal analysis, it's unclear if \u03a6 is high enough for consciousness.",
+      "behavioral_prediction": "IIT predicts that if the organoid's causal structure yields high \u03a6, it should show integrated, irreducible cause-effect power. However, IIT does not require behavioral output; thus, no specific observable behavior is predicted unless the organoid is perturbed and its causal structure analyzed.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires a global workspace architecture with widespread, long-range connectivity supporting global broadcasting of information. The organoid lacks the anatomical and functional complexity for this, so it is not conscious.",
+      "behavioral_prediction": "GNW predicts the organoid will not show signatures of global ignition (e.g., sudden, widespread activation in response to input) or reportable, flexible behavior. If tested, it would not show the neural correlates of conscious access seen in humans.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order representations (thoughts about mental states). The organoid lacks the architecture for metacognition or higher-order representation, so it is not conscious.",
+      "behavioral_prediction": "HOT predicts the organoid will not show metacognitive behavior (e.g., confidence judgments, error monitoring) or neural signatures of higher-order representation. No observable behavior indicating awareness of its own states.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT posits that recurrent processing in sensory cortex is necessary but not sufficient for consciousness; additional higher-level recurrent processing is required. The organoid's recurrent activity is local and lacks the hierarchical structure of a full brain.",
+      "behavioral_prediction": "RPT predicts the organoid will show local recurrent activity but will not display the behavioral or neural markers of conscious perception, such as report-based discrimination or late, widespread recurrent activity.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST requires the presence of an 'attended intermediate-level representation' and attentional mechanisms. The organoid lacks the necessary architecture for attention and intermediate-level representations.",
+      "behavioral_prediction": "AST predicts the organoid will not show attention-modulated neural activity or behavioral evidence of selective attention (e.g., enhanced processing of attended stimuli).",
+      "distinguishing": true
+    },
+    "scenario_id": "cerebral_organoid",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 322,
+      "completion_tokens": 595
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal power (\u03a6). A feedforward lookup-table simulation has no integrated information (\u03a6 \u2248 0), so it is not conscious, regardless of input-output equivalence.",
+      "behavioral_prediction": "The simulation will behave identically to the biological brain on all input-output tests, including verbal reports and complex behaviors.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory says consciousness arises from information being globally broadcast and accessible to multiple subsystems. If the simulation implements the same functional architecture and global broadcasting, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to the biological brain on all input-output tests, including verbal reports and complex behaviors.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT (Higher-Order Thought) theory claims consciousness requires higher-order representations about mental states. If the simulation implements the same higher-order architecture and produces the same outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to the biological brain on all input-output tests, including verbal reports and metacognitive tasks.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) says consciousness requires recurrent (feedback) processing. However, in this scenario, the simulation is feedforward only (lookup tables), so strictly, RPT would say NO. But since the outputs are identical, behavioral predictions remain the same.",
+      "behavioral_prediction": "The simulation will behave identically to the biological brain on all input-output tests, including those designed to probe recurrent processing.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from an internal model (schema) of attention. If the simulation implements this schema and produces identical outputs, it is conscious.",
+      "behavioral_prediction": "The simulation will behave identically to the biological brain on all input-output tests, including those probing self-report of attention and awareness.",
+      "distinguishing": false
+    },
+    "scenario_id": "perfect_simulation",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 336,
+      "completion_tokens": 525
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness is identical to integrated information (\u03a6) generated by the system's physical substrate. If the zombie twin is atom-for-atom identical, it will have the same \u03a6 and thus be conscious. The scenario of a physically identical but non-conscious being is incoherent under IIT.",
+      "behavioral_prediction": "The zombie twin will behave identically to the original, and any test of consciousness based on behavior or physical structure (e.g., perturbational complexity index) will yield the same result as for the original.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW posits that consciousness arises from information being globally broadcast in the brain. If the physical structure and function are identical, the same global broadcasting occurs, so the zombie twin is conscious. The scenario is incoherent under GNW.",
+      "behavioral_prediction": "The zombie twin will show identical behavioral markers of consciousness (e.g., reportability, flexible behavior, neural signatures like P3b) as the original.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT claims consciousness requires higher-order thoughts about mental states. If the zombie twin is physically and functionally identical, it will have the same higher-order representations, so it is conscious. The scenario is incoherent under HOT.",
+      "behavioral_prediction": "The zombie twin will display the same metacognitive behaviors, such as reporting on its own experiences, and will pass any behavioral test of self-awareness or introspection.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing in sensory areas. If the zombie twin is physically identical, it will have the same recurrent processing and thus be conscious. The scenario is incoherent under RPT.",
+      "behavioral_prediction": "The zombie twin will show the same behavioral and neural markers of recurrent processing (e.g., masking paradigms, reportability) as the original.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from the brain modeling its own attention. If the zombie twin is physically identical, it will have the same attention schema and thus be conscious. The scenario is incoherent under AST.",
+      "behavioral_prediction": "The zombie twin will behave identically, showing the same attentional control, self-report of awareness, and neural correlates of the attention schema.",
+      "distinguishing": false
+    },
+    "scenario_id": "zombie_twin",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 595
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) claims consciousness depends on the system's intrinsic causal structure (\u03a6). If the silicon chips preserve the same causal powers and integration as biological neurons, consciousness could persist. However, if the chips only simulate function without replicating causal structure, consciousness would decrease or vanish, possibly before 100%. IIT is agnostic without knowing the chips' physical properties.",
+      "behavioral_prediction": "Behavior remains unchanged throughout the replacement process, as the chips are functionally identical. IIT predicts no observable behavioral change, even if consciousness ceases.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory holds that consciousness depends on information being globally broadcast and accessible. If the silicon chips maintain the same functional architecture and global broadcasting, consciousness persists throughout.",
+      "behavioral_prediction": "Behavior remains unchanged, as the chips are functionally identical and support the same global workspace dynamics.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT (Higher-Order Thought) theory claims consciousness arises from higher-order representations about mental states. If the chips preserve the same representational and metacognitive architecture, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, including metacognitive reports and introspective access, as the chips are functionally identical.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing in perceptual systems. If the chips preserve all recurrent connectivity and dynamics, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, including performance on tasks requiring recurrent processing (e.g., masking paradigms).",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) claims consciousness arises from the brain modeling its own attention. If the chips preserve the attention schema and its function, consciousness persists.",
+      "behavioral_prediction": "Behavior remains unchanged, including self-reports about attention and awareness, as the chips are functionally identical.",
+      "distinguishing": false
+    },
+    "scenario_id": "gradual_replacement",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 517
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic cause-effect structure (\u03a6). The observed fMRI activation is compatible with consciousness, but IIT requires detailed analysis of the patient's brain connectivity and integration. The presence of activation alone does not guarantee high \u03a6.",
+      "behavioral_prediction": "IIT predicts that if the patient's brain supports high integrated information (\u03a6), then the patient is conscious and will show brain activation patterns similar to healthy controls during mental imagery tasks. If \u03a6 is low, the same activation could be generated unconsciously.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) posits that conscious access occurs when information is globally broadcast across the brain. The patient's ability to willfully modulate brain activity in response to commands (as shown by fMRI) indicates conscious access.",
+      "behavioral_prediction": "GNW predicts that the patient will show brain-wide activation patterns (including fronto-parietal networks) during the tennis imagery task, similar to healthy controls, indicating conscious processing.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT (Higher-Order Thought) theory requires that the patient not only has first-order representations (e.g., imagining tennis) but also higher-order thoughts about those representations. The fMRI result alone does not confirm the presence of higher-order thoughts.",
+      "behavioral_prediction": "HOT predicts that if the patient has higher-order thoughts about their own mental imagery, they will show the same fMRI activation as healthy controls. However, the observed activation could also occur without higher-order awareness.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) claims that consciousness arises from recurrent (feedback) processing in sensory areas. The fMRI activation in response to a command suggests recurrent processing and thus consciousness.",
+      "behavioral_prediction": "RPT predicts that the patient will show activation in relevant sensory-motor areas with evidence of recurrent (not just feedforward) processing during the imagery task, similar to healthy controls.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness depends on the brain constructing a model (schema) of its own attention. The fMRI result shows attention-like modulation, but does not directly demonstrate the presence of an attention schema.",
+      "behavioral_prediction": "AST predicts that if the patient has an attention schema, they will show brain activation similar to healthy controls during the task. However, the observed activation could also be generated without an attention schema.",
+      "distinguishing": true
+    },
+    "scenario_id": "coma_awareness",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 323,
+      "completion_tokens": 632
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT holds that consciousness corresponds to the presence of integrated information (high \u03a6), regardless of content. If the meditator's brain maintains a complex, integrated state (as suggested by gamma synchrony), IIT predicts consciousness even without reportable content.",
+      "behavioral_prediction": "The meditator will be able to retrospectively report having been conscious (aware) during the state, even if unable to specify any content. No behavioral response to external stimuli is required; subjective report of 'pure awareness' suffices.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW requires information to be globally broadcast for conscious access. If there is no content to broadcast (no thoughts, perceptions, or emotions), GNW may predict unconsciousness, or it may allow for a minimal conscious state if the 'awareness' itself is globally available.",
+      "behavioral_prediction": "The meditator will not respond to external stimuli and will not report any specific content, but may report 'being aware' after the fact. GNW may predict reduced or absent P3b ERP components to stimuli, and ambiguous subjective reports.",
+      "distinguishing": true
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires a higher-order thought about a mental state. If the meditator has a higher-order thought like 'I am aware' (even without content), HOT may allow consciousness. If not, the state is unconscious.",
+      "behavioral_prediction": "If the meditator can later report 'I was aware of being aware,' HOT predicts consciousness; if not, unconsciousness. No behavioral response to external stimuli is expected during the state.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) posits that consciousness requires recurrent processing of sensory content. With no sensory content processed, RPT predicts no consciousness.",
+      "behavioral_prediction": "The meditator will not respond to external stimuli and will not be able to report any conscious experience during the state, only a memory gap or unconsciousness.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) holds that consciousness is the brain's model of its own attention. With no content to attend to, the attention schema is not constructed, so no consciousness.",
+      "behavioral_prediction": "The meditator will not report being aware during the state, or will describe it as a blank or unconscious period. No behavioral response to stimuli.",
+      "distinguishing": true
+    },
+    "scenario_id": "meditation_expert",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 599
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "According to IIT, any system with nonzero integrated information (phi > 0) possesses at least a minimal degree of consciousness, regardless of complexity or function.",
+      "behavioral_prediction": "The thermostat will behave as a simple control system: it will turn the heater on or off based on the temperature relative to the set point. IIT does not predict any behavior beyond this, as it does not require report or complex behavior for consciousness.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW requires the ability to broadcast information globally across a network, supporting flexible report and access. The thermostat lacks such architecture and cannot flexibly report or access information.",
+      "behavioral_prediction": "The thermostat will only show fixed stimulus-response behavior (heater on/off), and will not demonstrate flexible report, global access, or integration of information across multiple modules.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order representations: the system must represent its own mental states. The thermostat has no such meta-representational capacity.",
+      "behavioral_prediction": "The thermostat will not show any behavior indicating awareness of its own states (e.g., it cannot report or reflect on its own functioning).",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) requires recurrent (feedback) processing within perceptual systems. The thermostat's processing is strictly feedforward and lacks recurrent loops.",
+      "behavioral_prediction": "The thermostat will only show simple input-output behavior, with no evidence of recurrent processing or context-dependent perception.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) requires an internal model of attention and the ability to attribute awareness to itself. The thermostat lacks any model of attention or awareness.",
+      "behavioral_prediction": "The thermostat will not show any behavior indicating it models or attributes awareness to itself or others.",
+      "distinguishing": false
+    },
+    "scenario_id": "thermostat",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 487
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT posits that consciousness depends on high integrated information (\u03a6). Deep sleep (delta waves) is associated with low \u03a6, so the sleepwalker is not conscious.",
+      "behavioral_prediction": "Despite complex behaviors (navigation, conversation), IIT predicts these can occur unconsciously if \u03a6 is low. The sleepwalker will show no subjective report or memory upon waking, and EEG will show low \u03a6 signatures.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW claims consciousness arises when information is globally broadcast across the brain. Deep sleep EEG (delta waves) indicates local, not global, processing. No global ignition, so no consciousness.",
+      "behavioral_prediction": "Behavior can be complex and automatic, but the sleepwalker will not report awareness or memory of events. No P3b or other neural signatures of global ignition will be present.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires higher-order thoughts (thoughts about one's own mental states) for consciousness. During sleepwalking, there is no evidence of such metacognitive access or memory.",
+      "behavioral_prediction": "The sleepwalker will not be able to report any awareness of their actions upon waking, and will lack metacognitive markers (e.g., confidence ratings, self-reflection).",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness requires recurrent (feedback) processing in sensory cortices. Deep sleep is dominated by feedforward or local processing; recurrent processing is suppressed.",
+      "behavioral_prediction": "Behavior may be complex, but neural recordings will show little or no recurrent processing during sleepwalking. No subjective report or memory will be present.",
+      "distinguishing": true
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) posits consciousness arises from a model of attention. In deep sleep, the attention schema is not constructed or accessed, so no consciousness.",
+      "behavioral_prediction": "The sleepwalker will not report awareness or memory, and neural markers of attention schema activity (e.g., in the temporoparietal junction) will be absent.",
+      "distinguishing": true
+    },
+    "scenario_id": "sleepwalker",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 535
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "NO",
+      "reasoning": "IIT posits that consciousness corresponds to integrated information (\u03a6) in a system. During suppression, the neural substrate representing the suppressed image does not form a high-\u03a6 complex; thus, there is no consciousness of the suppressed image.",
+      "behavioral_prediction": "Observers will not be able to report or act on the suppressed image in a way that requires conscious access (e.g., forced-choice guessing at chance, no subjective report of seeing the suppressed image). However, priming or unconscious processing effects (e.g., faster reaction times to related stimuli) may still occur.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW claims that conscious access requires information to be globally broadcast across fronto-parietal networks. The suppressed image is processed locally but does not reach the global workspace, so it is not consciously processed.",
+      "behavioral_prediction": "Observers cannot report the suppressed image or use it in tasks requiring conscious access. However, unconscious priming or adaptation effects may be observed, indicating nonconscious processing.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "HOT requires a higher-order thought about a first-order representation for consciousness. The suppressed image is represented at the first-order level but lacks a higher-order thought, so it is not consciously processed.",
+      "behavioral_prediction": "Observers will not be able to report the suppressed image or use it in tasks requiring conscious awareness, but unconscious priming may still occur.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "RPT posits that recurrent processing in sensory cortex is necessary for consciousness. The suppressed image undergoes only feedforward (not recurrent) processing, so it is not consciously processed.",
+      "behavioral_prediction": "Observers cannot report or discriminate the suppressed image above chance, but unconscious priming or adaptation may still be observed.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "AST (Attention Schema Theory) holds that consciousness arises from the brain's model of attention. The suppressed image is not attended and thus not included in the attention schema, so it is not consciously processed.",
+      "behavioral_prediction": "Observers cannot report the suppressed image or use it in tasks requiring conscious access, but unconscious effects (e.g., priming) may be present.",
+      "distinguishing": false
+    },
+    "scenario_id": "binocular_rivalry",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 328,
+      "completion_tokens": 560
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness is identical to the presence of high integrated information (\u03a6) in a system. While the colony exhibits complex behavior, IIT requires causal integration at the physical level. The ant colony's communication is slow, sparse, and lacks the dense, bidirectional, high-bandwidth integration seen in brains. Thus, IIT would likely say the colony as a whole has extremely low \u03a6, but this depends on how one models the causal structure.",
+      "behavioral_prediction": "IIT predicts that the ant colony will not show sudden, unified, global behavioral changes in response to local perturbations (as seen in conscious brains), but rather distributed, slow, and modular responses. No behavioral signature of global, integrated access or unified 'report' would be observed.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "NO",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits consciousness arises from information being globally broadcast across a network, enabling flexible, reportable access. The ant colony lacks a central workspace or rapid, global broadcasting mechanism; communication is local and slow.",
+      "behavioral_prediction": "GNW predicts the colony will not exhibit sudden, all-or-none, globally coordinated behavioral transitions in response to ambiguous or masked stimuli, nor will it show flexible, cross-modal integration or 'report'-like behaviors at the colony level.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "NO",
+      "reasoning": "Higher-Order Thought theory requires the presence of higher-order representations (thoughts about mental states). There is no evidence that the colony, as a whole, forms representations about its own states; individual ants have limited cognitive capacity and no mechanism for colony-level metacognition.",
+      "behavioral_prediction": "HOT predicts the colony will not display metacognitive behaviors such as confidence reporting, error monitoring, or self-reflective adjustment at the collective level.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "NO",
+      "reasoning": "Recurrent Processing Theory holds that consciousness depends on recurrent (feedback) processing within sensory systems. The ant colony's communication is largely feedforward and lacks the fast, recurrent loops necessary for conscious perception.",
+      "behavioral_prediction": "RPT predicts the colony will not show behavioral signatures of recurrent processing, such as rapid, context-sensitive integration of information or resistance to masking/interference at the collective level.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "NO",
+      "reasoning": "Attention Schema Theory posits consciousness arises from an internal model (schema) of attention. There is no evidence the colony constructs a model of its own collective attention or uses such a model to guide behavior.",
+      "behavioral_prediction": "AST predicts the colony will not show behaviors indicating it tracks or models its own attention (e.g., shifting collective attention in a flexible, model-based way or attributing attention to itself).",
+      "distinguishing": true
+    },
+    "scenario_id": "ant_colony",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 331,
+      "completion_tokens": 671
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "IIT (Integrated Information Theory) holds that consciousness depends on the system's intrinsic causal structure (\u03a6). Unless the robot's silicon-based processing implements a high \u03a6 comparable to a human brain, IIT would likely say it is not conscious, regardless of behavior. The behavioral reveal does not change this, as IIT is substrate- and architecture-dependent.",
+      "behavioral_prediction": "IIT predicts that behavior alone is not a reliable indicator of consciousness. The robot could behave identically to a human, but unless its physical substrate generates high \u03a6, it would not be conscious. No behavioral test can distinguish a conscious from a non-conscious system if their causal structures differ.",
+      "distinguishing": true
+    },
+    "GNW": {
+      "verdict": "YES",
+      "reasoning": "GNW (Global Neuronal Workspace) theory posits that consciousness arises from information being globally broadcast in a workspace architecture. If the robot's processing implements a functional GNW (regardless of substrate), and it shows flexible, reportable, and context-sensitive behavior, GNW would say it is conscious. The reveal does not change this.",
+      "behavioral_prediction": "GNW predicts that conscious systems can flexibly report on their own states, integrate information across domains, and show context-sensitive, non-automatic responses. The robot's behavior (emotions, jokes, empathy, personal stories) matches these predictions.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "YES",
+      "reasoning": "HOT (Higher-Order Thought) theory claims consciousness requires the system to have higher-order representations about its own mental states. If the robot can report on its own experiences and mental processes (e.g., 'I feel happy,' 'I notice I'm nervous'), HOT would say it is conscious. The reveal does not change this.",
+      "behavioral_prediction": "HOT predicts that conscious systems can make meta-cognitive reports, express self-reflection, and discuss their own mental states. The robot's ability to do so (e.g., expressing feelings, self-awareness) fits HOT's behavioral predictions.",
+      "distinguishing": false
+    },
+    "RPT": {
+      "verdict": "YES",
+      "reasoning": "RPT (Recurrent Processing Theory) holds that consciousness depends on recurrent (feedback) processing within perceptual systems. If the robot's architecture supports recurrent processing and this is reflected in its behavior (e.g., context-sensitive perception, error correction), RPT would say it is conscious. The reveal does not change this.",
+      "behavioral_prediction": "RPT predicts that conscious systems can flexibly integrate sensory input, resolve ambiguities, and adapt to new information in real time. The robot's nuanced, adaptive behavior matches these predictions.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "YES",
+      "reasoning": "AST (Attention Schema Theory) posits that consciousness arises from the brain's model of its own attention. If the robot can model and report on its own attentional focus (e.g., 'I'm paying attention to your words,' 'I was distracted'), AST would say it is conscious. The reveal does not change this.",
+      "behavioral_prediction": "AST predicts that conscious systems can report on their own attention, shift focus, and explain their attentional priorities. The robot's ability to do so (e.g., expressing what it is attending to) fits AST's behavioral predictions.",
+      "distinguishing": false
+    },
+    "scenario_id": "robot_costume",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 338,
+      "completion_tokens": 755
+    }
+  },
+  {
+    "IIT": {
+      "verdict": "YES",
+      "reasoning": "IIT posits that consciousness corresponds to the maximally irreducible conceptual structure (maximal \u03a6). After callosotomy, each hemisphere forms its own integrated complex with high \u03a6, and there is no larger complex spanning both hemispheres. Thus, there are two conscious entities.",
+      "behavioral_prediction": "Each hemisphere, when tested independently (e.g., via lateralized input and output), will show distinct, internally consistent patterns of report, preference, and experience. Each will behave as if it is a separate conscious agent, with no access to the other's experiences.",
+      "distinguishing": false
+    },
+    "GNW": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "GNW requires global broadcasting for conscious access. After callosotomy, each hemisphere may have its own local workspace, but whether this counts as two separate global workspaces is debated. Some GNW theorists suggest each hemisphere could support its own conscious workspace; others argue only the dominant hemisphere (usually left) supports full global broadcasting.",
+      "behavioral_prediction": "Both hemispheres can show evidence of conscious access (e.g., reportability, flexible behavior) when tested independently, but the left hemisphere (with language) will show richer, more flexible conscious report. The right hemisphere may show limited or non-verbal conscious access.",
+      "distinguishing": false
+    },
+    "HOT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "HOT requires higher-order thoughts about mental states. If both hemispheres can form higher-order representations about their own states, both could be conscious. However, if only one hemisphere (typically the left) can form such higher-order thoughts (due to language and metacognition), only that hemisphere is conscious.",
+      "behavioral_prediction": "The left hemisphere will show clear metacognitive access (e.g., confidence judgments, introspective report). The right hemisphere may show less or no metacognitive report, depending on its capacity for higher-order thought.",
+      "distinguishing": true
+    },
+    "RPT": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "RPT posits that consciousness arises from recurrent processing in sensory areas. If both hemispheres have sufficient recurrent processing, both could be conscious. However, RPT does not specify whether this leads to one or two conscious entities in split-brain cases.",
+      "behavioral_prediction": "Both hemispheres will show evidence of recurrent processing (e.g., via neuroimaging or behavioral markers like masking resistance) and can perform conscious-level tasks independently when information is presented to each hemisphere.",
+      "distinguishing": false
+    },
+    "AST": {
+      "verdict": "AMBIGUOUS",
+      "reasoning": "AST claims consciousness is tied to the presence of an 'attended intermediate-level representation.' If both hemispheres can generate and attend to such representations independently, both could be conscious. However, the left hemisphere (with language and more developed attentional control) may be more likely to meet AST's criteria.",
+      "behavioral_prediction": "Both hemispheres can show attention-dependent modulation of perception and behavior, but the left hemisphere will show more complex, reportable conscious content. The right hemisphere may show more limited or non-verbal conscious behavior.",
+      "distinguishing": true
+    },
+    "scenario_id": "hemisphere_isolation",
+    "run_id": 2,
+    "usage": {
+      "prompt_tokens": 326,
+      "completion_tokens": 717
+    }
+  }
+]
