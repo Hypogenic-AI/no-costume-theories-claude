@@ -1,0 +1,28 @@
+idea:
+  title: The "No Costume Theories" Rule
+  domain: theory
+  hypothesis: 'Theories of consciousness that rely solely on representational distinctions,
+    without corresponding behavioral tests, are essentially aesthetic and should not
+    be accepted; all meaningful distinctions must be behaviorally testable.
+
+    '
+  background:
+    description: 'Fundamentally, I don''t think we should accept purely-representational
+      theories. For instance, related to recent discussion I had with a friend, I
+      don''t think we should have any theories of consciousness where you can be convinced
+      a person is conscious, but then a robot takes off its human costume and then
+      you now think it isn''t conscious. This does not mean that we can''t accept
+      that people can be fooled, they certainly can be. It''s to say that all distinctions,
+      even if they are hypothesized representationally, must lead to some kind of
+      behavioral test. If they do not, they are essentially aesthetic theories.
+
+      '
+  metadata:
+    author: Ari Holtzman
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/fZlKRA2SD4AssFtYsOSu
+    idea_id: the__no_costume_theories__rule_20260322_183611_10e7fd53
+    created_at: '2026-03-22T18:36:11.517048'
+    status: submitted
+    github_repo_name: no-costume-theories-claude
+    github_repo_url: https://github.com/Hypogenic-AI/no-costume-theories-claude
